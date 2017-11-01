@@ -32,6 +32,8 @@ regions:
   content_01     : 'Content 01'
   content_middle2 : 'Content middle2'
   content_middle3 : 'Content middle3'
+  content_middle4 : 'Content middle4'
+  content_middle5 : 'Content middle5'
   content_bottom : 'Content bottom'
   footer: 'Footer'
   page_top: 'Page top'
