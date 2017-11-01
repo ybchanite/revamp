@@ -17,35 +17,35 @@
 
 
 
-#block-entityviewuser-3 h2 {
+#block-cityu-postgraduate-entityviewuser-3 h2 {
 	background-color: #dddddd;
     /* font-size: 20px;	*/
 }
-#block-entityviewuser-4 h2 {
+#block-cityu-postgraduate-entityviewuser-4 h2 {
     margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-entityviewuser-5 h2 {
+#block-cityu-postgraduate-entityviewuser-5 h2 {
 	margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-entityviewuser-6 h2 {
+#block-cityu-postgraduate-entityviewuser-6 h2 {
 	margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-entityviewuser-7 h2 {
+#block-cityu-postgraduate-entityviewuser-7 h2 {
 	margin-left: 10px;
 	margin-top: 15px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-entityviewuser-8 h2 {
+#block-cityu-postgraduate-entityviewuser-8 h2 {
 	margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
@@ -53,13 +53,13 @@
 }
 
 
-#block-frontpage-logo .media-image {
+#block-cityu-postgraduate-frontpage-logo .media-image {
     /* width: 50px; */
     /* height: 50px; */
 }
 
 /*admin navbar*/
-#block-usercityumenu {
+#block-cityu-postgraduate-usercityumenu {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -69,12 +69,12 @@
 	background-color: pink;
 }
 
-#block-usercityumenu .dropdown-menu {
+#block-cityu-postgraduate-usercityumenu .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }
 
-#block-usercityumenusupport {
+#block-cityu-postgraduate-usercityumenusupport {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -84,13 +84,13 @@
 	background-color: pink;
 }
 
-#block-usercityumenusupport .dropdown-menu {
+#block-cityu-postgraduate-usercityumenusupport .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }
 
 
-#block-usercityumenusgsteam {
+#block-cityu-postgraduate-usercityumenusgsteam {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -100,7 +100,7 @@
 	background-color: pink;
 }
 
-#block-usercityumenusgsteam .dropdown-menu {
+#block-cityu-postgraduate-usercityumenusgsteam .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }

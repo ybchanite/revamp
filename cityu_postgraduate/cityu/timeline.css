@@ -203,12 +203,12 @@ ul.timeline-list:after{
 
 /*content*/
 
-#block-views-block-taught-atimeline-block-1{
+#block-views-block-cityu-postgraduate-taught-atimeline-block-1{
     margin-bottom: 10%;
 }
 
 
-#block-views-block-research-atimeline-block-1 p, #block-views-block-taught-atimeline-block-1 p, #block-views-block-doctorate-atimeline-block-1 p{
+#block-views-block-cityu-postgraduate-research-atimeline-block-1 p, #block-views-block-cityu-postgraduate-taught-atimeline-block-1 p, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-1 p{
     text-align: justify;
 }
 
@@ -237,20 +237,20 @@ li.timeline-item.even .views-field-field-at-info{
 }
 
 
-#block-views-block-research-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol{
+#block-views-block-cityu-postgraduate-research-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol{
     list-style-type: lower-roman;
 }
 
-#block-views-block-taught-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol{
+#block-views-block-cityu-postgraduate-taught-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol{
     list-style-type: none;
     counter-reset: mycounter;
     margin-left: 5px;
 }
-#block-views-block-taught-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol li{
+#block-views-block-cityu-postgraduate-taught-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol li{
     position: relative;
 }
 
-#block-views-block-taught-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol li:before{
+#block-views-block-cityu-postgraduate-taught-atimeline-block-1 .timeline-item-wrapper .views-field-field-at-info ol li:before{
     counter-increment: mycounter;
     content:  counter(mycounter,lower-latin) ")";
     position: absolute;
@@ -271,47 +271,47 @@ ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper{
 
 
 /*timeline selector*/
-#block-rdp-atimeline-shortcut .field--name-bp-text p, #block-views-block-doctorate-atimeline-block-2 .block-title, #block-views-block-taught-atimeline-block-2 .block-title{
+#block-cityu-postgraduate-rdp-atimeline-shortcut .field--name-bp-text p, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .block-title, #block-views-block-cityu-postgraduate-taught-atimeline-block-2 .block-title{
     
     font-size: 20px;
     color: #863275;
 /*    font-weight: 700;*/
 }
 
-#block-views-block-research-atimeline-block-2, #block-views-block-doctorate-atimeline-block-2, #block-views-block-taught-atimeline-block-2{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2, #block-views-block-cityu-postgraduate-taught-atimeline-block-2{
     background-color: #eee;
     
 }
 
-#block-views-block-research-atimeline-block-2 .views-row .views-field .field-content, #block-views-block-doctorate-atimeline-block-2 .views-row .views-field .field-content, #block-views-block-taught-atimeline-block-2 .views-row .views-field .field-content{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2 .views-row .views-field .field-content, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .views-row .views-field .field-content, #block-views-block-cityu-postgraduate-taught-atimeline-block-2 .views-row .views-field .field-content{
     padding: 10px;
 }
 
-#block-views-block-research-atimeline-block-2 .view-content, #block-views-block-doctorate-atimeline-block-2 .view-content, #block-views-block-taught-atimeline-block-2 .view-content{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2 .view-content, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .view-content, #block-views-block-cityu-postgraduate-taught-atimeline-block-2 .view-content{
     counter-reset: timelineIndexCounter;
 }
 
-#block-views-block-research-atimeline-block-2 .views-row .views-field .field-content,
-#block-views-block-doctorate-atimeline-block-2 .views-row .views-field .field-content,
-#block-views-block-taught-atimeline-block-2 .views-row .views-field .field-content{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2 .views-row .views-field .field-content,
+#block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .views-row .views-field .field-content,
+#block-views-block-cityu-postgraduate-taught-atimeline-block-2 .views-row .views-field .field-content{
     counter-increment: timelineIndexCounter;
 
     
 
 }
-#block-views-block-research-atimeline-block-2 .views-row .views-field .field-content:before,
-#block-views-block-doctorate-atimeline-block-2 .views-row .views-field .field-content:before,
-#block-views-block-taught-atimeline-block-2 .views-row .views-field .field-content:before{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2 .views-row .views-field .field-content:before,
+#block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .views-row .views-field .field-content:before,
+#block-views-block-cityu-postgraduate-taught-atimeline-block-2 .views-row .views-field .field-content:before{
     content: counter(timelineIndexCounter) ". ";
 
 }
-#block-views-block-research-atimeline-block-2 .views-field-field-at-step .field-content, #block-views-block-doctorate-atimeline-block-2 .views-field-field-at-step .field-content,
-#block-views-block-taught-atimeline-block-2 .views-field-field-at-step .field-content{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2 .views-field-field-at-step .field-content, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .views-field-field-at-step .field-content,
+#block-views-block-cityu-postgraduate-taught-atimeline-block-2 .views-field-field-at-step .field-content{
     cursor: pointer;
 }
 
-#block-views-block-research-atimeline-block-2 .form-group .view-content .views-row .views-field .field-content:hover,  #block-views-block-doctorate-atimeline-block-2 .form-group .view-content .views-row .views-field .field-content:hover,
-#block-views-block-taught-atimeline-block-2 .form-group .view-content .views-row .views-field .field-content:hover{
+#block-views-block-cityu-postgraduate-research-atimeline-block-2 .form-group .view-content .views-row .views-field .field-content:hover,  #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2 .form-group .view-content .views-row .views-field .field-content:hover,
+#block-views-block-cityu-postgraduate-taught-atimeline-block-2 .form-group .view-content .views-row .views-field .field-content:hover{
     background: #9a7894;
     color: #fff;
 }
@@ -469,10 +469,10 @@ li.timeline-item.odd .field-content.at-step{
 @media (max-width:1900px) and (min-width:992px){
     
     
-    #block-views-block-research-atimeline-block-1, #block-views-block-doctorate-atimeline-block-1{
+    #block-views-block-cityu-postgraduate-research-atimeline-block-1, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-1{
         margin-bottom: 60%;
     }
-    #block-views-block-taught-atimeline-block-1{
+    #block-views-block-cityu-postgraduate-taught-atimeline-block-1{
         margin-bottom: 40%;
     }
 
@@ -557,7 +557,7 @@ li.timeline-item.odd .field-content.at-step{
 @media screen and (max-width: 767px){
     
     
-    #block-views-block-research-atimeline-block-2, #block-views-block-doctorate-atimeline-block-2, #block-views-block-taught-atimeline-block-2{
+    #block-views-block-cityu-postgraduate-research-atimeline-block-2, #block-views-block-cityu-postgraduate-doctorate-atimeline-block-2, #block-views-block-cityu-postgraduate-taught-atimeline-block-2{
         margin-bottom: 5%;
     }
     

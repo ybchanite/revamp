@@ -437,7 +437,7 @@ a:focus, a:hover{
 
 /*ie adjustment for introduction banner & footer*/
 @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
-    #block-researchhome-bar > .paragraph, #block-doctoratehome-introduction > .paragraph, #block-taughthome-introduction > .paragraph, #block-site-footer > .paragraph{
+    #block-cityu-postgraduate-researchhome-bar > .paragraph, #block-cityu-postgraduate-doctoratehome-introduction > .paragraph, #block-cityu-postgraduate-taughthome-introduction > .paragraph, #block-cityu-postgraduate-site-footer > .paragraph{
         display: block;
     }
     
@@ -546,7 +546,7 @@ a:focus, a:hover{
 
 
 
-#block-site-footer{
+#block-cityu-postgraduate-site-footer{
     padding: 3em 0;
 }
 
@@ -692,7 +692,7 @@ a:focus, a:hover{
     max-width: 784px;
 }
 
-#block-cityu-sgs-header-logo{
+#block-cityu-postgraduate-cityu-sgs-header-logo{
     display: inline-block;
     vertical-align: middle;
     width: 150px;
@@ -722,7 +722,7 @@ a:focus, a:hover{
 
 }
 
-#block-banner-frontpage .carousel-control, #block-banner-frontpage .carousel-indicators{
+#block-cityu-postgraduate-banner-frontpage .carousel-control, #block-cityu-postgraduate-banner-frontpage .carousel-indicators{
     visibility: visible;
 }
 
@@ -741,13 +741,13 @@ a:focus, a:hover{
     font-size: 14px;
 }
 
-.region-header-right #block-programsearchenquiries, .region-header-right #block-languageswitcher{
+.region-header-right #block-cityu-postgraduate-programsearchenquiries, .region-header-right #block-cityu-postgraduate-languageswitcher{
     display: inline-block;
     vertical-align: middle;
 }
 
 
-.region-header-right #block-programsearchenquiries .program_search, .region-header-right #block-programsearchenquiries .enquiries{
+.region-header-right #block-cityu-postgraduate-programsearchenquiries .program_search, .region-header-right #block-cityu-postgraduate-programsearchenquiries .enquiries{
     
     float: left;
 /*    padding: 6px 10px;
@@ -758,7 +758,7 @@ a:focus, a:hover{
     
 }
 
-.region-header-right #block-programsearchenquiries .program_search a, .region-header-right #block-programsearchenquiries .enquiries a{
+.region-header-right #block-cityu-postgraduate-programsearchenquiries .program_search a, .region-header-right #block-cityu-postgraduate-programsearchenquiries .enquiries a{
     
     text-decoration: none;
     color: #484548;
@@ -767,16 +767,16 @@ a:focus, a:hover{
     background: #ececec; 
 
 }
-.region-header-right #block-programsearchenquiries .program_search a:hover, .region-header-right #block-programsearchenquiries .enquiries a:hover, #block-languageswitcher > ul > li a:hover{
+.region-header-right #block-cityu-postgraduate-programsearchenquiries .program_search a:hover, .region-header-right #block-cityu-postgraduate-programsearchenquiries .enquiries a:hover, #block-cityu-postgraduate-languageswitcher > ul > li a:hover{
     color: #97428f;
     background: #f1f1f1;
 }
 
 
-#block-languageswitcher > ul > li a:hover {
+#block-cityu-postgraduate-languageswitcher > ul > li a:hover {
     color: #97428f; 
 }
-#block-languageswitcher > ul > li a {
+#block-cityu-postgraduate-languageswitcher > ul > li a {
     color: #484548; 
 }
 
@@ -786,7 +786,7 @@ a:focus, a:hover{
 /*language switcher*/
 
 
-#block-languageswitcher > ul{
+#block-cityu-postgraduate-languageswitcher > ul{
     
     list-style-type: none;
     padding-left: 5px; 
@@ -795,7 +795,7 @@ a:focus, a:hover{
     
 }
 
-#block-languageswitcher > ul > li{
+#block-cityu-postgraduate-languageswitcher > ul > li{
     
     display: inline-block;
     padding: 6px;
@@ -812,12 +812,12 @@ a:focus, a:hover{
 
 /*menu apply now button*/
 
-#block-applynow-2{
+#block-cityu-postgraduate-applynow-2{
     text-align: right;
     display: none;
 }
 
-#block-applynow-2 .block-title{
+#block-cityu-postgraduate-applynow-2 .block-title{
     
     background: #863275;
     font-size: 18px;
@@ -833,24 +833,24 @@ a:focus, a:hover{
     border-radius: 3px;
 }
 
-#block-applynow-2 h2.block-title:hover, #block-applynow-2 h2.block-title:active{
+#block-cityu-postgraduate-applynow-2 h2.block-title:hover, #block-cityu-postgraduate-applynow-2 h2.block-title:active{
     background: #612455;
 }
-#block-applynow-2 h2.block-title:hover + .paragraph{
+#block-cityu-postgraduate-applynow-2 h2.block-title:hover + .paragraph{
     visibility: visible;
     
 }
 
 /*paragraph keeps visible when being hover*/
 
-#block-applynow-2 .paragraph:hover{
+#block-cityu-postgraduate-applynow-2 .paragraph:hover{
     visibility: visible;
 }
 
 
 
 
-#block-applynow-2 .paragraph{
+#block-cityu-postgraduate-applynow-2 .paragraph{
     visibility: hidden;
     position: absolute;
     background-color: white;
@@ -866,25 +866,25 @@ a:focus, a:hover{
 }
 
 /*
-#block-applynow-2 .paragraph__column{
+#block-cityu-postgraduate-applynow-2 .paragraph__column{
     padding: 5% 3% 0 3%;
 }
 */
 
-#block-applynow-2 ul{
+#block-cityu-postgraduate-applynow-2 ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-#block-applynow-2 li:nth-child(1){
+#block-cityu-postgraduate-applynow-2 li:nth-child(1){
     display: inline-block;
     width: 50%;
     float: left;
     padding: 5% 0% 5% 2%;
 }
 
-#block-applynow-2 li:not(:nth-child(1)){
+#block-cityu-postgraduate-applynow-2 li:not(:nth-child(1)){
     display: inline-block;
     /*clear: both;*/
     /*overflow: auto;*/
@@ -898,7 +898,7 @@ a:focus, a:hover{
 
 
 
-#block-applynow-2 li a{
+#block-cityu-postgraduate-applynow-2 li a{
     font-size: 16px;
     color: #863275;
     text-decoration: none;
@@ -909,11 +909,11 @@ a:focus, a:hover{
     
 }
 
-#block-applynow-2 li a:hover{
+#block-cityu-postgraduate-applynow-2 li a:hover{
     background-color: #eeeeee;
 }
 
-#block-applynow-2 li:not(:nth-child(1)):hover{
+#block-cityu-postgraduate-applynow-2 li:not(:nth-child(1)):hover{
 /*    background-color: #eeeeee;*/
 }
 
@@ -926,21 +926,21 @@ a:focus, a:hover{
     }
     
     
-    #block-applynow-2 > div {
+    #block-cityu-postgraduate-applynow-2 > div {
         top: 80%;
     }
     
-    #block-applynow-2 .paragraph{
+    #block-cityu-postgraduate-applynow-2 .paragraph{
         top: 86%;
     }
 }
 
 @media (max-width: 991px){
-    #block-applynow-2 > div {
+    #block-cityu-postgraduate-applynow-2 > div {
         top: 95%;
     }
     
-    #block-applynow-2 .block-title {
+    #block-cityu-postgraduate-applynow-2 .block-title {
         font-size: 18px;
         margin-bottom: 3%;
     }
@@ -953,7 +953,7 @@ a:focus, a:hover{
 
 /*main navbar*/
 
-#block-mainmenuphotos{
+#block-cityu-postgraduate-mainmenuphotos{
     display: none;
 }
 
@@ -1263,24 +1263,24 @@ a:focus, a:hover{
 /*************/
 
 
-#block-frontpageaboutcityu{
+#block-cityu-postgraduate-frontpageaboutcityu{
     margin-bottom: 60px;
     background: #94708d;
 }
 
 
-#block-frontpageaboutcityu .view-frontpage-about-cityu .view-content{
+#block-cityu-postgraduate-frontpageaboutcityu .view-frontpage-about-cityu .view-content{
     margin: 4% 0 0 12%;
 }
 
-#block-frontpageaboutcityu .paragraph__column .paragraph--type--bp-columns__2col .paragraph__column{
+#block-cityu-postgraduate-frontpageaboutcityu .paragraph__column .paragraph--type--bp-columns__2col .paragraph__column{
     padding: 0;
 }
 
 
 /*bg image*/
 
-#block-frontpageaboutcityu .field--name-field-background-image img{
+#block-cityu-postgraduate-frontpageaboutcityu .field--name-field-background-image img{
     position: absolute;
     z-index: -100;
     top: 0%;
@@ -1291,7 +1291,7 @@ a:focus, a:hover{
 
 
 /*video*/
-#block-frontpageaboutcityu iframe{
+#block-cityu-postgraduate-frontpageaboutcityu iframe{
 
     width: 70%;
     height: 18pc;
@@ -1301,63 +1301,63 @@ a:focus, a:hover{
 }
 
 
-#block-frontpageaboutcityu .carousel-control, #block-frontpageaboutcityu .carousel-indicators{
+#block-cityu-postgraduate-frontpageaboutcityu .carousel-control, #block-cityu-postgraduate-frontpageaboutcityu .carousel-indicators{
     visibility: visible;
 }
 
 
-#block-frontpageaboutcityu .left.carousel-control{
+#block-cityu-postgraduate-frontpageaboutcityu .left.carousel-control{
     background-image: none;
 /*    left: -10%;*/
     left: -5%;
 }
-#block-frontpageaboutcityu .right.carousel-control{
+#block-cityu-postgraduate-frontpageaboutcityu .right.carousel-control{
     background-image: none;
 /*    right: 10%;*/
     right: 15%;
 }
 
-#block-frontpageaboutcityu .carousel-indicators{
+#block-cityu-postgraduate-frontpageaboutcityu .carousel-indicators{
     margin-left: -40%;
 }
 
 
 
-#block-frontpageaboutcityu > .paragraph:nth-child(1){
+#block-cityu-postgraduate-frontpageaboutcityu > .paragraph:nth-child(1){
     padding: 3% 0 0 11%;
 }
 
-#block-frontpageaboutcityu > .paragraph:nth-child(2){
+#block-cityu-postgraduate-frontpageaboutcityu > .paragraph:nth-child(2){
     padding-bottom: 3%;
 }
 
-#block-frontpageaboutcityu .field--name-bp-text h1{
+#block-cityu-postgraduate-frontpageaboutcityu .field--name-bp-text h1{
     color: white;
     margin-bottom: 5%;
     text-align: left;
     position: relative;
 }
 
-#block-frontpageaboutcityu .field--name-bp-text h1::before{
+#block-cityu-postgraduate-frontpageaboutcityu .field--name-bp-text h1::before{
 
     left: 0;
     transform: none;
 }
 
-#block-frontpageaboutcityu .paragraph:nth-child(1) .field--name-bp-text p{
+#block-cityu-postgraduate-frontpageaboutcityu .paragraph:nth-child(1) .field--name-bp-text p{
     color: white;
     text-align: justify;
     font-size: 16px;
     
 }
 
-#block-frontpageaboutcityu .field--name-bp-text{
+#block-cityu-postgraduate-frontpageaboutcityu .field--name-bp-text{
 /*    text-align: center;*/
 
 }
 
 /*learn more button*/
-#block-frontpageaboutcityu .field--name-bp-text a{
+#block-cityu-postgraduate-frontpageaboutcityu .field--name-bp-text a{
 
 /*    padding: 10px 25px 10px 25px;
     width: 220px;
@@ -1388,7 +1388,7 @@ a:focus, a:hover{
 }
 
 
-#block-frontpageaboutcityu .field--name-bp-text a:hover {
+#block-cityu-postgraduate-frontpageaboutcityu .field--name-bp-text a:hover {
     background: #bbcc03;
 }
 
@@ -1400,15 +1400,15 @@ a:focus, a:hover{
 /*media: about cityu*/
 
 @media(max-width: 767px){
-    #block-frontpageaboutcityu .field--name-bp-text h1{
+    #block-cityu-postgraduate-frontpageaboutcityu .field--name-bp-text h1{
         font-size: 30px;
     }
     
-    #block-frontpageaboutcityu > .paragraph:nth-child(1){
+    #block-cityu-postgraduate-frontpageaboutcityu > .paragraph:nth-child(1){
         padding: 8% 10% 10% 11%;
     }
     
-    #block-frontpageaboutcityu .field--name-field-background-image img{
+    #block-cityu-postgraduate-frontpageaboutcityu .field--name-field-background-image img{
         position: absolute;
         z-index: -100;
         top: 0%;
@@ -1416,7 +1416,7 @@ a:focus, a:hover{
         height: 100%;
     }
     
-    #block-frontpageaboutcityu iframe{
+    #block-cityu-postgraduate-frontpageaboutcityu iframe{
         height: 10pc;
     }
     #myCarousel-306{
@@ -1430,12 +1430,12 @@ a:focus, a:hover{
 
 /*worldwide recognition*/
 
-#block-testfortoi{
+#block-cityu-postgraduate-testfortoi{
     text-align: center;
 }
 
 
-#block-testfortoi .views-col{
+#block-cityu-postgraduate-testfortoi .views-col{
     opacity: 0;
     
     animation-duration: 450ms;
@@ -1447,7 +1447,7 @@ a:focus, a:hover{
 
 
 
-#block-testfortoi .block-title{
+#block-cityu-postgraduate-testfortoi .block-title{
     margin-bottom: 5%;
     font-size: 40px;
     color: #863275;
@@ -1458,7 +1458,7 @@ a:focus, a:hover{
 
 
 
-#block-testfortoi .para_background img{
+#block-cityu-postgraduate-testfortoi .para_background img{
     position: absolute;
     width: 70%;
     max-height: 380px;
@@ -1467,7 +1467,7 @@ a:focus, a:hover{
     top: 20%;
 }
     
-#block-testfortoi .views-field-field-url-website a{
+#block-cityu-postgraduate-testfortoi .views-field-field-url-website a{
     font-size: 21px;
     color: #595757;
 }
@@ -1510,7 +1510,7 @@ a:focus, a:hover{
 
 
 
-#block-testfortoi .views-field-field-url-website{
+#block-cityu-postgraduate-testfortoi .views-field-field-url-website{
     text-align: center;
     width: 70%;
     margin-left: 15%;
@@ -1518,7 +1518,7 @@ a:focus, a:hover{
 
 
 
-#block-frontpage-3circles-bar > div > div > div{
+#block-cityu-postgraduate-frontpage-3circles-bar > div > div > div{
     padding: 0;
 }
 
@@ -1593,16 +1593,16 @@ a:focus, a:hover{
 }
 
 @media (max-width: 767px){ 
-    #block-testfortoi .block-title{
+    #block-cityu-postgraduate-testfortoi .block-title{
         font-size: 30px;
     }
     
-    #block-testfortoi .views-field-title{
+    #block-cityu-postgraduate-testfortoi .views-field-title{
         margin: 0;
         width: 95%;
     }
     
-    #block-testfortoi .views-field-title a{
+    #block-cityu-postgraduate-testfortoi .views-field-title a{
         font-size: 15px;
     }
     
@@ -1649,7 +1649,7 @@ a:focus, a:hover{
         font-size: 8vw; 
     }
     
-    #block-testfortoi .block-title{
+    #block-cityu-postgraduate-testfortoi .block-title{
         font-size: 25px;
     }
     
@@ -1711,23 +1711,23 @@ a:focus, a:hover{
 }
 
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-image{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-image{
     display: inline-block;
     width: 100%;
     height: auto;
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-image img{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-image img{
     display: inline-block;
 }
 
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-col{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col{
     text-align: center;
     opacity: 0;
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content{
     position: absolute;
 /*    color: #f8b62b;*/
     color: #615e67;
@@ -1735,38 +1735,38 @@ a:focus, a:hover{
     font-family: Raleway, sans-serif;
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-col{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col{
     animation-duration: 450ms;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     position: relative;
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-25%);
 }
 
 
-/*#block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content{
+/*#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content{
     top: 52%;
     margin-left: 15%;
 }
-#block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content{
     top: 52%;
     margin-left: 13%;
 }
-#block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content{
     top: 52%;
     margin-left: 11%;
 }*/
 
-#block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content::after{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content::after{
     content: '%';
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
+#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
     font-size: 21px;
     color: #595757;
 }
@@ -1776,44 +1776,44 @@ a:focus, a:hover{
 
 
 @media (max-width: 1199px){ 
-/*    #block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
+/*    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
         margin-left: 14%;
         font-size: 100px;
     }
     
-    #block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
         margin-left: 11%;
         font-size: 100px;
     }
 
-    #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
         margin-left: 7%;
         font-size: 100px;
     }*/
     
     
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
         font-size: 100px;
     }
 }
 
 @media (max-width: 991px){ 
-/*    #block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
+/*    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
         font-size: 80px;
     }
     
-    #block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
 
         font-size: 80px;
     }
 
-    #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
         
         font-size: 80px;
     }*/
     
     
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
         
         font-size: 80px;
     }
@@ -1823,31 +1823,31 @@ a:focus, a:hover{
 @media (max-width: 767px){ 
     
     
-/*  #block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
+/*  #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
         font-size: 13vw;
         top: 44%;
 
     }
     
-    #block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
         top: 44%;
         font-size: 13vw;
     }
 
-    #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
         top: 44%;
         font-size: 13vw;
     }*/
 
 
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
         top: 44%;
         font-size: 11vw;
         transform: translate(-50%,-20%);
 
     }
     
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
+    #block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
         font-size: 16px;
     }
 
@@ -1860,17 +1860,17 @@ a:focus, a:hover{
 
 /*3 programmes circles*/
 
-#block-frontpage-3circles-colleges{
+#block-cityu-postgraduate-frontpage-3circles-colleges{
     text-align: center;
 /*    margin-top: 7%;*/
 }
 
-#block-frontpage-3circles-colleges .img-responsive{
+#block-cityu-postgraduate-frontpage-3circles-colleges .img-responsive{
     
     display: inline-block;
 }
 
-#block-frontpage-3circles-colleges .para_background{
+#block-cityu-postgraduate-frontpage-3circles-colleges .para_background{
     position: absolute;
     z-index: -100;
     opacity: 0.9;
@@ -1880,27 +1880,27 @@ a:focus, a:hover{
     background-color: #97578b;
 }
 
-#block-frontpage-3circles-colleges .para_background .img-responsive{
+#block-cityu-postgraduate-frontpage-3circles-colleges .para_background .img-responsive{
     visibility: hidden;
 }
 
 
 
 
-#block-frontpage-3circles-colleges .paragraph--type--bp-columns__3col:nth-child(1){
+#block-cityu-postgraduate-frontpage-3circles-colleges .paragraph--type--bp-columns__3col:nth-child(1){
     animation-delay: 0.1s;
 
 }
-#block-frontpage-3circles-colleges .paragraph--type--bp-columns__3col:nth-child(2){
+#block-cityu-postgraduate-frontpage-3circles-colleges .paragraph--type--bp-columns__3col:nth-child(2){
     animation-delay: 0.2s;
 
 }
-#block-frontpage-3circles-colleges .paragraph--type--bp-columns__3col:nth-child(3){
+#block-cityu-postgraduate-frontpage-3circles-colleges .paragraph--type--bp-columns__3col:nth-child(3){
     animation-delay: 0.3s;
 
 }
 
-#block-frontpage-3circles-colleges .paragraph--type--bp-columns__3col{
+#block-cityu-postgraduate-frontpage-3circles-colleges .paragraph--type--bp-columns__3col{
     text-align: center;
     margin-top: 7%;
     
@@ -1912,7 +1912,7 @@ a:focus, a:hover{
 
 }
 
-#block-frontpage-3circles-colleges .field--name-field-toi{
+#block-cityu-postgraduate-frontpage-3circles-colleges .field--name-field-toi{
 /*    position: absolute;
     width: 135px;
     font-size: 26px;
@@ -1938,38 +1938,38 @@ a:focus, a:hover{
 
 /*img size adjustment for ie only*/
 @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
-    #block-frontpage-3circles-colleges .para_background img{
+    #block-cityu-postgraduate-frontpage-3circles-colleges .para_background img{
         max-width: 100vw;
 
     }
 }
 
 /*@media (min-width: 1900px){ 
-    #block-frontpage-3circles-colleges .field--name-field-toi{ 
+    #block-cityu-postgraduate-frontpage-3circles-colleges .field--name-field-toi{ 
         margin-left: 36%;
     } 
 }
 
 @media (max-width: 1199px){ 
-    #block-frontpage-3circles-colleges .field--name-field-toi{ 
+    #block-cityu-postgraduate-frontpage-3circles-colleges .field--name-field-toi{ 
         margin-left: 26%;
         bottom: 26%;
     } 
 }
 */
 @media (max-width: 991px){ 
-    #block-frontpage-3circles-colleges .field--name-field-toi{ 
+    #block-cityu-postgraduate-frontpage-3circles-colleges .field--name-field-toi{ 
         font-size: 20px;
     } 
 }
 
 @media (max-width: 767px){ 
     
-    #block-frontpage-3circles-colleges .para_background{
+    #block-cityu-postgraduate-frontpage-3circles-colleges .para_background{
         display: none;
     }
     
-    #block-frontpage-3circles-colleges .field--name-field-toi{ 
+    #block-cityu-postgraduate-frontpage-3circles-colleges .field--name-field-toi{ 
 /*        margin-left: 0;
         bottom: 28%;
         font-size: 25px;
@@ -1984,7 +1984,7 @@ a:focus, a:hover{
 @media (max-width: 448px){ 
 
     
-    #block-frontpage-3circles-colleges .field--name-field-toi{ 
+    #block-cityu-postgraduate-frontpage-3circles-colleges .field--name-field-toi{ 
         padding: 0 25%;
 
     } 
@@ -1994,36 +1994,36 @@ a:focus, a:hover{
 
 /*news & events block*/
 
-#block-frontpagenewsevents-2{
+#block-cityu-postgraduate-frontpagenewsevents-2{
     margin: 0 2%;
 }
 
-#block-frontpagenewsevents-2 .field--name-bp-text h1{
+#block-cityu-postgraduate-frontpagenewsevents-2 .field--name-bp-text h1{
     margin-top: 15%;
     margin-bottom: 5%;
 /*    font-size: 40px;
     color: #863275;*/
     text-align: center;
 }
-#block-frontpagenewsevents-2 .field--name-field-toi {
+#block-cityu-postgraduate-frontpagenewsevents-2 .field--name-field-toi {
     color: #727171;
     font-size: 21px;
     text-align: center;
     display: none;
 }
 
-#block-frontpagenewsevents-2 a:hover, #block-frontpagenewsevents-2 a:focus{
+#block-cityu-postgraduate-frontpagenewsevents-2 a:hover, #block-cityu-postgraduate-frontpagenewsevents-2 a:focus{
     text-decoration: none;
 }
 
 
-#block-frontpagenewsevents-2 img{
+#block-cityu-postgraduate-frontpagenewsevents-2 img{
     display: inline-block;
     width: 100%;
 
 }
 
-#block-frontpagenewsevents-2 .paragraph--type--bp-columns__5col{
+#block-cityu-postgraduate-frontpagenewsevents-2 .paragraph--type--bp-columns__5col{
     padding-left: 0;
     padding-right: 5px;
 }
@@ -2084,17 +2084,17 @@ a:focus, a:hover{
     text-align: center;
 }
 
-#block-frontpagenewsevents-2 .newsContainer:hover img{
+#block-cityu-postgraduate-frontpagenewsevents-2 .newsContainer:hover img{
 /*    opacity: 0.3;*/
 
 }
 
-#block-frontpagenewsevents-2 .newsContainer:hover{
+#block-cityu-postgraduate-frontpagenewsevents-2 .newsContainer:hover{
     opacity: 0.9;
 
 }
 
-#block-frontpagenewsevents-2 .newsContainer:hover .titleContainer{
+#block-cityu-postgraduate-frontpagenewsevents-2 .newsContainer:hover .titleContainer{
     opacity: 1;
 }
 
@@ -2126,11 +2126,11 @@ a:focus, a:hover{
 /*        width: 50%;*/  
     }
     
-    #block-frontpagenewsevents-2 .paragraph--type--bp-columns__4col{
+    #block-cityu-postgraduate-frontpagenewsevents-2 .paragraph--type--bp-columns__4col{
         text-align: center;
     }
     
-    #block-frontpagenewsevents-2 .paragraph--type--bp-image{
+    #block-cityu-postgraduate-frontpagenewsevents-2 .paragraph--type--bp-image{
         display: inline-block;
         width: auto;
     }
@@ -2333,25 +2333,25 @@ ul.action-links{
 
 /*customize secondary menu*/
 
-/*#block-menu2-about-cityu ul li{
+/*#block-cityu-postgraduate-menu2-about-cityu ul li{
     width: 30%;
 }
 
-#block-menu2-professional-doctorate ul li{  
+#block-cityu-postgraduate-menu2-professional-doctorate ul li{  
     width: 30%;
 
 }
 
-#block-menu2-taught-postgraduate ul li{  
+#block-cityu-postgraduate-menu2-taught-postgraduate ul li{  
     width: 16%;
 
 }
 
-#block-menu2-visiting-postgraduate-student ul li{  
+#block-cityu-postgraduate-menu2-visiting-postgraduate-student ul li{  
     width: 30%;
 
 }
-#block-menu2-news-events ul li{  
+#block-cityu-postgraduate-menu2-news-events ul li{  
     width: 24%;
 
 }*/
@@ -2421,7 +2421,7 @@ ul.action-links{
 /***********/
 
 
-/*#block-banner-about-cityu .paragraph--type--bp-image .field--name-field-toi{
+/*#block-cityu-postgraduate-banner-about-cityu .paragraph--type--bp-image .field--name-field-toi{
     left: 41%;
 }*/
 
@@ -2444,7 +2444,7 @@ ul.action-links{
     #block-whycityu-home-fastfacts-foto h1{
         font-size: 30px;
     }
-    #block-views-block-taught-programme-list-body3-block-1 .table-responsive caption{
+    #block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive caption{
         font-size: 20px;
     }
 }
@@ -2791,28 +2791,28 @@ ul.action-links{
 
 
 
-#block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(odd){
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(odd){
     background-color: #F0E9F1;
 }
 
-#block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(even){
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(even){
     background-color: #F1F2F2;
 }
 
 
-#block-aboutcityufacilitiesandsupports p{
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports p{
     text-align: justify;
 }
 
 
 /*image block*/
 
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1){
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1){
     width: 40%;
     float: right;
     padding: 0;
 }
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){
     width: 40%;
     float: left;
     padding: 0;
@@ -2821,27 +2821,27 @@ ul.action-links{
 
 /*content block*/
 
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
     width: 59%;
     padding: 2% 0 2% 5%;
 }
 
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
     width: 59%;
     padding: 2% 5% 2% 0;  
 }
 
 
-#block-aboutcityufacilitiesandsupports a:hover {
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports a:hover {
     color: #863275;
 }
 
-#block-aboutcityufacilitiesandsupports h2 a{
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports h2 a{
     text-decoration: none;
 /*    color: #58595B;*/
 }
 
-#block-aboutcityufacilitiesandsupports p{
+#block-cityu-postgraduate-aboutcityufacilitiesandsupports p{
     font-size: 15px;
     color: #58595B;
 }
@@ -2849,34 +2849,34 @@ ul.action-links{
 
 @media (max-width: 1899px){
 
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
         padding-left: 5%;
         width: 49%;
     }
     
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
         padding-right: 5%;      
         width: 49%;
     }
 }
 
 @media (max-width: 1199px){
-    #block-aboutcityufacilitiesandsupports h2{
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports h2{
         font-size: 20px;
     }
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1),
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1),
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){
         width: 50%;
     }
 }
 
 @media (max-width: 767px){
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
         width: 95%;
         padding-bottom: 5%;
     }
     
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
+    #block-cityu-postgraduate-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
         width: 95%;
         padding-bottom: 5%;
     }
@@ -2896,7 +2896,7 @@ ul.action-links{
 /*carousel*/
 
 
-#block-banner-research-degree .paragraph > .paragraph__column{
+#block-cityu-postgraduate-banner-research-degree .paragraph > .paragraph__column{
     padding: 0;
 }
 
@@ -2910,40 +2910,40 @@ ul.action-links{
 
 /*introduction*/
 
-#block-researchhome-bar{
+#block-cityu-postgraduate-researchhome-bar{
 /*    background-color: #94708d;*/
     background-color: #a591a5;
 }
 
 
 
-#block-researchhome-bar .field--name-bp-text{
+#block-cityu-postgraduate-researchhome-bar .field--name-bp-text{
     padding: 5% 0;
 }
 
-/*#block-researchhome-bar .field--name-bp-text h1{
+/*#block-cityu-postgraduate-researchhome-bar .field--name-bp-text h1{
     color: #ffffff;
     margin-bottom: 4%;
     text-align: left;
 }
 
-#block-researchhome-bar .field--name-bp-text h1:before{
+#block-cityu-postgraduate-researchhome-bar .field--name-bp-text h1:before{
     left: 0;
     width: 50px;
     transform: translate(0);
 }*/
 
-#block-researchhome-bar .field--name-bp-text a{
+#block-cityu-postgraduate-researchhome-bar .field--name-bp-text a{
     color: #e8e1ea;
     border-bottom: 1px solid #cccccc;
 
 }
-#block-researchhome-bar .field--name-bp-text a:hover{
+#block-cityu-postgraduate-researchhome-bar .field--name-bp-text a:hover{
     color: #fbfbfb;
     border-bottom: 1px solid #f7f7f7;
 
 }
-#block-researchhome-bar .field--name-bp-text p{
+#block-cityu-postgraduate-researchhome-bar .field--name-bp-text p{
 /*    color: #ffffff;
     margin-bottom: 4%;
     font-size: 16px;
@@ -2961,12 +2961,12 @@ ul.action-links{
     
 }
 
-/*#block-researchhome-bar .field--name-bp-image-field img{
+/*#block-cityu-postgraduate-researchhome-bar .field--name-bp-image-field img{
     margin: 15% 5%;
 }*/
 
 
-#block-researchhome-bar .field--name-field-background-image img{
+#block-cityu-postgraduate-researchhome-bar .field--name-field-background-image img{
     
     position: absolute;
     z-index: -200;
@@ -2981,13 +2981,13 @@ ul.action-links{
 
 
 /*@media (max-width: 1899px){ 
-    #block-researchhome-bar .field--name-bp-text {
+    #block-cityu-postgraduate-researchhome-bar .field--name-bp-text {
         padding: 3% 1% 5% 5%;
     }
-    #block-researchhome-bar .field--name-bp-text h1{
+    #block-cityu-postgraduate-researchhome-bar .field--name-bp-text h1{
         font-size: 35px;
     }
-    #block-researchhome-bar .field--name-bp-text p{
+    #block-cityu-postgraduate-researchhome-bar .field--name-bp-text p{
             font-size: 14px;
             line-height: 1.5;
     }
@@ -2998,20 +2998,20 @@ ul.action-links{
 
 /*research figures*/
 
-#block-views-block-research-home-figures-block-1{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1{
     text-align: center;
     margin-top: 5%;
 }
 
-#block-views-block-research-home-figures-block-1 .views-col{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-col{
     position: relative;
 }
 
-#block-views-block-research-home-figures-block-1 img{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 img{
     display: inline-block;
 }
 
-#block-views-block-research-home-figures-block-1 .views-field-field-toi{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-field-toi{
 /*    position: absolute;
     color: #ffb03a;
     font-size: 70px; 
@@ -3035,35 +3035,35 @@ ul.action-links{
 
 }
 
-/*#block-researchhome-figures .views-col.col-1 .views-field-field-toi{
+/*#block-cityu-postgraduate-researchhome-figures .views-col.col-1 .views-field-field-toi{
         margin-left: 13.5%;
 }
 
-#block-researchhome-figures .views-col.col-2 .views-field-field-toi{
+#block-cityu-postgraduate-researchhome-figures .views-col.col-2 .views-field-field-toi{
         margin-left: 10%;
 }
 
-#block-researchhome-figures .views-col.col-3 .views-field-field-toi{
+#block-cityu-postgraduate-researchhome-figures .views-col.col-3 .views-field-field-toi{
         margin-left: 13%;
 }*/
 
 
 
-#block-views-block-research-home-figures-block-1 .views-field-body{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body{
     margin-bottom: 15%;
 /*    margin-top: 10%;*/
     padding: 0 8%;
 }
 
-#block-views-block-research-home-figures-block-1 .views-field-body p, 
-#block-views-block-research-home-figures-block-1 .views-field-body a{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body p, 
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body a{
     font-size: 23px;
     color: #863275;
 
 }
 
 
-#block-views-block-research-home-figures-block-1 .views-col:hover a{
+#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-col:hover a{
     text-decoration: underline;
 }
 
@@ -3071,7 +3071,7 @@ ul.action-links{
 
 /*media: research figures*/
 /*@media (min-width: 1900px){
-    #block-views-block-research-home-figures-block-1{
+    #block-views-block-cityu-postgraduate-research-home-figures-block-1{
         margin-left: 15%;
         margin-right: 15%;
     }
@@ -3079,19 +3079,19 @@ ul.action-links{
 */
 
 @media (max-width: 1899px){ 
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi{ 
+    #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-field-toi{ 
         font-size: 60px; 
 /*        top: 19%;*/
     }
-/*    #block-researchhome-figures .views-col.col-1 .views-field-field-toi{
+/*    #block-cityu-postgraduate-researchhome-figures .views-col.col-1 .views-field-field-toi{
         margin-left: 13%;
         
     }
-    #block-researchhome-figures .views-col.col-2 .views-field-field-toi{
+    #block-cityu-postgraduate-researchhome-figures .views-col.col-2 .views-field-field-toi{
         margin-left: 9%;
         
     }
-    #block-researchhome-figures .views-col.col-3 .views-field-field-toi{
+    #block-cityu-postgraduate-researchhome-figures .views-col.col-3 .views-field-field-toi{
         margin-left: 12%;
         
     } */
@@ -3099,23 +3099,23 @@ ul.action-links{
 }
 
 @media (max-width: 1199px){
-        #block-views-block-research-home-figures-block-1 .views-field-body p, #block-views-block-research-home-figures-block-1 .views-field-body a{
+        #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body p, #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body a{
         font-size: 18px;
     }
     
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi{
+    #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-field-toi{
         top: 55%;
     }
     
-/*    #block-researchhome-figures .views-col.col-1 .views-field-field-toi{
+/*    #block-cityu-postgraduate-researchhome-figures .views-col.col-1 .views-field-field-toi{
         margin-left: 12%;
     }
     
-    #block-researchhome-figures .views-col.col-2 .views-field-field-toi{
+    #block-cityu-postgraduate-researchhome-figures .views-col.col-2 .views-field-field-toi{
         margin-left: 8%;
     }
     
-    #block-researchhome-figures .views-col.col-3 .views-field-field-toi {
+    #block-cityu-postgraduate-researchhome-figures .views-col.col-3 .views-field-field-toi {
         margin-left: 11%;
     }*/
     
@@ -3124,14 +3124,14 @@ ul.action-links{
 
 
 /*@media(max-width: 991px){
-    #block-researchhome-figures .views-field-field-toi{
+    #block-cityu-postgraduate-researchhome-figures .views-field-field-toi{
         top: 18%;
     }
     
 }*/
 
 @media(max-width: 767px){
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi{
+    #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-field-toi{
         font-size: 7vw;
     }
     
@@ -3139,19 +3139,19 @@ ul.action-links{
 
 @media(max-width: 448px){
     
-    #block-views-block-research-home-figures-block-1 .views-field-body p, #block-views-block-research-home-figures-block-1 .views-field-body a{
+    #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body p, #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-body a{
         font-size: 15px;
     }
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi {
+    #block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-field-field-toi {
         top: 45%;
     }
 /*    
-    #block-researchhome-figures .views-col.col-1 .views-field-field-toi{
+    #block-cityu-postgraduate-researchhome-figures .views-col.col-1 .views-field-field-toi{
         margin-left: 10%;
         
     }
     
-    #block-researchhome-figures .views-col.col-3 .views-field-field-toi{
+    #block-cityu-postgraduate-researchhome-figures .views-col.col-3 .views-field-field-toi{
         margin-left: 9%;
     }*/
 
@@ -3162,36 +3162,36 @@ ul.action-links{
 
 /*Top-Notch Researchers*/
 
-#block-researchhomeresearchers{
+#block-cityu-postgraduate-researchhomeresearchers{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
 }
 
-#block-researchhomeresearchers .field--name-field-text-demo strong{
+#block-cityu-postgraduate-researchhomeresearchers .field--name-field-text-demo strong{
     color: #863d75;
 /*    font-size: 50px;*/
 }
-#block-researchhomeresearchers .field--name-field-text-demo .text-align-center{
+#block-cityu-postgraduate-researchhomeresearchers .field--name-field-text-demo .text-align-center{
     margin-bottom: 5%;
 }
 
-#block-researchhomeresearchers .view-researchhome-4researchers-random .views-col{
+#block-cityu-postgraduate-researchhomeresearchers .view-researchhome-4researchers-random .views-col{
     margin-bottom: 5%;
     text-align: center;
 }
 
-#block-researchhomeresearchers .view-researchhome-4researchers-random .views-row:not(:nth-child(1)):not(:nth-child(2)){
+#block-cityu-postgraduate-researchhomeresearchers .view-researchhome-4researchers-random .views-row:not(:nth-child(1)):not(:nth-child(2)){
     display: none;
 }
 
 
-#block-researchhomeresearchers .views-field-field-know-more .field-content > div > div:nth-child(1){
+#block-cityu-postgraduate-researchhomeresearchers .views-field-field-know-more .field-content > div > div:nth-child(1){
     margin-bottom: 5%;
 }
 
 
-#block-researchhomeresearchers .view-researchhome-4researchers-random img{
+#block-cityu-postgraduate-researchhomeresearchers .view-researchhome-4researchers-random img{
     
     display: inline-block;
     transition: .5s ease;
@@ -3202,12 +3202,12 @@ ul.action-links{
 
 
 
-#block-researchhomeresearchers .view-researchhome-4researchers-random .views-field-title span{
+#block-cityu-postgraduate-researchhomeresearchers .view-researchhome-4researchers-random .views-field-title span{
     font-size: 18px;
     color: #808285;
 }
 
-#block-researchhomeresearchers .field--name-bp-text p{
+#block-cityu-postgraduate-researchhomeresearchers .field--name-bp-text p{
     text-align: center;
     margin-bottom: 5%;
 }
@@ -3218,7 +3218,7 @@ ul.action-links{
 
 /*hover effect with javascript*/
 
-#block-researchhomeresearchers .field--name-bp-text a{
+#block-cityu-postgraduate-researchhomeresearchers .field--name-bp-text a{
 /*    background-color: #863d75;
     color: #ffffff;
     padding: 10px 25px 10px 25px;
@@ -3242,12 +3242,12 @@ ul.action-links{
 }
 
 
-#block-researchhomeresearchers .field--name-bp-text a:hover {
+#block-cityu-postgraduate-researchhomeresearchers .field--name-bp-text a:hover {
     background: #bbcc03;
 }
 
 
-#block-researchhomeresearchers .views-field-field-know-more .field-content .profileContainer:nth-child(2){
+#block-cityu-postgraduate-researchhomeresearchers .views-field-field-know-more .field-content .profileContainer:nth-child(2){
     font-size: 18px;
     color: #808285;
 }
@@ -3324,10 +3324,10 @@ ul.action-links{
 /*media: tio-notch researchers*/
 
 @media(max-width: 767px){
-    #block-researchhomeresearchers .views-field-field-know-more .field-content .profileContainer:nth-child(2){
+    #block-cityu-postgraduate-researchhomeresearchers .views-field-field-know-more .field-content .profileContainer:nth-child(2){
         font-size: 15px;
     }
-    #block-researchhomeresearchers .field--name-field-text-demo strong{
+    #block-cityu-postgraduate-researchhomeresearchers .field--name-field-text-demo strong{
         font-size: 30px;
     }
 }
@@ -3335,12 +3335,12 @@ ul.action-links{
 /*mobile*/
 
 @media(max-width: 448px){
-    #block-researchhomeresearchers .view-researchhome-4researchers-random .views-col{
+    #block-cityu-postgraduate-researchhomeresearchers .view-researchhome-4researchers-random .views-col{
         width: 50%!important;
         height: 200px;
     }
     
-    #block-researchhomeresearchers .field--name-bp-text p{
+    #block-cityu-postgraduate-researchhomeresearchers .field--name-bp-text p{
         margin-top: 10%;
     }
     
@@ -3386,69 +3386,69 @@ ul.action-links{
 /*research areas*/
 /****************/
 
-/*#block-views-block-research-areas-block-1{
+/*#block-views-block-cityu-postgraduate-research-areas-block-1{
     text-align: center;
 }*/
 
-#block-views-block-research-areas-block-1 .view_coll_description ol, #block-views-block-research-areas-block-1 .view_coll_description ul{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_description ol, #block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_description ul{
     list-style-type: none;
 }
 
 
 
-#block-views-block-research-areas-block-1 .views-row{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row{
     padding: 50px 9%;
 }
 
-#block-views-block-research-areas-block-1 .views-row:nth-child(even){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row:nth-child(even){
     background: #f3f3f3;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_coll_name h2{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_coll_name h2{
     font-size: 25px;
     font-family: Raleway,sans-serif;
     color: #863275;
     font-weight: 400;
 }
-#block-views-block-research-areas-block-1 .view_coll_description{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_description{
     line-height: 1.6em;
     
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas h3{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas h3{
     font-size: 18px;
     font-family: Raleway,sans-serif;
     color: #5d4f5a;
 }
 
-#block-views-block-research-areas-block-1 .view_coll_content_block .view_coll_description{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_content_block .view_coll_description{
     width: 70%;
     display: inline-block;
 }
-#block-views-block-research-areas-block-1 .view_coll_content_block .view_coll_image{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_content_block .view_coll_image{
     width: 29%;
     display: inline-block;
     vertical-align: top;
 }
 
-#block-views-block-research-areas-block-1 .view_coll_content_block .view_coll_image{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_content_block .view_coll_image{
     padding: 0 30px;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas_dept, #block-views-block-research-areas-block-1 .view_coll_coordinator{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas_dept, #block-views-block-cityu-postgraduate-research-areas-block-1 .view_coll_coordinator{
     margin: 30px 0;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas_dept ol{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas_dept ol{
     list-style-type: none;
     padding: 0;
 }
-#block-views-block-research-areas-block-1 .view_research_areas_dept ol li{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas_dept ol li{
     margin-bottom: 10px;
 }
 
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-name{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-name{
     width: 100%;
     position: relative;
     display: block;
@@ -3469,21 +3469,21 @@ ul.action-links{
 
 
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept h2{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept h2{
     margin: 0;
     position: relative;
     
 }
 
 
-#block-views-block-research-areas-block-1 .view_research_areas_dept .fa.fa-angle-down{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas_dept .fa.fa-angle-down{
     position: absolute;
     right: 2%;
     top: 25%;
     cursor: pointer;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .view_dept_info{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept .view_dept_info{
     display: none;
     padding: 20px;
     background-color: #fff;
@@ -3492,17 +3492,17 @@ ul.action-links{
     border-width: 0 1px 1px 1px;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official{
     margin: 15px 0 7px 0;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official a{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official a{
     padding: 8px 10px;
     background: #f7f7f7;
 
 }
 
-/*#block-views-block-research-areas-block-1 .views-row .view_coll_image{
+/*#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row .view_coll_image{
     display: none;
 }*/
 
@@ -3511,7 +3511,7 @@ ul.action-links{
 
 
 
-#block-views-block-research-areas-block-1 .views-row{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row{
     padding: 3%;
     margin: 3% 0;
 }
@@ -3541,12 +3541,12 @@ colleges/schools description
 }
 
 select box with javascript
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul .selectedDepartment{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul .selectedDepartment{
     display: block;
 }
 
 select arrow icon
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul .selectedDepartment::after{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul .selectedDepartment::after{
     content: '';
     position: absolute;
     width: 0;
@@ -3570,18 +3570,18 @@ dropdown liat
     width: 100%;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul li{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul li{
     display: none;
     font-size: 18px;
     padding: 7px;
     cursor: pointer;
 }
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1)):hover{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1)):hover{
     background-color: #E6E7E8;
     color: #000000;
 }
 
-#block-views-block-research-areas-block-1 .views-field-name .view_research_areas .col-sm-10 > div:nth-child(1) a{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-name .view_research_areas .col-sm-10 > div:nth-child(1) a{
     color: #58595B;
     font-size: 33px;
 
@@ -3589,12 +3589,12 @@ dropdown liat
 
 department detail description block
 
-#block-views-block-research-areas-block-1 .col-sm-10{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .col-sm-10{
     padding-right: 15%;
     margin-bottom: 3%;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept ol{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept ol{
 
     margin-top: 3%;
     background-color: #ffffff;
@@ -3607,15 +3607,15 @@ department detail description block
 
   
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept ol li{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept ol li{
     display: none;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas ol li .field--name-field-dept-url-official{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas ol li .field--name-field-dept-url-official{
     margin-bottom: 2%;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas ol li .field--name-field-dept-url-official a{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas ol li .field--name-field-dept-url-official a{
      color: #58595B;
      font-size: 20px;
 }
@@ -3628,37 +3628,37 @@ department detail description block
 Research Degree Coordinator
 
 
-#block-views-block-research-areas-block-1 .views-row:nth-child(odd){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row:nth-child(odd){
     background-color: #F1F2F2;
 }
 
-#block-views-block-research-areas-block-1 .views-row:nth-child(even){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row:nth-child(even){
     background-color: #F0E9F1;
 }
 
 
 
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator table{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator table{
     width: 100%;
     display: none;
 }
 
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator table tr td{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator table tr td{
     padding: 5px 15px;
     vertical-align: top;
 }
 
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(odd){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(odd){
     background-color: #ffffff;
     
     font-size: 14px;
 }
 
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(even){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(even){
     background-color: #f6f4f9;
     
     font-size: 14px;
@@ -3666,7 +3666,7 @@ Research Degree Coordinator
 
 table header
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(1){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(1){
     
     background-color: #863d75;
     color: #FFFFFF;
@@ -3674,14 +3674,14 @@ table header
 }
 
 table caption
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(2){
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator table tr:nth-child(2){
     width: 100%;
     background-color: #A7A9AC;
     color: #FFFFFF;
     font-size: 18px;
 }
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong{
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong{
     margin-left: 18%;
     background-color: #863d75;
     color: #ffffff;
@@ -3693,13 +3693,13 @@ table caption
 }
 
 
-#block-views-block-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p {
+#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p {
 
     margin: 2% 0;
 
 }
 
-#block-researchprogstructure h2{
+#block-cityu-postgraduate-researchprogstructure h2{
     margin-bottom: 2%;
     font-size: 30px;
     color: #863d75;
@@ -3708,21 +3708,21 @@ table caption
 
 
 @media(max-width: 1199px){
-    #block-views-block-research-areas-block-1 .col-sm-10{
+    #block-views-block-cityu-postgraduate-research-areas-block-1 .col-sm-10{
         padding-right: 5%;
     }
     
     
-    #block-views-block-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong{
+    #block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong{
         margin-left: 27%;
     }
-    #block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul .selectedDepartment::after{
+    #block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul .selectedDepartment::after{
         right: 8%;
     }
 }
 
 @media(max-width: 767px){
-   #block-views-block-research-areas-block-1 .views-field-name .view_research_areas .col-sm-10 > div:nth-child(1) a{
+   #block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-name .view_research_areas .col-sm-10 > div:nth-child(1) a{
         font-size: 25px;
     }
     
@@ -3730,12 +3730,12 @@ table caption
         font-size: 14px;
     }
     
-    #block-views-block-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong{
+    #block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong{
         margin: 3%;
         font-size: 16px;
     }
     
-    #block-views-block-research-areas-block-1 .view_research_areas ol li .field--name-field-dept-url-official{
+    #block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas ol li .field--name-field-dept-url-official{
         font-size: 20px;
         margin-bottom: 5%;
     }
@@ -3781,20 +3781,20 @@ table caption
     padding-bottom: 2%;
 }*/
 
-#block-views-block-research-entrance-eng-p-require-block-1{
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1{
     background-color: #F1F2F2;
     padding: 2% 9%;
 }
 
 
-#block-views-block-research-entrance-eng-p-require-block-1 .views-row{
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row{
     width: 23%;
     margin: 10px;
     display: inline-block;
     vertical-align: top;
 }
 
-#block-views-block-research-entrance-eng-p-require-block-1 .views-row .views-field-name h2{
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row .views-field-name h2{
     font-size: 20px;
     font-family: Raleway,sans-serif;
     color: #dedede;
@@ -3805,13 +3805,13 @@ table caption
     
 }
 
-#block-views-block-research-entrance-eng-p-require-block-1 .views-row .views-field-field-coll-eng-p-require{
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row .views-field-field-coll-eng-p-require{
     padding: 16px;
     background: #efecf1;
 }
 
 
-#block-views-block-research-entrance-eng-p-require-block-1 .views-row .views-field-field-coll-eng-p-require p{
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row .views-field-field-coll-eng-p-require p{
     font-size: 80%;
     line-height: 1.3em;
     font-weight: 400;
@@ -3827,7 +3827,7 @@ table caption
 
 /*select box with javascript (old design)
 
-#block-views-block-research-entrance-coll-list-block-2 .view-research-entrance-coll-list{
+#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-research-entrance-coll-list{
     background-color: #ffffff;
     position: absolute;
     top : 1%;
@@ -3835,14 +3835,14 @@ table caption
     width: 55%;
     cursor: pointer;
 } 
-#block-views-block-research-entrance-coll-list-block-2 .view-header h2{
+#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-header h2{
     font-size: 20px;
     padding-left: 1%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#block-views-block-research-entrance-coll-list-block-2 .view-header h2::after{
+#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-header h2::after{
     content: '';
     position: absolute;
     width: 0;
@@ -3855,15 +3855,15 @@ table caption
                 
 }
 
-#block-views-block-research-entrance-coll-list-block-2 .view-content{
+#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content{
     display: none;
 }
-#block-views-block-research-entrance-coll-list-block-2 .view-content .views-row{
+#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content .views-row{
     padding-left: 1%;
     
 }
 
-#block-views-block-research-entrance-coll-list-block-2 .view-content .views-row:hover{
+#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content .views-row:hover{
     background-color: grey;
     color: white;
                 
@@ -3873,18 +3873,18 @@ table caption
 */
 
 /*english requirement details descripion
-/*#block-views-block-research-entrance-eng-p-require-block-1 .view-research-entrance-eng-p-require{
+/*#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .view-research-entrance-eng-p-require{
     width: 57%;
 }
 
-#block-views-block-research-entrance-eng-p-require-block-1 .views-row{
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row{
     margin-top: 5%;
     display: none;
     background-color: #ffffff;
     padding: 1%;
 }
 
-#block-views-block-research-entrance-eng-p-require-block-1 .views-row:nth-child(1){
+#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row:nth-child(1){
     display: block;
 }*/
 
@@ -3895,38 +3895,38 @@ table caption
 
 @media (max-width: 1199px){
 
-    #block-views-block-research-entrance-coll-list-block-2 .view-research-entrance-coll-list{
+    #block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-research-entrance-coll-list{
         width: 90%;
     }
     
-    #block-views-block-research-entrance-eng-p-require-block-1 .view-research-entrance-eng-p-require{
+    #block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .view-research-entrance-eng-p-require{
         width: 94%;
     }
 }
 
 @media (max-width: 991px){
-    #block-views-block-research-entrance-eng-p-require-block-1{
+    #block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1{
         padding: 3% 2%;
     }
 }
 
 
 @media (max-width: 767px){
-    #block-views-block-research-entrance-eng-p-require-block-1{
+    #block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1{
         padding: 8% 2%;
     }
 }
 
 @media (max-width: 448px){
-    #block-views-block-research-entrance-eng-p-require-block-1{
+    #block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1{
         padding: 20% 2%;
     }
     
-    #block-views-block-research-entrance-coll-list-block-2 .view-header h2{
+    #block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-header h2{
         font-size: 14px;
     }
     
-    #block-views-block-research-entrance-eng-p-require-block-1 .views-field-name h3{
+    #block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-field-name h3{
         font-size: 18px;
     }
     
@@ -4292,12 +4292,12 @@ table caption
 
 /*carousel*/
 
-#block-banner-professional-doctorate .paragraph--type--bp-carousel{
+#block-cityu-postgraduate-banner-professional-doctorate .paragraph--type--bp-carousel{
     display: table;
 }
 
 
-#block-banner-professional-doctorate .paragraph > .paragraph__column{
+#block-cityu-postgraduate-banner-professional-doctorate .paragraph > .paragraph__column{
     padding: 0;
 }
 
@@ -4310,22 +4310,22 @@ table caption
 
 
 
-#block-doctoratehome-introduction{
+#block-cityu-postgraduate-doctoratehome-introduction{
     margin-bottom: 5%;
 /*    background: #94708d;*/
     background-color: #a591a5;
 }
 
 
-/*#block-doctoratehome-introduction p{
+/*#block-cityu-postgraduate-doctoratehome-introduction p{
     text-align: justify;
 }
 
-#block-doctoratehome-introduction .field--name-bp-image-field img{
+#block-cityu-postgraduate-doctoratehome-introduction .field--name-bp-image-field img{
     margin: 10% 5%;
 }*/
 
-#block-doctoratehome-introduction .field--name-field-background-image img{
+#block-cityu-postgraduate-doctoratehome-introduction .field--name-field-background-image img{
     
     position: absolute;
     z-index: -200;
@@ -4338,12 +4338,12 @@ table caption
 
 
 
-#block-doctoratehome-introduction .field--name-bp-text{
+#block-cityu-postgraduate-doctoratehome-introduction .field--name-bp-text{
     padding: 5% 0;
 
 }
 
-/*#block-doctoratehome-introduction .field--name-bp-text h1, #block-taughthome-introduction .field--name-bp-text h1{
+/*#block-cityu-postgraduate-doctoratehome-introduction .field--name-bp-text h1, #block-cityu-postgraduate-taughthome-introduction .field--name-bp-text h1{
     color: #ffffff;
     margin-bottom: 4%;
     font-size: 40px;
@@ -4352,13 +4352,13 @@ table caption
     
 }
 
-#block-doctoratehome-introduction .field--name-bp-text h1::before, #block-taughthome-introduction .field--name-bp-text h1::before{
+#block-cityu-postgraduate-doctoratehome-introduction .field--name-bp-text h1::before, #block-cityu-postgraduate-taughthome-introduction .field--name-bp-text h1::before{
     left: 0;
     width: 50px;
     transform: translate(0);
 }*/
 
-#block-doctoratehome-introduction  .field--name-bp-text p{
+#block-cityu-postgraduate-doctoratehome-introduction  .field--name-bp-text p{
 /*    color: #ffffff;
     margin-bottom: 4%;
     font-size: 16px;
@@ -4379,11 +4379,11 @@ table caption
     
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 p{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 p{
     text-align: justify;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .block-title{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .block-title{
     color: #863d75;
     font-size: 40px;
     font-weight: 700;
@@ -4396,7 +4396,7 @@ table caption
     font-weight: 400;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .block-title:before{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .block-title:before{
     background: #863275;
     border-bottom: 1px solid;
     bottom: -15px;
@@ -4408,46 +4408,46 @@ table caption
 }
 
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row{
     padding: 3%;
     overflow: auto;
     margin-bottom: 3%;
     
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row:nth-child(1){
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row:nth-child(1){
     background-color: #F1F2F2;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row:nth-child(2){
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row:nth-child(2){
     background-color: #F0E9F1;
 }
 
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-image img{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-image img{
     float: left;
     margin-right: 3%;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-title .field-content{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-title .field-content{
     /*font-weight: bold;*/
     color: #727171;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-summary{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-summary{
     padding-right: 5%; 
     
     
 }
 
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing{
     text-align: right;
     margin-top: 2%;
     padding-right: 5%;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing a{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing a{
     
 /*    background-color: #863d75;
     color: #ffffff;
@@ -4468,49 +4468,49 @@ table caption
 
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing a:hover{
+#block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing a:hover{
     background: #bbcc03;
 }
 
 
 @media(max-width: 1199px){
-    #block-doctoratehome-introduction  .field--name-bp-text p{
+    #block-cityu-postgraduate-doctoratehome-introduction  .field--name-bp-text p{
         line-height: 1.42857143;
         font-size: 15px;
     }
     
-    #block-doctoratehome-introduction .field--name-bp-text h2{
+    #block-cityu-postgraduate-doctoratehome-introduction .field--name-bp-text h2{
         font-size: 30px;
     }
     
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .block-title{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .block-title{
         font-size: 30px;
     }
     
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-title .field-content{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-title .field-content{
         font-size: 25px;
     }
     
 }
 
 @media(max-width: 767px){
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-image img{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-image img{
         float: none;
     }
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .block-title{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .block-title{
         font-size: 25px;
     }
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-row{
         padding: 5%;
     }
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-title .field-content{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-title .field-content{
         font-size: 20px;
     }
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-summary{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-summary{
         padding: 0;
     }
     
-    #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing{
+    #block-views-block-cityu-postgraduate-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing{
         text-align: left;
         margin-top: 25px;
         padding: 0;
@@ -4524,7 +4524,7 @@ table caption
 
 /*carousel*/
 
-#block-banner-taught-postgraduate .paragraph--type--bp-carousel{
+#block-cityu-postgraduate-banner-taught-postgraduate .paragraph--type--bp-carousel{
     display: table;
 }
 
@@ -4532,17 +4532,17 @@ table caption
 
 
 
-#block-taughthome-introduction{
+#block-cityu-postgraduate-taughthome-introduction{
     margin-bottom: 5%;
     background-color: #a591a5;
 }
 
-#block-taughthome-introduction p{
+#block-cityu-postgraduate-taughthome-introduction p{
     text-align: justify;
 }
 
 
-#block-taughthome-introduction .field--name-field-background-image img{
+#block-cityu-postgraduate-taughthome-introduction .field--name-field-background-image img{
     height: 80%;
     position: absolute;
     z-index: -200;
@@ -4551,16 +4551,16 @@ table caption
 }
 
 
-/*#block-taughthome-introduction .field--name-bp-image-field img{
+/*#block-cityu-postgraduate-taughthome-introduction .field--name-bp-image-field img{
     margin: 5% 10%;
 }*/
 
 
-#block-taughthome-introduction .field--name-bp-text{
+#block-cityu-postgraduate-taughthome-introduction .field--name-bp-text{
     padding: 5% 0;
 }
 
-/*#block-taughthome-introduction .field--name-bp-text h2{
+/*#block-cityu-postgraduate-taughthome-introduction .field--name-bp-text h2{
     color: #ffffff;
     margin-bottom: 4%;
     font-size: 40px;
@@ -4568,7 +4568,7 @@ table caption
 }*/
 
 
-#block-taughthome-introduction  .field--name-bp-text p{
+#block-cityu-postgraduate-taughthome-introduction  .field--name-bp-text p{
 /*    color: #ffffff;
     margin-bottom: 4%;
     font-size: 16px;
@@ -4588,32 +4588,32 @@ table caption
     
 }
 
-#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col{
+#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .view-taught-home-blocks .views-col{
     text-align: center;
     padding: 0 20px;
 }
 
 
-#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-field-field-url-website a{
+#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .view-taught-home-blocks .views-field-field-url-website a{
     
     font-size: 18px;
     color: #863275;
     font-weight: bold;
 }
 
-#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-field-field-url-website{
+#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .view-taught-home-blocks .views-field-field-url-website{
     margin-top: 3%;
 }
 
 
-#block-views-block-taught-home-blocks-block-1 .views-field-field-image img{
+#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .views-field-field-image img{
     display: inline-block;
     
 
 }
 
 
-/*#block-views-block-taught-home-blocks-block-1 .views-field-field-image a{
+/*#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .views-field-field-image a{
     position: absolute;
     bottom: 40%;
     margin-left: 10%;
@@ -4628,7 +4628,7 @@ table caption
 }*/
 
 
-#block-views-block-taught-home-blocks-block-1 .col-1 .views-field-field-image p, #block-views-block-taught-home-blocks-block-1 .col-2 .views-field-field-image p{
+#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .col-1 .views-field-field-image p, #block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .col-2 .views-field-field-image p{
 /*    position: absolute;
     bottom: 40%;
     margin-left: 10%;*/
@@ -4689,19 +4689,19 @@ table caption
 
 
 @media(max-width: 1199px){
-/*    #block-taughthome-introduction .field--name-bp-image-field img{
+/*    #block-cityu-postgraduate-taughthome-introduction .field--name-bp-image-field img{
         margin: 7% 0 0% 3%;
     }*/
 }
 
 @media (max-width: 991px){
-/*    #block-taughthome-introduction .field--name-bp-text {
+/*    #block-cityu-postgraduate-taughthome-introduction .field--name-bp-text {
         padding: 5% 1% 5% 10%;
     }*/
-    #block-taughthome-introduction .field--name-bp-text h1{
+    #block-cityu-postgraduate-taughthome-introduction .field--name-bp-text h1{
         font-size: 30px;
     }
-    #block-taughthome-introduction  .field--name-bp-text p{
+    #block-cityu-postgraduate-taughthome-introduction  .field--name-bp-text p{
             font-size: 15px;
             line-height: 1.42857143;
     }
@@ -4709,7 +4709,7 @@ table caption
 
 
 @media (max-width: 767px){
-    #block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col{
+    #block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .view-taught-home-blocks .views-col{
         width: 100%!important;
     }
 }
@@ -4752,7 +4752,7 @@ table caption
 
 
 /*
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive{
+#block-views-block-cityu-postgraduate-taught-programme-list-body2-block-1 .table-responsive{
     display: none;
 }*/
 
@@ -4805,7 +4805,7 @@ table caption
 }
 
 
-#block-views-block-taught-programme-list-body3-block-1 .view-footer{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .view-footer{
     margin-left: 58%;
 }
 
@@ -4814,15 +4814,15 @@ table caption
 
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive .deptName{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive .deptName{
     background-color: #9f93a0;
     color: white;
     font-size: 16px;
 }
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive .views-field-field-refer-coll-code, 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive .views-field-field-dept-long-desc{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive .views-field-field-refer-coll-code, 
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive .views-field-field-dept-long-desc{
     display: none;
 }
 
@@ -4830,25 +4830,25 @@ table caption
 
 
 
-#block-views-block-taught-programme-list-body3-block-1 table.sticky-header{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 table.sticky-header{
     display: none;
 }
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive thead{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive thead{
     background-color: #863d75;
     color: #fff;
 }
 
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive td,
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive th{
+#block-views-block-cityu-postgraduate-taught-programme-list-body2-block-1 .table-responsive td,
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive th{
     border: 1px solid #ffffff;
     
 }
 
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive th{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive th{
     padding: 10px;
     vertical-align: middle;
     
@@ -4861,7 +4861,7 @@ table caption
 }
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive caption{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive caption{
     font-size: 25px;  
     color: #863275; 
     margin-bottom: 10px;
@@ -4876,30 +4876,30 @@ table caption
 
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive td.views-field-field-prog-title{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive td.views-field-field-prog-title{
     text-align: left;
 }
 
 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive td{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive td{
     vertical-align: middle;
     border: 1px solid #ffffff;
 }
 
 /*
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive tbody tr:nth-child(odd),
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive tbody tr:nth-child(odd){
+#block-views-block-cityu-postgraduate-taught-programme-list-body2-block-1 .table-responsive tbody tr:nth-child(odd),
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive tbody tr:nth-child(odd){
     background-color: #f1f2f2;
 }
 
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive tbody tr:nth-child(even), 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive tbody tr:nth-child(even){
+#block-views-block-cityu-postgraduate-taught-programme-list-body2-block-1 .table-responsive tbody tr:nth-child(even), 
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive tbody tr:nth-child(even){
     background-color: #f0e9f1;
 }
 */
 
  
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive tbody tr{
+#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive tbody tr{
     background-color: #f1f2f2;
 }
 
@@ -4991,7 +4991,7 @@ table caption
 
 
 
-/*#block-banner-visiting-postgraduate-student .paragraph--type--bp-image .field--name-field-toi{
+/*#block-cityu-postgraduate-banner-visiting-postgraduate-student .paragraph--type--bp-image .field--name-field-toi{
     left: 46%;
 }*/
 
@@ -5443,14 +5443,14 @@ table caption
 
 /*old design
 
-#block-banner-newsevents {
+#block-cityu-postgraduate-banner-newsevents {
     margin-bottom: 3%;
 }
 
 
 
 @media (min-width: 1921px){ 
-    #block-banner-newsevents .paragraph--type--bp-image .field--name-field-toi{ 
+    #block-cityu-postgraduate-banner-newsevents .paragraph--type--bp-image .field--name-field-toi{ 
         font-size: 80px;
         left: 32%;
     } 
@@ -5902,11 +5902,11 @@ table caption
 /****************/
 
 
-#block-banner-search{
+#block-cityu-postgraduate-banner-search{
     margin-bottom: 3%;
 }
 
-/*#block-banner-search .paragraph--type--bp-image .field--name-field-toi{
+/*#block-cityu-postgraduate-banner-search .paragraph--type--bp-image .field--name-field-toi{
     left: 38%;
 }*/
 
@@ -6105,14 +6105,14 @@ table caption
 
 
 
-#block-views-block-taught-diverse-areas-block-1{
+#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1{
     margin: 3% 2%;
 }
 
 
 
 
-#block-views-block-taught-diverse-areas-block-1 .views-field-body .field-content{
+#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-field-body .field-content{
     position: absolute;
     top: 40%;
     padding-left: 4%;
@@ -6122,9 +6122,9 @@ table caption
     text-align: center;
 }
 
-#block-views-block-taught-diverse-areas-block-1 .views-col.col-4 > div.views-field.views-field-body > .field-content,
-#block-views-block-taught-diverse-areas-block-1 .views-col.col-3 > div.views-field.views-field-body > .field-content,
-#block-views-block-taught-diverse-areas-block-1 .views-col.col-6 > div.views-field.views-field-body > .field-content{
+#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col.col-4 > div.views-field.views-field-body > .field-content,
+#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col.col-3 > div.views-field.views-field-body > .field-content,
+#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col.col-6 > div.views-field.views-field-body > .field-content{
     
     padding-left: 2%;
 }
@@ -6160,25 +6160,25 @@ table caption
 
 @media(min-width: 1900px){
     
-    #block-views-block-taught-diverse-areas-block-1 .views-field-body .field-content{
+    #block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-field-body .field-content{
         padding-left: 2%;
     }
     
     
-    #block-views-block-taught-diverse-areas-block-1 .views-col.col-4 > div.views-field.views-field-body > .field-content,
-    #block-views-block-taught-diverse-areas-block-1 .views-col.col-3 > div.views-field.views-field-body > .field-content,
-    #block-views-block-taught-diverse-areas-block-1 .views-col.col-6 > div.views-field.views-field-body > .field-content{
+    #block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col.col-4 > div.views-field.views-field-body > .field-content,
+    #block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col.col-3 > div.views-field.views-field-body > .field-content,
+    #block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col.col-6 > div.views-field.views-field-body > .field-content{
 
         padding-left: 1%;
     }
     
-    #block-views-block-taught-diverse-areas-block-1{
+    #block-views-block-cityu-postgraduate-taught-diverse-areas-block-1{
         margin: 3% 15%;
     }
     
     
 
-    #block-views-block-taught-diverse-areas-block-1 .views-field-body .field-content {
+    #block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-field-body .field-content {
         font-size: 25px;
     }
 
@@ -6189,45 +6189,45 @@ table caption
 /************************/
 
 
-#block-researchfinancialassistanceandscholarships, #block-researchacademicawards{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships, #block-cityu-postgraduate-researchacademicawards{
     padding: 2% 9%;
 }
 
-#block-researchacademicawards{
+#block-cityu-postgraduate-researchacademicawards{
     background-color: #f3f3f3
 }
-#block-researchfinancialassistanceandscholarships table{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships table{
 /*    display: block;*/
     width: 100%;
 }
 
 
 
-#block-researchfinancialassistanceandscholarships .paragraph{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships .paragraph{
     display: block;
 }
 
-#block-researchfinancialassistanceandscholarships p{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships p{
     text-align: justify;
 }
 
 
 
 
-/*#block-researchacademicawards > div.paragraph.paragraph--type--text.paragraph--view-mode--default > div > div > h2 > strong,
-#block-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-simple.paragraph--view-mode--default > div > div > h2 > strong{
+/*#block-cityu-postgraduate-researchacademicawards > div.paragraph.paragraph--type--text.paragraph--view-mode--default > div > div > h2 > strong,
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-simple.paragraph--view-mode--default > div > div > h2 > strong{
     font-size: 40px;
     color: #863275;
 }*/
 
-/*#block-researchacademicawards > div.paragraph.paragraph--type--text.paragraph--view-mode--default > div > div > h2,
-#block-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-simple.paragraph--view-mode--default > div > div > h2{
+/*#block-cityu-postgraduate-researchacademicawards > div.paragraph.paragraph--type--text.paragraph--view-mode--default > div > div > h2,
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-simple.paragraph--view-mode--default > div > div > h2{
     margin: 5% 0;
 }*/
 
 
 
-#block-researchfinancialassistanceandscholarships .field--name-bp-text h2, #block-researchacademicawards .field--name-bp-text h2{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships .field--name-bp-text h2, #block-cityu-postgraduate-researchacademicawards .field--name-bp-text h2{
     font-size: 25px;
     color: #863275;
     margin-bottom: 2%;
@@ -6235,28 +6235,28 @@ table caption
     
 }
 
-#block-researchfinancialassistanceandscholarships table h3{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships table h3{
     background: #f3f3f3;
     text-transform: uppercase;
     margin: 0;
     font-weight: 300;
 }
 
-#block-researchfinancialassistanceandscholarships .field--name-bp-text p, #block-researchacademicawards .field--name-bp-text p{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships .field--name-bp-text p, #block-cityu-postgraduate-researchacademicawards .field--name-bp-text p{
     font-size: 18px;
 }
 
 
 
-#block-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-columns-two-uneven.paragraph--view-mode--default.paragraph--style--25-75 > div,
-#block-researchacademicawards > div.paragraph.paragraph--type--bp-columns-two-uneven.paragraph--view-mode--default.paragraph--style--25-75 > div{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-columns-two-uneven.paragraph--view-mode--default.paragraph--style--25-75 > div,
+#block-cityu-postgraduate-researchacademicawards > div.paragraph.paragraph--type--bp-columns-two-uneven.paragraph--view-mode--default.paragraph--style--25-75 > div{
     background-color: #F1F2F2;
     padding: 5% 5% 4% 1%;
     
 }
 
 
-#block-researchfinancialassistanceandscholarships table th{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships table th{
 /*    background-color: #58585A;
     color: #ffffff;
     vertical-align: top;*/
@@ -6269,7 +6269,7 @@ table caption
     font-weight: 400;
 }
 
-#block-researchfinancialassistanceandscholarships table .sub_header {
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships table .sub_header {
     background: #f3f3f3;
     text-transform: uppercase;
     font-weight: 300;
@@ -6277,7 +6277,7 @@ table caption
 }
 
 
-#block-researchfinancialassistanceandscholarships table td{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships table td{
     vertical-align: top;
     padding: 10px;
     border: 1px solid #ffffff;
@@ -6287,21 +6287,21 @@ table caption
 
 
 
-#block-researchfinancialassistanceandscholarships .rdp_scholarships_highlight, #block-researchacademicawards .rdp_scholarships_highlight{
+#block-cityu-postgraduate-researchfinancialassistanceandscholarships .rdp_scholarships_highlight, #block-cityu-postgraduate-researchacademicawards .rdp_scholarships_highlight{
     color: #283891;
 }
 
 
 @media(max-width: 991px){
-    #block-researchfinancialassistanceandscholarships .field--name-bp-text p, #block-researchacademicawards .field--name-bp-text p{
+    #block-cityu-postgraduate-researchfinancialassistanceandscholarships .field--name-bp-text p, #block-cityu-postgraduate-researchacademicawards .field--name-bp-text p{
         font-size: 15px;
     }
     
-    #block-researchfinancialassistanceandscholarships .field--name-bp-text strong, #block-researchacademicawards .field--name-bp-text strong{
+    #block-cityu-postgraduate-researchfinancialassistanceandscholarships .field--name-bp-text strong, #block-cityu-postgraduate-researchacademicawards .field--name-bp-text strong{
         font-size: 20px;
     }
     
-    #block-researchacademicawards > div.paragraph.paragraph--type--text.paragraph--view-mode--default > div > div > h2 > strong, #block-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-simple.paragraph--view-mode--default > div > div > h2 > strong{
+    #block-cityu-postgraduate-researchacademicawards > div.paragraph.paragraph--type--text.paragraph--view-mode--default > div > div > h2 > strong, #block-cityu-postgraduate-researchfinancialassistanceandscholarships > div.paragraph.paragraph--type--bp-simple.paragraph--view-mode--default > div > div > h2 > strong{
         font-size: 30px;
     }
 }
@@ -6551,11 +6551,11 @@ table caption
     display: none;
 }
 
-#block-views-block-taught-faq-01-block-1{
+#block-views-block-cityu-postgraduate-taught-faq-01-block-1{
     display: none;
 }
 
-#block-views-block-taught-faq-01-block-1 .block-title{
+#block-views-block-cityu-postgraduate-taught-faq-01-block-1 .block-title{
     display: none;
 }
 
@@ -6593,20 +6593,20 @@ table caption
 /********************/
 /*      Enquiry     */
 /********************/
-#block-banner-enquiries .paragraph--type--bp-carousel{
+#block-cityu-postgraduate-banner-enquiries .paragraph--type--bp-carousel{
     display: table;
 }
 
-#block-banner-enquiries{
+#block-cityu-postgraduate-banner-enquiries{
     margin-bottom: 3%;
 }
 
-/*#block-banner-enquiries .paragraph--type--bp-image .field--name-field-toi{
+/*#block-cityu-postgraduate-banner-enquiries .paragraph--type--bp-image .field--name-field-toi{
     
     left: 44%;
 }*/
 
-#block-enquiryheader > div > h1 > strong,#block-enquirycontact-us h2{
+#block-cityu-postgraduate-enquiryheader > div > h1 > strong,#block-cityu-postgraduate-enquirycontact-us h2{
     color: #863275;
     font-weight: 400;
 }
@@ -6628,20 +6628,20 @@ table caption
 }
 
 
-#block-enquirycontact-us h2{
+#block-cityu-postgraduate-enquirycontact-us h2{
 /*    margin-bottom: 3%;*/
     
 }
-#block-enquirycontact-us .tg  {border-collapse:collapse;border-spacing:0;width:100%;}
-#block-enquirycontact-us .tg td{font-size:14px;padding:14px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
-#block-enquirycontact-us .tg th{font-size:14px;font-weight:normal;padding:14px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
-#block-enquirycontact-us .tg .tg-s6z2{background-color:#efefef;text-align:center;color:black;}
-#block-enquirycontact-us .tg .tg-thcg{background-color:#863d75;color:#ffffff;padding-left: 2%;text-align: left;}
-#block-enquirycontact-us .tg .tg-e6c2{background-color:#863d75;color:#ffffff;text-align:center}
-#block-enquirycontact-us .tg .tg-1bf4{background-color:#863d75;color:#333333}
+#block-cityu-postgraduate-enquirycontact-us .tg  {border-collapse:collapse;border-spacing:0;width:100%;}
+#block-cityu-postgraduate-enquirycontact-us .tg td{font-size:14px;padding:14px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
+#block-cityu-postgraduate-enquirycontact-us .tg th{font-size:14px;font-weight:normal;padding:14px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
+#block-cityu-postgraduate-enquirycontact-us .tg .tg-s6z2{background-color:#efefef;text-align:center;color:black;}
+#block-cityu-postgraduate-enquirycontact-us .tg .tg-thcg{background-color:#863d75;color:#ffffff;padding-left: 2%;text-align: left;}
+#block-cityu-postgraduate-enquirycontact-us .tg .tg-e6c2{background-color:#863d75;color:#ffffff;text-align:center}
+#block-cityu-postgraduate-enquirycontact-us .tg .tg-1bf4{background-color:#863d75;color:#333333}
 
 
-#block-enquirycontact-us{
+#block-cityu-postgraduate-enquirycontact-us{
     margin-bottom: 5%;
 }
 
@@ -6664,7 +6664,7 @@ table caption
     display: none;
 }
 
-#block-enquiryheader > div > h3{
+#block-cityu-postgraduate-enquiryheader > div > h3{
     
     background-color: #863275;
     height: 40px;
@@ -6753,7 +6753,7 @@ table caption
 }
 
 
-#block-enquiryhome-personalinfo > div > div > div{
+#block-cityu-postgraduate-enquiryhome-personalinfo > div > div > div{
     background-color: #F3EBF3;
     margin-top: 3%;
     padding: 1.5%;
@@ -6899,7 +6899,7 @@ table caption
 
 
 
-#block-entityviewuser h2.block-title{
+#block-cityu-postgraduate-entityviewuser h2.block-title{
     display: none;
 }
 
