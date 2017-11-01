@@ -530,7 +530,7 @@ a:focus, a:hover{
     }
 }
 @media only screen and (max-width: 767px) {
-    #block-cityu-postgraduate-mainnavigation-menu {
+    #block-cityu-postgraduate-mainnavigation-2 {
         display: none;
     }
     
@@ -976,7 +976,7 @@ a:focus, a:hover{
 
 
 
-#block-cityu-postgraduate-mainnavigation-menu > ul{
+#block-cityu-postgraduate-mainnavigation-2 > ul{
 /*    line-height: 0;
     font-size: 18px;
     width: 100%;
@@ -991,7 +991,7 @@ a:focus, a:hover{
 }
 
 
-#block-cityu-postgraduate-mainnavigation-menu > ul > li{
+#block-cityu-postgraduate-mainnavigation-2 > ul > li{
     /*width: 12.5%;*/
     text-align: center;
     display: table-cell;
@@ -1001,7 +1001,7 @@ a:focus, a:hover{
     
 }
 
-#block-cityu-postgraduate-mainnavigation-menu > ul > li > a{
+#block-cityu-postgraduate-mainnavigation-2 > ul > li > a{
     padding: 10px 14px;
 /*    color: #898989;*/
     color: #863275;
@@ -1009,17 +1009,17 @@ a:focus, a:hover{
 }
 
 
-#block-cityu-postgraduate-mainnavigation-menu > ul > li > a:hover{
+#block-cityu-postgraduate-mainnavigation-2 > ul > li > a:hover{
     background-color: #fff;
 }
 
 
 /*show dropdown when hover*/
-#block-cityu-postgraduate-mainnavigation-menu > ul > li:hover  .dropdown-menu{    
+#block-cityu-postgraduate-mainnavigation-2 > ul > li:hover  .dropdown-menu{    
     display: block;
 }
 
-#block-cityu-postgraduate-mainnavigation-menu>ul>li:hover:after {
+#block-cityu-postgraduate-mainnavigation-2>ul>li:hover:after {
     content: '';
     border-bottom: 2px solid #dcdcdc;
     position: absolute;
@@ -1029,17 +1029,17 @@ a:focus, a:hover{
 }
 
 /*stay focus when select deopdown's items*/
-#block-cityu-postgraduate-mainnavigation-menu > ul >li:hover, #block-cityu-postgraduate-mainnavigation-menu > ul >li:focus{
+#block-cityu-postgraduate-mainnavigation-2 > ul >li:hover, #block-cityu-postgraduate-mainnavigation-2 > ul >li:focus{
    background-color: #fff;
 }
 
 /*dropdown menu should disappear when focus but not hover*/
-#block-cityu-postgraduate-mainnavigation-menu > ul >li:not(:hover) .dropdown-menu{
+#block-cityu-postgraduate-mainnavigation-2 > ul >li:not(:hover) .dropdown-menu{
     display: none;
 }
 
 
-#block-cityu-postgraduate-mainnavigation-menu .dropdown-menu li{
+#block-cityu-postgraduate-mainnavigation-2 .dropdown-menu li{
     width: auto;
     text-align: left;
     max-width: none;
@@ -1052,9 +1052,9 @@ a:focus, a:hover{
 
 /*hide the home link from the main navbar*/
 
-/*#block-cityu-postgraduate-mainnavigation-menu > ul > .expanded:nth-child(2) > .dropdown-menu > li:nth-child(2),
-#block-cityu-postgraduate-mainnavigation-menu > ul > .expanded:nth-child(3) > .dropdown-menu > li:nth-child(2),
-#block-cityu-postgraduate-mainnavigation-menu > ul > .expanded:nth-child(4) > .dropdown-menu > li:nth-child(2){
+/*#block-cityu-postgraduate-mainnavigation-2 > ul > .expanded:nth-child(2) > .dropdown-menu > li:nth-child(2),
+#block-cityu-postgraduate-mainnavigation-2 > ul > .expanded:nth-child(3) > .dropdown-menu > li:nth-child(2),
+#block-cityu-postgraduate-mainnavigation-2 > ul > .expanded:nth-child(4) > .dropdown-menu > li:nth-child(2){
     display: none;
 }*/
 
@@ -1075,14 +1075,14 @@ a:focus, a:hover{
 
 
 
-#block-cityu-postgraduate-mainnavigation-menu > ul >li .dropdown-menu{
+#block-cityu-postgraduate-mainnavigation-2 > ul >li .dropdown-menu{
 /*    width: 570px;*/
     background-color: #ffffff;
     padding: 10px;
     min-width: 100%;
 }
 
-#block-cityu-postgraduate-mainnavigation-menu .dropdown-menu > li > a{
+#block-cityu-postgraduate-mainnavigation-2 .dropdown-menu > li > a{
 /*    color: #863275;
     font-size: 14px;
     padding: 3% 5%;*/
@@ -1094,7 +1094,7 @@ a:focus, a:hover{
 }
 
 
-#block-cityu-postgraduate-mainnavigation-menu .dropdown-menu > li > a:hover{
+#block-cityu-postgraduate-mainnavigation-2 .dropdown-menu > li > a:hover{
     text-decoration: none;
     background-color: #f5f5f5;
 
@@ -1102,18 +1102,18 @@ a:focus, a:hover{
 
 
 /*active link*/
-#block-cityu-postgraduate-mainnavigation-menu > ul > li.active{
+#block-cityu-postgraduate-mainnavigation-2 > ul > li.active{
     background-color: #f5f5f5; 
 }
 
 
 
 
-#block-cityu-postgraduate-mainnavigation-menu > ul > li.active > a:hover{
+#block-cityu-postgraduate-mainnavigation-2 > ul > li.active > a:hover{
     background-color: #f5f5f5;
 }
 
-#block-cityu-postgraduate-mainnavigation-menu .dropdown-menu > li.active{
+#block-cityu-postgraduate-mainnavigation-2 .dropdown-menu > li.active{
     background-color: #f5f5f5;
 }
 
@@ -1122,14 +1122,14 @@ a:focus, a:hover{
     color: #eee;
 }
 
-#block-cityu-postgraduate-mainnavigation-menu .dropdown-menu > li.active > a{
+#block-cityu-postgraduate-mainnavigation-2 .dropdown-menu > li.active > a{
     color: #863275;
 }
 
 
 
 /*main nav menu photo*/
-#block-cityu-postgraduate-mainnavigation-menu > ul >li .dropdown-menu .img-responsive{
+#block-cityu-postgraduate-mainnavigation-2 > ul >li .dropdown-menu .img-responsive{
 /*    float: left;*/
 /*    float: right;
     width: 50%;*/
@@ -1145,7 +1145,7 @@ a:focus, a:hover{
 /*change the left/right direction due to the limit of screen's width*/
 
 @media (max-width: 1515px){  
-    #block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(7) .dropdown-menu{
+    #block-cityu-postgraduate-mainnavigation-2 > ul > li:nth-child(7) .dropdown-menu{
         left: auto;
         right: 0;
     }
@@ -1153,7 +1153,7 @@ a:focus, a:hover{
 
 /*
 @media (max-width: 1900px){  
-    #block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(6) .dropdown-menu{
+    #block-cityu-postgraduate-mainnavigation-2 > ul > li:nth-child(6) .dropdown-menu{
         left: auto;
         right: 0;
     }
@@ -1162,20 +1162,20 @@ a:focus, a:hover{
 
 
 @media (max-width: 1620px){
-    #block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(5) .dropdown-menu{
+    #block-cityu-postgraduate-mainnavigation-2 > ul > li:nth-child(5) .dropdown-menu{
         left: auto;
         right: 0;
     }
 }
 @media (max-width: 1130px){
-    #block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(4) .dropdown-menu{
+    #block-cityu-postgraduate-mainnavigation-2 > ul > li:nth-child(4) .dropdown-menu{
         left: auto;
         right: 0;
     }
 }
 
 @media (max-width: 825px){
-    #block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(3) .dropdown-menu, #block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(4) .dropdown-menu{
+    #block-cityu-postgraduate-mainnavigation-2 > ul > li:nth-child(3) .dropdown-menu, #block-cityu-postgraduate-mainnavigation-2 > ul > li:nth-child(4) .dropdown-menu{
         width: 510px;
     }
 }*/
@@ -1194,7 +1194,7 @@ a:focus, a:hover{
 /*media: main navbar*/
 
 @media(max-width: 991px){
-    #block-cityu-postgraduate-mainnavigation-menu > ul{
+    #block-cityu-postgraduate-mainnavigation-2 > ul{
         font-size: 14.5px;
     }
     
