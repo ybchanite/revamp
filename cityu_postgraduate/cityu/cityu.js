@@ -129,21 +129,21 @@ if (jQuery('#block-cityu-postgraduate-testfortoi ').length){
 
 
 
-//            var wcPos = jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col').offset();
+//            var wcPos = jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col').offset();
 //            if (windowPos >= (wcPos.top - (wcPos.top/2.5))) {
-//                jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col.col-1').fadeTo('fast', 1 ,function(){
-//                   jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col.col-2').fadeTo('fast', 1, function(){
-//                        jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col.col-3').fadeTo('fast', 1);
+//                jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col.col-1').fadeTo('fast', 1 ,function(){
+//                   jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col.col-2').fadeTo('fast', 1, function(){
+//                        jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col.col-3').fadeTo('fast', 1);
 //                   });
 //                });
 //            }
             
-            var wcPos = jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col').offset();
+            var wcPos = jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col').offset();
             if (windowPos >= (wcPos.top - (wcPos.top/2.5))) {
-//                jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col.col-1').fadeTo(200, 1);
-//                jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col.col-2').fadeTo(600, 1);
-//                jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col.col-3').fadeTo(1000, 1);
-                jQuery('#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-col').css('animation-name', 'fadeIn');
+//                jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col.col-1').fadeTo(200, 1);
+//                jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col.col-2').fadeTo(600, 1);
+//                jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col.col-3').fadeTo(1000, 1);
+                jQuery('#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-col').css('animation-name', 'fadeIn');
                 
 
             }
@@ -180,7 +180,7 @@ jQuery('.view-frontpage-whycityu-up .views-col .views-field-field-toi .field-con
 });
 
 
-jQuery( "#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content").each(function(){
+jQuery( "#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content").each(function(){
     var max = jQuery(this).text();
     var no_increment;
     if(max <= 10){
@@ -196,9 +196,9 @@ jQuery( "#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .
 //jQuery( ".view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '4').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
 //jQuery( ".view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '7').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
 //jQuery( ".view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '49').attr('data-delay', '3').attr('data-increment', '2').delay(1000);
-//jQuery( "#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '8').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
-//jQuery( "#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '38').attr('data-delay', '2').attr('data-increment', '2').delay(1000);
-//jQuery( "#block-views-block-cityu-postgraduate-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '70').attr('data-delay', '2').attr('data-increment', '2').delay(1000);
+//jQuery( "#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '8').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
+//jQuery( "#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '38').attr('data-delay', '2').attr('data-increment', '2').delay(1000);
+//jQuery( "#block-cityu-postgraduate-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '70').attr('data-delay', '2').attr('data-increment', '2').delay(1000);
 
 
 
@@ -398,9 +398,9 @@ if (jQuery('#block-cityu-postgraduate-researchhome-bar').length){
     
     jQuery(window).scroll(function() {
             var windowPos = window.pageYOffset;
-            var noPos = jQuery('#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-col .views-field-field-toi').offset();
+            var noPos = jQuery('#block-cityu-postgraduate-views-block-research-home-figures-block-1 .views-col .views-field-field-toi').offset();
             if (windowPos >= (noPos.top - (noPos.top/2))) {
-                jQuery('#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-col .views-field-field-toi').animate({
+                jQuery('#block-cityu-postgraduate-views-block-research-home-figures-block-1 .views-col .views-field-field-toi').animate({
                     opacity: 1,
                     marginTop: 0
                   }, 800 );
@@ -414,7 +414,7 @@ if (jQuery('#block-cityu-postgraduate-researchhome-bar').length){
 
 /*photo + text = hyperlink*/
 
-jQuery('#block-views-block-cityu-postgraduate-research-home-figures-block-1 .views-col .views-field-body a').each(function() {
+jQuery('#block-cityu-postgraduate-views-block-research-home-figures-block-1 .views-col .views-field-body a').each(function() {
     var link = jQuery(this).attr('href');
     jQuery(this).parents('.views-col').wrap('<a href="'+ link + '"></a>');
 
@@ -527,15 +527,15 @@ jQuery('#block-cityu-postgraduate-researchhomeresearchers .field--name-bp-text a
 
 /*link disable*/
 
-jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas_dept h2 a').removeAttr('href');
+jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas_dept h2 a').removeAttr('href');
 
 
 
 /*panel icon*/
-jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept h2').append('<i class="fa fa-angle-down" aria-hidden="true"></i>');
+jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept h2').append('<i class="fa fa-angle-down" aria-hidden="true"></i>');
 
 
-jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept h2').click(
+jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept h2').click(
     function() { 
         jQuery(this).siblings('.view_dept_info').toggle('fast');
     } 
@@ -545,28 +545,28 @@ jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_resea
 
 
 /*add class for styling*/
-jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept ol li > div').wrapInner('<div class="view_dept_info"></div>');
-jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept ol li > div').each(function(){
+jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept ol li > div').wrapInner('<div class="view_dept_info"></div>');
+jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept ol li > div').each(function(){
     jQuery(this).find('h2').prependTo(jQuery(this));
 });
 
 
 /*change wording*/
-jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official a').html('Go to Department Website <i class="fa fa-arrow-right" aria-hidden="true"></i>');
+jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official a').html('Go to Department Website <i class="fa fa-arrow-right" aria-hidden="true"></i>');
 
 
 
 ///*background image*/
 //
-//jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-name, #block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-image-1').wrap('<div class="container"></div>');
+//jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .views-field-name, #block-cityu-postgraduate-views-block-research-areas-block-1 .views-field-field-coll-image-1').wrap('<div class="container"></div>');
 //
-//if(jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1').length){
-//    var mainBG = jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row:nth-child(1) .view_coll_image img').attr('src');
+//if(jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1').length){
+//    var mainBG = jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .views-row:nth-child(1) .view_coll_image img').attr('src');
 //    jQuery('.main-container.container-fluid').css('background', 'linear-gradient(rgba(253,253,253,.85),rgba(253,253,253,.85)),url('+ mainBG + ') center no-repeat fixed rgba(218,218,218,.85)').css('background-size', 'cover');
-////    jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row:nth-child(2)').css('background', 'linear-gradient(rgba(253,253,253,.85),rgba(253,253,253,.85)),url(/sites/sgsrevamp.uat.dd/files/styles/large/public/2017-07/3b_img_2.png?itok=rWzPN7Y0) center no-repeat fixed rgba(218,218,218,.85)').css('background-size', 'cover');
+////    jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .views-row:nth-child(2)').css('background', 'linear-gradient(rgba(253,253,253,.85),rgba(253,253,253,.85)),url(/sites/sgsrevamp.uat.dd/files/styles/large/public/2017-07/3b_img_2.png?itok=rWzPN7Y0) center no-repeat fixed rgba(218,218,218,.85)').css('background-size', 'cover');
 ////
 //
-//    jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .views-row:not(:nth-child(1))').each(function(){
+//    jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .views-row:not(:nth-child(1))').each(function(){
 //        var bgImage = jQuery(this).find('.view_coll_image img').attr('src');
 //        jQuery(this).css('background', 'linear-gradient(rgba(253,253,253,.85),rgba(253,253,253,.85)),url('+ bgImage + ') center no-repeat fixed rgba(218,218,218,.85)').css('background-size', 'cover');
 //        
@@ -586,7 +586,7 @@ jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_resea
 
 //
 ///*select box display*/
-//jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong').click(
+//jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .views-field-field-coll-coordinator .field-content > p > strong').click(
 //    function() { 
 //        if (jQuery(this).parent().siblings('table').css('display') === 'none'){
 //            jQuery(this).css('background-color','#A7A9AC');
@@ -606,7 +606,7 @@ jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_resea
 //
 //
 //
-//jQuery( "#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_dept ol" ).each(function() {
+//jQuery( "#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept ol" ).each(function() {
 //
 //    
 //    var dHeader = jQuery(this).children('li').length;
@@ -627,7 +627,7 @@ jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_resea
 //});
 //
 //
-//jQuery( "#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul li:nth-child(1)" ).addClass( "selectedDepartment" );
+//jQuery( "#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul li:nth-child(1)" ).addClass( "selectedDepartment" );
 //
 //
 ///*dropdown list disappear when clicking spaces other than the select list*/
@@ -638,14 +638,14 @@ jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_resea
 //    if (jQuery(e.target).hasClass('selectedDepartment')) {
 //        jQuery(e.target).siblings('li').toggle();
 //    }else{
-//        jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1))').hide();
+//        jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1))').hide();
 //    }
 //               
 //});
 //
 //
 ///*change the select box content with department selected*/
-//jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1))').click(function(){
+//jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1))').click(function(){
 //                    
 //    var target = jQuery(this).text();
 //    jQuery(this).siblings('.selectedDepartment').text(target);
@@ -656,7 +656,7 @@ jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_resea
 //
 ///*show the corresponding selected department description block*/
 //
-//jQuery('#block-views-block-cityu-postgraduate-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1))').click(function(){
+//jQuery('#block-cityu-postgraduate-views-block-research-areas-block-1 .view_research_areas .view_research_areas_ul li:not(:nth-child(1))').click(function(){
 //        var index = jQuery(this).parent().find('li').index(jQuery(this));    
 //        var target = jQuery(this).parent().parent().find(".view_research_areas_dept ol li:nth-child(" + index + ")");   
 //        jQuery(this).parent().parent().find(".view_research_areas_dept ol").css('display','block');
@@ -852,24 +852,24 @@ if (jQuery('#block-cityu-postgraduate-taughthome-introduction').length){
 
 
 /*hover effect*/
-//jQuery( "#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .views-field-field-image .field-content > div" ).addClass( "tppContainer" );
-//jQuery( "#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .views-field-field-image .field-content > div > div:nth-child(2) a" ).addClass( "tppLink" );
-//jQuery( "#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .views-field-field-image .field-content > div > div:nth-child(2) p" ).addClass( "tppLink" );
-//jQuery( "#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .views-field-field-image .img-responsive" ).addClass( "tppImg" );
+//jQuery( "#block-cityu-postgraduate-views-block-taught-home-blocks-block-1 .views-field-field-image .field-content > div" ).addClass( "tppContainer" );
+//jQuery( "#block-cityu-postgraduate-views-block-taught-home-blocks-block-1 .views-field-field-image .field-content > div > div:nth-child(2) a" ).addClass( "tppLink" );
+//jQuery( "#block-cityu-postgraduate-views-block-taught-home-blocks-block-1 .views-field-field-image .field-content > div > div:nth-child(2) p" ).addClass( "tppLink" );
+//jQuery( "#block-cityu-postgraduate-views-block-taught-home-blocks-block-1 .views-field-field-image .img-responsive" ).addClass( "tppImg" );
 //
 
 
 
-jQuery('#block-views-block-cityu-postgraduate-taught-home-blocks-block-1 .view-taught-home-blocks .views-col a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
+jQuery('#block-cityu-postgraduate-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
 
 /*************/
 /*divers area*/
 /*************/
 
 /*hover effect*/
-jQuery( "#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-col" ).addClass( "daContainer" );
-jQuery( "#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-field-body .field-content a" ).addClass( "daLink" );
-jQuery( "#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-field-field-image img" ).addClass( "daImg" );
+jQuery( "#block-cityu-postgraduate-views-block-taught-diverse-areas-block-1 .views-col" ).addClass( "daContainer" );
+jQuery( "#block-cityu-postgraduate-views-block-taught-diverse-areas-block-1 .views-field-body .field-content a" ).addClass( "daLink" );
+jQuery( "#block-cityu-postgraduate-views-block-taught-diverse-areas-block-1 .views-field-field-image img" ).addClass( "daImg" );
 
 
 /*glbal variable for redirection to program list page*/
@@ -886,9 +886,9 @@ jQuery( "#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .vie
     
 */
 
-jQuery('#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .views-field-body p a').click(function(){
+jQuery('#block-cityu-postgraduate-views-block-taught-diverse-areas-block-1 .views-field-body p a').click(function(){
     /*store the index of the college/school*/
-    var index = jQuery("#block-views-block-cityu-postgraduate-taught-diverse-areas-block-1 .daContainer").index(jQuery(this).parents('.daContainer')) + 1;
+    var index = jQuery("#block-cityu-postgraduate-views-block-taught-diverse-areas-block-1 .daContainer").index(jQuery(this).parents('.daContainer')) + 1;
     localStorage.targetCollegeSchool = index;
     
 });
@@ -1048,8 +1048,8 @@ jQuery(window).load(function() {
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show();
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row:nth-child(' + temp + ')').addClass('programlistFocus');
-        var target = jQuery("#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + temp + ")");  
-        jQuery('#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive').css('display','none');
+        var target = jQuery("#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + temp + ")");  
+        jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive').css('display','none');
         target.css('display','block');
         
     }
@@ -1087,10 +1087,10 @@ jQuery(window).load(function() {
         
         var index = jQuery("#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row").index(jQuery(this)) + 1;
         
-        var target = jQuery("#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + index + ")");
+        var target = jQuery("#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + index + ")");
         
         
-        jQuery('#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive').css('display','none');
+        jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive').css('display','none');
 
         target.css('display','block');
         
@@ -1113,7 +1113,7 @@ jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i>
     jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').hide('slow');
     jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus');
     jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-minus');
-    jQuery('#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive').css('display','block');
+    jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive').css('display','block');
     
     
     
@@ -1127,7 +1127,7 @@ jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i>
 
 /* The department header should be placed right before the first program of each colleges/schools*/
  
- jQuery('#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive').each(function(){
+ jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive').each(function(){
     var dept = 0;
     var college = jQuery.trim(jQuery(this).find('caption').text());
     jQuery(this).find('.view-group-coll').each(function(){
@@ -1147,7 +1147,7 @@ jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i>
             var program = jQuery(this);
             var selfCode = jQuery.trim(jQuery(this).find('.views-field-field-admit-prog-code').text());
             
-            var relocateDept = jQuery('#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 .table-responsive caption:contains("' + currentCollege + '") ').siblings('tbody').find('.view-group-coll .views-field-field-dept-long-desc:contains("' + currentDept + '")').parent('.view-group-coll');
+            var relocateDept = jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive caption:contains("' + currentCollege + '") ').siblings('tbody').find('.view-group-coll .views-field-field-dept-long-desc:contains("' + currentDept + '")').parent('.view-group-coll');
             var previousCode = "P00";
             var validCheck = 1;
             
@@ -1183,8 +1183,8 @@ jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i>
     
 /*table header*/
 
-jQuery("#block-views-block-cityu-postgraduate-taught-programme-list-body3-block-1 thead").html('<tr><th rowspan="2">Code</th><th rowspan="2">Programme Title</th><th rowspan="2">Mode of Study</th><th colspan="2">Application Deadline<br>(by 23:59 of the specified date)</th><th colspan="2">Accept Late Applications</th><th rowspan="2">Links</th></tr><tr><th>Local</th><th>Non-Local</th><th>Local</th><th>Non-Local</th></tr>');
-jQuery("#block-views-block-cityu-postgraduate-taught-programme-list-body2-block-1 thead").html('<tr><th rowspan="2">Code</th><th rowspan="2">Programme Title</th><th rowspan="2">Mode of Study</th><th colspan="2">Application Deadline<br>(by 23:59 of the specified date)</th><th colspan="2">Accept Late Applications</th><th rowspan="2">Links</th></tr><tr><th>Local</th><th>Non-Local</th><th>Local</th><th>Non-Local</th></tr>');
+jQuery("#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 thead").html('<tr><th rowspan="2">Code</th><th rowspan="2">Programme Title</th><th rowspan="2">Mode of Study</th><th colspan="2">Application Deadline<br>(by 23:59 of the specified date)</th><th colspan="2">Accept Late Applications</th><th rowspan="2">Links</th></tr><tr><th>Local</th><th>Non-Local</th><th>Local</th><th>Non-Local</th></tr>');
+jQuery("#block-cityu-postgraduate-views-block-taught-programme-list-body2-block-1 thead").html('<tr><th rowspan="2">Code</th><th rowspan="2">Programme Title</th><th rowspan="2">Mode of Study</th><th colspan="2">Application Deadline<br>(by 23:59 of the specified date)</th><th colspan="2">Accept Late Applications</th><th rowspan="2">Links</th></tr><tr><th>Local</th><th>Non-Local</th><th>Local</th><th>Non-Local</th></tr>');
     
 
 
@@ -1228,14 +1228,14 @@ jQuery('#edit-field-faq-role-target-id, #edit-field-faq-category-target-id-1, #e
 
     jQuery('.view-taught-faq-01 .views-row').hide();
     jQuery('.view-empty').hide();
-    jQuery('#block-views-block-cityu-postgraduate-taught-faq-01-block-1').show();
+    jQuery('#block-cityu-postgraduate-views-block-taught-faq-01-block-1').show();
 
 
 
 
 
     /*to get the instant sorted result*/
-    jQuery('#block-views-block-cityu-postgraduate-taught-faq-01-block-1 .views-row').each(function(){
+    jQuery('#block-cityu-postgraduate-views-block-taught-faq-01-block-1 .views-row').each(function(){
         var aapp = jQuery.trim(jQuery(this).find('.views-field-field-faq-role .field-content').text());
         var acat = jQuery.trim(jQuery(this).find('.views-field-field-faq-category .field-content').text());
         var alang = jQuery.trim(jQuery(this).find('.views-field-field-faq-language .field-content').text());
@@ -1295,15 +1295,15 @@ jQuery( '<span id="topQuestionButton">Top Questions</span>').insertAfter( "#edit
 
 jQuery('#topQuestionButton').click(function(){
    jQuery('.view-taught-faq-page .view-content').css('display','none');
-   jQuery('#block-views-block-cityu-postgraduate-taught-faq-block-1').css('display','none');
-   jQuery('#block-views-block-cityu-postgraduate-taught-faq-block-2').css('display','block');
+   jQuery('#block-cityu-postgraduate-views-block-taught-faq-block-1').css('display','none');
+   jQuery('#block-cityu-postgraduate-views-block-taught-faq-block-2').css('display','block');
 });
 
 
 jQuery('#showAllButton').click(function(){
    jQuery('.view-taught-faq-page .view-content').css('display','none');
-   jQuery('#block-views-block-cityu-postgraduate-taught-faq-block-2').css('display','none');
-   jQuery('#block-views-block-cityu-postgraduate-taught-faq-block-1').css('display','block');
+   jQuery('#block-cityu-postgraduate-views-block-taught-faq-block-2').css('display','none');
+   jQuery('#block-cityu-postgraduate-views-block-taught-faq-block-1').css('display','block');
 });
 */
 
@@ -1360,27 +1360,27 @@ jQuery('#block-cityu-postgraduate-taughtentrancerequirements').closest('.contain
 //    
 //    
 //    if (jQuery(e.target).parent().hasClass('view-header')) {
-//        jQuery('#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content').toggle();
+//        jQuery('#block-cityu-postgraduate-views-block-research-entrance-coll-list-block-2 .view-content').toggle();
 //    }else{
-//        jQuery('#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content').hide();
+//        jQuery('#block-cityu-postgraduate-views-block-research-entrance-coll-list-block-2 .view-content').hide();
 //    }
 //               
 //});
 //
 //
-//jQuery('#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content .views-row').click(function(){
+//jQuery('#block-cityu-postgraduate-views-block-research-entrance-coll-list-block-2 .view-content .views-row').click(function(){
 //                    
 //    var target = jQuery(this).text();
-//    jQuery('#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-header h2').text(target);
+//    jQuery('#block-cityu-postgraduate-views-block-research-entrance-coll-list-block-2 .view-header h2').text(target);
 //   
 //
 //});
 //
 //
-//jQuery('#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content .views-row').click(function(){
-//        var index = jQuery("#block-views-block-cityu-postgraduate-research-entrance-coll-list-block-2 .view-content .views-row").index(jQuery(this)) + 1;    
-//        var target = jQuery("#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .view-content .views-row:nth-child(" + index + ")");     
-//        jQuery('#block-views-block-cityu-postgraduate-research-entrance-eng-p-require-block-1 .views-row').css('display','none');
+//jQuery('#block-cityu-postgraduate-views-block-research-entrance-coll-list-block-2 .view-content .views-row').click(function(){
+//        var index = jQuery("#block-cityu-postgraduate-views-block-research-entrance-coll-list-block-2 .view-content .views-row").index(jQuery(this)) + 1;    
+//        var target = jQuery("#block-cityu-postgraduate-views-block-research-entrance-eng-p-require-block-1 .view-content .views-row:nth-child(" + index + ")");     
+//        jQuery('#block-cityu-postgraduate-views-block-research-entrance-eng-p-require-block-1 .views-row').css('display','none');
 //        target.css('display','block');
 //        
 //        
