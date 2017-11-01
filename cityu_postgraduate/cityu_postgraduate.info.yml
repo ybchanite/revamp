@@ -2,8 +2,8 @@ core: 8.x
 type: theme
 base theme: bootstrap
 
-name: 'cityu_postgraduate'
-description: 'This is the theme for CityU'
+name: 'CityU Postgraduate'
+description: 'CityU Postgraduate Admission Website'
 package: 'Bootstrap'
 
 libraries:
