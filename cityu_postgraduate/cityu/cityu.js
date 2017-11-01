@@ -44,7 +44,7 @@ jQuery('.region-header p.navbar-text').wrap('<a href="/"></a>');
 /*enable the hyperlink of dropdown triggle itself*/
 /*ie. click "Research Degree Pogrammes" will jump to the homepage of research degree programmes*/
 
-jQuery('#block-mainnavigation-2 .dropdown a:nth-child(1)').removeAttr('data-toggle');
+jQuery('#block-cityu-postgraduate-mainnavigation-menu .dropdown a:nth-child(1)').removeAttr('data-toggle');
 
 
 
@@ -53,7 +53,7 @@ jQuery('#block-mainnavigation-2 .dropdown a:nth-child(1)').removeAttr('data-togg
 
 
 
-if (jQuery('#block-mainnavigation-2').css('display') === 'block' && (!jQuery('.region-cityu-user-menu').length)){
+if (jQuery('#block-cityu-postgraduate-mainnavigation-menu').css('display') === 'block' && (!jQuery('.region-cityu-user-menu').length)){
     jQuery(window).scroll(function(){
             
         var navbar = jQuery('body > div.main-header');
@@ -85,11 +85,11 @@ if (jQuery('#block-mainnavigation-2').css('display') === 'block' && (!jQuery('.r
 for (i = 1; i <= 7; i++) { 
     
     var photo = jQuery('#block-cityu-postgraduate-mainmenuphotos .paragraph:nth-child(' + i + ')').find('img');
-    jQuery('#block-mainnavigation-2 > ul > li:nth-child(' + i + ') .dropdown-menu').append(photo);
+    jQuery('#block-cityu-postgraduate-mainnavigation-menu > ul > li:nth-child(' + i + ') .dropdown-menu').append(photo);
     
 }
 
-jQuery('#block-mainnavigation-2 .dropdown-menu > li > a.is-active').each(function(){
+jQuery('#block-cityu-postgraduate-mainnavigation-menu .dropdown-menu > li > a.is-active').each(function(){
     jQuery(this).parent('li').addClass('active');
     
 });
@@ -228,7 +228,7 @@ jQuery( "#block-cityu-postgraduate-frontpagenewsevents-2 .field--name-field-toi"
 var lowerSwap;
 var upperSwap;
 
-if (jQuery('#block-mainnavigation-2').css('display') === 'none') {
+if (jQuery('#block-cityu-postgraduate-mainnavigation-menu').css('display') === 'none') {
     lowerSwap = 0;
     upperSwap = 1;
     jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
@@ -248,7 +248,7 @@ if (jQuery('#block-mainnavigation-2').css('display') === 'none') {
 }
 
 jQuery(window).resize(function() {
-    if (jQuery('#block-mainnavigation-2').css('display') === 'none') {
+    if (jQuery('#block-cityu-postgraduate-mainnavigation-menu').css('display') === 'none') {
         if (lowerSwap === 1){
             jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
             jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '0');
