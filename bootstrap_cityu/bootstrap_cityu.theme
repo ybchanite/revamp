@@ -1,0 +1,65 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Implements hook_preprocess_user(). */
+
+/* 
+function bootstrap_cityu_preprocess_user(&$variables) {
+  $account = $variables['elements']['#user'];
+  $variables['current_user_name1'] = $account->getUsername();
+  $variables['current_user_name1'] = 'Teddy'; 
+}
+*/
+
+/*
+function bootstrap_cityu_preprocess_paragraph__banner(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if (!$paragraph->field_image->isEmpty()) {
+    $image = $paragraph->field_image->entity->url();
+    $variables['attributes']['style'][] = 'background-image: url("' . $image . '");';
+    $variables['attributes']['style'][] = 'background-size: cover;';
+    $variables['attributes']['style'][] = 'background-position: center center;';
+  }
+}
+*/
+
+
+
+
+/*
+function bootstrap_cityu_preprocess_HOOK(&$variables) {
+  $variables['current_user_name1'] = \Drupal::currentUser()->getUsername();
+  $variables['#cache']['contexts'][] = 'user';
+  $variables['current_user_name1'] = 'Teddy';
+}
+
+function bootstrap_cityu_preprocess(&$variables, $hook, $info) {
+  $variables['current_user_name1'] = $variables['user']->getDisplayName();
+  $variables['current_user_name1'] = 'Teddy';
+}
+*/
+
+/*
+function bootstrap_cityu_preprocess_menu__account(&$variables) {
+  $variables['current_user_name1'] = \Drupal::currentUser()->getUsername();
+  $variables['#cache']['contexts'][] = 'user';
+  $variables['current_user_name1'] = 'Teddy';
+}
+*/
+
+/*
+function bootstrap_cityu_preprocess_menu__account(&$variables) {
+  $user = \Drupal::service('current_user');
+  $uid = $user->id();
+  $formatted_name = $user->getDisplayName();
+  $raw_name = $user->getAccountName();
+  $variables['current_user_name1'] = $formatted_name;
+  $variables['current_user_name1'] = 'Teddy';
+}
+*/

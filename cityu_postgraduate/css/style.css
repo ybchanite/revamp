@@ -1,0 +1,138 @@
+/**
+ * Place your custom styles here.
+ */
+ 
+.main-header{
+    /* background-color: #d3ffff; */
+} 
+
+.classy_frontpage_cityu_title {
+    /* width: 10%; */
+    /* height: auto; */
+}
+
+.footer{
+    background-color: #f7f8f8;
+}
+
+
+
+#block-entityviewuser-3 h2 {
+	background-color: #dddddd;
+    /* font-size: 20px;	*/
+}
+#block-entityviewuser-4 h2 {
+    margin-left: 10px;
+	margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: medium;	
+}
+#block-entityviewuser-5 h2 {
+	margin-left: 10px;
+	margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: medium;	
+}
+#block-entityviewuser-6 h2 {
+	margin-left: 10px;
+	margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: medium;	
+}
+#block-entityviewuser-7 h2 {
+	margin-left: 10px;
+	margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: medium;	
+}
+#block-entityviewuser-8 h2 {
+	margin-left: 10px;
+	margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: medium;	
+}
+
+
+#block-frontpage-logo .media-image {
+    /* width: 50px; */
+    /* height: 50px; */
+}
+
+/*admin navbar*/
+#block-usercityumenu {
+	/* align: center; */ 
+	/* float: center; */
+	/* align : center; */
+	/* float: none; */ 
+    /* display: inline-table; */
+	text-align: center;
+	background-color: pink;
+}
+
+#block-usercityumenu .dropdown-menu {
+    background-color: pink;
+    /* background-color: #c0598e; */
+}
+
+#block-usercityumenusupport {
+	/* align: center; */ 
+	/* float: center; */
+	/* align : center; */
+	/* float: none; */ 
+    /* display: inline-table; */
+	text-align: center;
+	background-color: pink;
+}
+
+#block-usercityumenusupport .dropdown-menu {
+    background-color: pink;
+    /* background-color: #c0598e; */
+}
+
+
+#block-usercityumenusgsteam {
+	/* align: center; */ 
+	/* float: center; */
+	/* align : center; */
+	/* float: none; */ 
+    /* display: inline-table; */
+	text-align: center;
+	background-color: pink;
+}
+
+#block-usercityumenusgsteam .dropdown-menu {
+    background-color: pink;
+    /* background-color: #c0598e; */
+}
+
+#block-views-block-cityu-adminnote-block-1 .col-sm-12{
+    /* background-color: #f0e9f1; */
+	/* background-color: #eeeeee; */
+}
+
+#block-views-block-cityu-adminnote-block-1 .block-title{
+    /* background-color: #ffc0cb; */
+	/* background-color: #dddddd; */
+}
+#block-views-block-cityu-adminnote-block-1 h2 {
+	/* margin-top: 0px; */
+    margin-bottom: 0px;	
+}
+
+.form-item h4.label {
+	font-weight:normal;
+    font-size: medium;
+	color: black;
+}
+
+.programme .field--name-field-outline-title {
+	font-weight: bold ; 
+	font-size: medium;
+	color: blue;
+}
+
+.programme .field--label {
+	font-weight: bold ; 
+	/* font-size: medium; */
+	color: blue;
+}

@@ -1,0 +1,18 @@
+global-css:
+    css:
+        theme:
+            css/overrides.min.css: {}
+            cityu/timeline.css: {}
+            cityu/cityu.css: {}
+            css/style.css: {}
+            cityu/font-awesome/css/font-awesome.css: {}
+global-js:
+    js:
+        cityu/numscroller-1.0.js: {}
+        cityu/timeline.js: {}
+        cityu/cityu.js: {}
+        cityu/langswitcher.js: {}
+        cityu/jquery-match-height-master/dist/jquery.matchHeight.js: {}
+     
+    dependencies:
+        - core/jquery

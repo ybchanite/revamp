@@ -1,0 +1,54 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'cityu_postgraduate_admissions'
+description: 'This is the theme for CityU'
+package: 'Bootstrap'
+
+libraries:
+  - 'bootstrap_cityu/global-css'
+  - 'bootstrap_cityu/global-js'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  cityu_user_menu: 'CityU User Menu'
+  header: Header
+  header_right: 'Header right' 
+  primary_menu: 'Primary menu'
+  banner: 'Banner'
+  secondary_menu: 'Secondary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  action_links: 'Action links'
+  help: 'Help'
+  content: 'Content top'
+  content_middle: 'Content middle'
+  sidebar_left: 'Sidebar left'
+  sidebar_right: 'Sidebar right'
+  content_middle1 : 'Content middle1'
+  content_10     : 'Content 10'
+  content_01     : 'Content 01'
+  content_middle2 : 'Content middle2'
+  content_100    : 'Content 100'
+  content_010    : 'Content 010'
+  content_001    : 'Content 001'
+  content_middle3 : 'Content middle3'
+  content_200    : 'Content 200'
+  content_020    : 'Content 020'
+  content_002    : 'Content 002'
+  content_middle4 : 'Content middle4'
+  content_300    : 'Content 300'
+  content_030    : 'Content 030'
+  content_003    : 'Content 003'  
+  content_middle5 : 'Content middle5'
+  content_4000   : 'Content 4000'
+  content_0400   : 'Content 0400'
+  content_0040   : 'Content 0040'
+  content_0004   : 'Content 0004'
+  content_bottom : 'Content bottom'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  hidden: 'Hidden'

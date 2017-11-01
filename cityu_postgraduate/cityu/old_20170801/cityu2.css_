@@ -1,0 +1,7 @@
+
+/*faq*/
+
+.views-field views-field-field-faq-question field-content > div:nth-child(1){
+    background-color: #863275;
+    color: #ffffff;
+}

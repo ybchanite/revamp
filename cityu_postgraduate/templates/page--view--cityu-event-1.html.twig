@@ -1,0 +1,154 @@
+{% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+{% include directory ~'/partials/header.html.twig' %}
+{# Main #}
+{% block main %}
+    <div role="main" class="main-container {{ container }} js-quickedit-main-content">
+        <div>
+            {# Banner #}
+                {% if page.banner %}
+                    {% block banner %}		
+                        <div>{{ page.banner }}</div>
+                    {% endblock %}
+                {% endif %}             
+            {# Secondary Menu #}
+		{% if page.secondary_menu %}
+                    {% block secondary_menu %}		
+                        <div>{{ page.secondary_menu }}</div>
+                    {% endblock %}
+		{% endif %}			
+            {# Sidebar Left #}
+                {% if page.sidebar_left %}
+                    {% block sidebar_left %}
+                        <aside class="col-sm-3" role="complementary">
+                            {{ page.sidebar_left }}
+                        </aside>
+                    {% endblock %}
+                {% endif %}
+            {# Content #}
+                {%
+                    set content_classes = [
+                        page.sidebar_left and page.sidebar_right ? 'col-sm-6',
+                        page.sidebar_left and page.sidebar_right is empty ? 'col-sm-9',
+                        page.sidebar_right and page.sidebar_left is empty ? 'col-sm-9',
+                        page.sidebar_left is empty and page.sidebar_right is empty ? 'col-sm-12'
+                    ]
+                %}
+            <section{{ content_attributes.addClass(content_classes) }}>
+                {# Highlighted #}
+                    {% if page.highlighted %}
+                        {% block highlighted %}
+                            <div class="highlighted">{{ page.highlighted }}</div>
+                        {% endblock %}
+                    {% endif %}
+                {# Breadcrumbs #}
+                    {% if breadcrumb %}
+                        {% block breadcrumb %}
+                            {{ page.breadcrumb }}
+                        {% endblock %}
+                    {% endif %}
+                {# Action Links #}
+                    {% if action_links %}
+                        {% block action_links %}
+                            <ul class="action-links">{{ page.action_links }}</ul>
+                        {% endblock %}
+                    {% endif %}
+                {# Help #}
+                    {% if page.help %}
+                        {% block help %}
+                            {{ page.help }}
+                        {% endblock %}
+                    {% endif %}
+                {# Content #}
+                    {% block content %}
+                        <a id="main-content"></a>
+                            {{ page.content }}
+                    {% endblock %}
+            </section>
+            {# Sidebar Right #}
+                {% if page.sidebar_right %}
+                    {% block sidebar_right %}
+                        <aside class="col-sm-3" role="complementary">
+                            {{ page.sidebar_right }}
+                        </aside>
+                    {% endblock %}
+                {% endif %}
+        </div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle1 }}</div>
+		</div>
+		<div class="row">
+                    <div class="col-sm-6">{{ page.content_10 }}</div>
+                    <div class="col-sm-6">{{ page.content_01 }}</div>
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle2 }}</div>
+		</div>
+		<div class="row">
+		    {%
+                        set content_col1 = [
+                            page.content_001 ? 'col-sm-4',
+                            page.content_001 is empty ? 'col-sm-6'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col1)}}>{{ page.content_100 }}</div>
+                    <div {{attributes.addClass(content_col1)}}>{{ page.content_010 }}</div>
+                    {% if page.content_001 %}{% block content_001 %}
+                        <div class="col-sm-4">{{ page.content_001 }}</div>
+                    {% endblock %}{% endif %}
+                </div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle3 }}</div>
+		</div>
+		<div class="row">
+		    {%
+                        set content_col2 = [
+                            page.content_002 ? 'col-sm-4',
+                            page.content_002 is empty ? 'col-sm-6'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col2)}}>{{ page.content_200 }}</div>
+                    <div {{attributes.addClass(content_col2)}}>{{ page.content_020 }}</div>
+                    {% if page.content_002 %}{% block content_002 %}
+                        <div class="col-sm-4">{{ page.content_002 }}</div>
+                    {% endblock %}{% endif %}                    
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle4 }}</div>
+		</div>
+		<div class="row">
+		    {%
+                        set content_col3 = [
+                            page.content_003 ? 'col-sm-4',
+                            page.content_003 is empty ? 'col-sm-6'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col3)}}>{{ page.content_300 }}</div>
+                    <div {{attributes.addClass(content_col3)}}>{{ page.content_030 }}</div>
+                    {% if page.content_003 %}{% block content_003 %}
+                        <div class="col-sm-4">{{ page.content_003 }}</div>
+                    {% endblock %}{% endif %}                    
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle5 }}</div>
+		</div>
+		<div class="row">
+		    {%
+                        set content_col4 = [
+                            page.content_0004 ? 'col-sm-3',
+                            page.content_0004 is empty ? 'col-sm-4'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col4)}}>{{ page.content_4000 }}</div>
+                    <div {{attributes.addClass(content_col4)}}>{{ page.content_0400 }}</div>
+                    <div {{attributes.addClass(content_col4)}}>{{ page.content_0040 }}</div>                    
+                    {% if page.content_0004 %}{% block content_0004 %}
+                        <div class="col-sm-3">{{ page.content_0004 }}</div>
+                    {% endblock %}{% endif %}
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_bottom }}</div>
+		</div>
+    </div>
+{% endblock %}
+
+{% include directory ~'/partials/footer.html.twig' %}

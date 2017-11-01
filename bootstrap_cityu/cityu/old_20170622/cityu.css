@@ -1,0 +1,505 @@
+.cityu_purple{color: #863d75;}
+.cityu_green {color: #b9d138;}
+.cityu_grey  {color: #66676A;}
+.cityu_lightPink  {color: #F3EBF3;}
+.cityu_pink {color: #c0598e;}
+.cityu_hoverPurple {}
+
+
+.background_01{
+    background: bisque;
+    background-image: url('/sites/sgsrevamp.dev.dd/files/front_aboutcityu_bg_0.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    color: white;
+    /* text-align: center;      */
+}
+.background_02{
+    background: bisque;
+    background-image: url('/sites/sgsrevamp.dev.dd/files/frontpage_3prog.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    color: white;
+    /* text-align: center; */
+}	
+.background_green{
+    background: greenyellow;
+    /* background-image: url('/sites/sgsrevamp.dev.dd/files/frontpage_3prog.png'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    color: white;
+    /* text-align: center;    */
+}	
+.background_yellow{
+    background: bisque;
+    /* background-image: url('/sites/sgsrevamp.dev.dd/files/frontpage_3prog.png'); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    color: white;
+    /* text-align: center;    */
+    
+}
+
+/*toggle navbar*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:active, .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    
+    background-color: #c0598e;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    
+}
+
+@media (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+    }
+}
+
+#navbar > div.navbar-header{
+    
+     background-color: #b01861;
+}
+
+
+.navbar-default {
+    background-color: #8e6791;
+    border-color: #8e6791;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+#navbar > div.navbar-header > button{
+    
+    background-color: #b01861;
+    border-color: #b01861;
+}
+
+#navbar > div.navbar-header > button > span{
+    
+    background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    #navbar {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #block-mainnavigation-2 {
+        display: none;
+    }
+}
+
+
+#block-mainnavigation-3 > ul > li > a:hover{
+    
+    background-color: #9a759d;
+}
+#block-mainnavigation-3 > ul > li > a:hover{
+    
+    color: white;
+}
+
+
+
+
+/*language switcher*/
+
+
+#block-languageswitcher > ul{
+    
+    list-style-type: none;
+    padding-left: 5px; 
+    margin-top: 10px;
+}
+
+#block-languageswitcher > ul > li{
+    
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+#block-applynow > ul > li > a{
+    padding-right: 5px;
+    
+    
+}
+
+
+
+
+
+/*navbar*/
+
+#block-mainnavigation-2 li{
+    /*width: 12.5%;*/
+    text-align: center;
+    max-width: 14%;
+    
+}
+
+#block-mainnavigation-2 > ul > li > a{
+    padding: 5px 6px;
+    color: slategray;
+    font-size: 13px;
+}
+
+
+.menu > li a:hover{
+    background-color: #c0598e;
+    
+}
+
+
+/*show dropdown when hover*/
+#block-mainnavigation-2 > ul > li:hover  .dropdown-menu{    
+    display: block;
+}
+
+
+
+/*stay focus when select deopdown's items*/
+#block-mainnavigation-2 > ul >li:hover {
+   background-color: #c0598e;
+}
+
+
+#block-mainnavigation-2 > ul >li:hover a{
+    color: white;
+}
+
+/*
+#block-mainnavigation-2 > ul > li > a:hover{
+    color: white;
+    
+    
+}
+*/
+
+.dropdown-menu > li a:hover{
+    background-color: #a63f74; 
+}
+
+
+/*
+.nav .open>a, .nav .open>a:hover{
+    background-color: #c0598e;
+    color: white;
+    
+}*/
+
+/*use js to do this(yb)*/s
+
+#block-mainnavigation-2 > .nav>li>a:focus, #block-mainnavigation-2 > .nav>li>a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+
+
+
+
+.navbar-nav > li > .dropdown-menu{
+    
+    background-color: #c0598e;
+    
+}
+
+#block-mainnavigation-2 .dropdown-menu li{
+    width: auto;
+    text-align: left;
+    max-width: none;
+    
+}
+
+
+.menu .dropdown-menu{
+    /*padding :5%;*/
+    width: auto;
+}
+
+
+
+.menu .dropdown-menu li a:hover{
+    color: white;
+}
+
+.dropdown-menu > li > a{
+    color: white;
+    /*padding: 5%;*/
+}
+
+
+
+
+/*banner*/
+
+.frontpage-aboutcityu-banner{
+    background: bisque;
+    background-image: url('/sites/sgsrevamp.dev.dd/files/front_aboutcityu_bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 7% 10% 3% 10%;
+    color: white;
+    /*text-align: center;*/
+    
+    
+}
+
+#block-frontpage-aboutcityu-article01 > div > h1{
+    margin-bottom: 30px;
+    
+    
+}
+
+
+#block-frontpage-aboutcityu-article01 > div{
+    margin-left: 5%;
+    line-height: 2;
+    font-size: 13px;
+    word-spacing: 1px;
+    
+}
+
+
+#block-frontpage-aboutcityu-video01{
+    margin-left: 10%;
+    margin-top: 10%;
+    
+    
+    
+}
+
+
+
+#block-frontpage-aboutcityu-video01 > div > p > iframe{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.frontpage-aboutcityu-banner .col-sm-12{
+    text-align: center;
+}
+
+.frontpage-aboutcityu-banner a{
+        display: inline-block;
+        /* background: green; */
+        margin-top: 3%;
+        padding: 10px 25px 10px 25px;
+        background-color: #C1D63F;
+	color: white;
+        font-size: 150%;
+        text-decoration: none;
+}
+.frontpage_worldwide_admission{
+    color: #863d75;
+    text-align: center;    
+}
+.frontpage_whycityu_up{
+    background: bisque;
+    background-image: url('/sites/sgsrevamp.dev.dd/files/frontpage_world01.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    /* color: white; */
+    text-align: center;   
+}
+.frontpage_3prog{
+    background: bisque;
+    background-image: url('/sites/sgsrevamp.dev.dd/files/frontpage_3prog.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 30px;
+    /* color: white; */
+    text-align: center;    
+}
+
+
+.frontpage_worldwide_admission{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    
+}
+
+#block-learn-more-01{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+
+/*3Circles*/
+
+#block-frontpage-3circles-bar > div > div > div{
+    padding: 0;
+}
+
+
+
+
+.viewsreference-title{
+    text-align: center;
+    font-size: larger;
+    color: #863d75;
+}
+
+.enquiryhome{
+    color:yellow;
+    font-weight: bold; 
+}
+/*
+.enquiryhome_table .tg  {border-collapse:collapse;border-spacing:0;width: 100%;}
+.enquiryhome_table .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
+.enquiryhome_table .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.enquiryhome_table .tg .tg-668n{background-color:#863d75;color:#ffffff;vertical-align:top;padding-left:2%;}
+.enquiryhome_table .tg .tg-lrcc{background-color:#863d75;color:#ffffff;vertical-align:top}
+.enquiryhome_table .tg .tg-e6c2{background-color:#863d75;color:#ffffff;text-align:center;font-weight:bold;}
+.enquiryhome_table .tg .tg-ac4o{background-color:#efefef;color:#333333;text-align:center}
+.enquiryhome_table .tg .tg-j4kc{background-color:#efefef;color:#333333;text-align:center}   
+*/
+
+.enquiryhome_table .tg  {border-collapse:collapse;border-spacing:0;width:100%;}
+.enquiryhome_table .tg td{font-family:Arial, sans-serif;font-size:14px;padding:14px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
+.enquiryhome_table .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:14px 0px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:white;}
+.enquiryhome_table .tg .tg-s6z2{background-color:#efefef;text-align:center;color:black;}
+.enquiryhome_table .tg .tg-thcg{background-color:#863d75;color:#ffffff;padding-left: 2%;}
+.enquiryhome_table .tg .tg-e6c2{background-color:#863d75;color:#ffffff;text-align:center}
+.enquiryhome_table .tg .tg-1bf4{background-color:#863d75;color:#333333}
+
+.enquiryhome_personalinfo{
+    color: black;
+}
+.contact-message-online-enquiry-form-form{
+    /*color: black;*/
+}
+
+/*YB*/
+
+.enquiryhome_table tbody{
+    margin: 5%;
+    
+}
+
+.paragraph > .paragraph__column {
+    padding: 0;
+    margin-bottom: 3%;
+    
+}
+
+.contact-message-online-enquiry-form-form{
+    
+    background-color: #F3EBF3;
+    padding: 5%;
+}
+
+.enquiryhome_table .form-text required form-control{
+    display: inline-block;
+    
+}
+
+.contact-message-online-enquiry-form-form .form-control{
+    display: inline-block;
+    width: auto;
+    
+}
+
+.contact-message-online-enquiry-form-form .select-wrapper{
+    width: auto;
+    
+}
+      
+
+.contact-message-online-enquiry-form-form .control-label{
+    width: 180px; 
+}
+
+.contact-message-online-enquiry-form-form .field--widget-string-textarea .control-label{
+    vertical-align: top;
+}
+
+.contact-message-online-enquiry-form-form .form-textarea-wrapper{
+    display: inline-block;
+}
+
+
+#block-enquiryhome-personalinfo > div > div > div{
+    background-color: #F3EBF3;
+    margin-top: 3%;
+    padding: 1.5%;
+    
+}
+
+/*
+Newly added attributes
+
+.enquiryhome{
+    font-weight: bold;       
+}
+.enquiryhome_table .tg .tg-e6c2{
+    font-weight: bold;
+}
+
+.enquiryhome_table .tg .tg-668n{
+    padding-left: 2%;
+}
+
+.enquiryhome_table .tg td {
+    border-color: white;    
+}
+
+.enquiryhome_table .tg {
+    width: 100%;
+}
+
+*/
+
+
+
+
+
+/*about cityu page*/
+#block-menu2-about-cityu > ul{
+    
+    text-align: center;
+    background-color: #863d75;
+}
+
+#block-menu2-about-cityu > ul > li{
+    
+    display: inline-block;
+    float: none;
+    
+}
+
+#block-menu2-about-cityu > ul > li > a, #block-menu2-about-cityu > ul > li > a:hover{
+    color: white;
+    background-color: #863d75;
+    
+}
+
+#block-menu2-about-cityu > ul > li > a:hover{
+    
+    text-decoration: underline;
+
+}
+    
+    
+
+/*footer*/

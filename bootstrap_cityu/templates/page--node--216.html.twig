@@ -1,0 +1,199 @@
+{% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+{% include directory ~'/partials/header.html.twig' %}
+{# Main #}
+{% block main %}
+    <div role="main" class="main-container container-fluid js-quickedit-main-content">
+        <div class="cityu-banner">
+            {# Banner #}
+                {% if page.banner %}
+                    {% block banner %}		
+                        <div>{{ page.banner }}</div>
+                    {% endblock %}
+                {% endif %}             
+            {# Secondary Menu #}
+		{% if page.secondary_menu %}
+                    {% block secondary_menu %}		
+                        <div>{{ page.secondary_menu }}</div>
+                    {% endblock %}
+		{% endif %}
+        </div>
+        <div class="{{ container }}">        
+            {# Sidebar Left #}
+                {% if page.sidebar_left %}
+                    {% block sidebar_left %}
+                        <aside class="col-sm-3" role="complementary">
+                            {{ page.sidebar_left }}
+                        </aside>
+                    {% endblock %}
+                {% endif %}
+            {# Content #}
+                {%
+                    set content_classes = [
+                        page.sidebar_left and page.sidebar_right ? 'col-sm-6',
+                        page.sidebar_left and page.sidebar_right is empty ? 'col-sm-9',
+                        page.sidebar_right and page.sidebar_left is empty ? 'col-sm-9',
+                        page.sidebar_left is empty and page.sidebar_right is empty ? 'col-sm-12'
+                    ]
+                %}
+            <section{{ content_attributes.addClass(content_classes) }}>
+                {# Highlighted #}
+                    {% if page.highlighted %}
+                        {% block highlighted %}
+                            <div class="highlighted">{{ page.highlighted }}</div>
+                        {% endblock %}
+                    {% endif %}
+                {# Breadcrumbs #}
+                    {% if breadcrumb %}
+                        {% block breadcrumb %}
+                            {{ page.breadcrumb }}
+                        {% endblock %}
+                    {% endif %}
+                {# Action Links #}
+                    {% if action_links %}
+                        {% block action_links %}
+                            <ul class="action-links">{{ page.action_links }}</ul>
+                        {% endblock %}
+                    {% endif %}
+                {# Help #}
+                    {% if page.help %}
+                        {% block help %}
+                            {{ page.help }}
+                        {% endblock %}
+                    {% endif %}
+                {# Content #}
+                    {% block content %}
+                        <a id="main-content"></a>
+                            {{ page.content }}
+                    {% endblock %}
+            </section>
+            {# Sidebar Right #}
+                {% if page.sidebar_right %}
+                    {% block sidebar_right %}
+                        <aside class="col-sm-3" role="complementary">
+                            {{ page.sidebar_right }}
+                        </aside>
+                    {% endblock %}
+                {% endif %}
+        </div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle1 }}</div>
+		</div>
+		<div class="row container">
+                    <div class="col-sm-3">{{ page.content_10 }}</div>
+                    <div class="col-sm-9">{{ page.content_01 }}</div>
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle2 }}</div>
+		</div>
+		<div class="row">
+		    {%
+                        set content_col1 = [
+                            page.content_001 ? 'col-sm-4',
+                            page.content_001 is empty ? 'col-sm-6'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col1)}}>{{ page.content_100 }}</div>
+                    <div {{attributes.addClass(content_col1)}}>{{ page.content_010 }}</div>
+                    {% if page.content_001 %}{% block content_001 %}
+                        <div class="col-sm-4">{{ page.content_001 }}</div>
+                    {% endblock %}{% endif %}
+                </div>
+		<div class="row">
+		    {%
+                        set content_col2 = [
+                            page.content_002 ? 'col-sm-4',
+                            page.content_002 is empty ? 'col-sm-6'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col2)}}>{{ page.content_200 }}</div>
+                    <div {{attributes.addClass(content_col2)}}>{{ page.content_020 }}</div>
+                    {% if page.content_002 %}{% block content_002 %}
+                        <div class="col-sm-4">{{ page.content_002 }}</div>
+                    {% endblock %}{% endif %}                    
+		</div>
+		<div class="row">
+		    {%
+                        set content_col3 = [
+                            page.content_003 ? 'col-sm-4',
+                            page.content_003 is empty ? 'col-sm-6'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col3)}}>{{ page.content_300 }}</div>
+                    <div {{attributes.addClass(content_col3)}}>{{ page.content_030 }}</div>
+                    {% if page.content_003 %}{% block content_003 %}
+                        <div class="col-sm-4">{{ page.content_003 }}</div>
+                    {% endblock %}{% endif %}                    
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_middle3 }}</div>
+		</div>
+		<div class="row">
+		    {%
+                        set content_col4 = [
+                            page.content_0004 ? 'col-sm-3',
+                            page.content_0004 is empty ? 'col-sm-4'
+                        ]
+                    %}
+                    <div {{attributes.addClass(content_col4)}}>{{ page.content_4000 }}</div>
+                    <div {{attributes.addClass(content_col4)}}>{{ page.content_0400 }}</div>
+                    <div {{attributes.addClass(content_col4)}}>{{ page.content_0040 }}</div>                    
+                    {% if page.content_0004 %}{% block content_0004 %}
+                        <div class="col-sm-3">{{ page.content_0004 }}</div>
+                    {% endblock %}{% endif %}
+		</div>
+		<div class="row">
+                    <div class="col-sm-12">{{ page.content_bottom }}</div>
+		</div>
+    </div>
+{% endblock %}
+<!-- main timeline section -->
+<section id="cd-timeline" class="cd-container cssanimations">
+	<!-- single timeline event -->
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-picture" style="fontsize:+3; color:white; padding-top: 20px;padding-left: 23px;">01</div>
+		<div class="cd-timeline-content">
+			<h2>Event 1</h2>
+			<p>Event 1 Description </p>
+			<span class="cd-date" style="padding-left: 30px">Step 1</span>
+		</div>
+	</div>
+
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-picture" style="fontsize:+3; color:white; padding-top: 20px;padding-left: 23px;">02</div>
+		<div class="cd-timeline-content">
+			<h2>Event 2</h2>
+			<p>Event 2 Description </p>
+			<span class="cd-date" style="padding-right: 30px">Step 2</span>
+		</div>
+	</div>
+
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-picture" style="fontsize:+3; color:white; padding-top: 20px;padding-left: 23px;">03</div>
+		<div class="cd-timeline-content">
+			<h2>Event 3</h2>
+			<p>Event 3 Description </p>
+			<span class="cd-date" style="padding-left: 30px">Step 3</span>
+		</div>
+	</div>
+
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img cd-picture" style="fontsize:+3; color:white; padding-top: 20px;padding-left: 23px;">04</div>
+		<div class="cd-timeline-content">
+			<h2>Event 4</h2>
+			<p>Event 4 Description </p>
+			<span class="cd-date" style="padding-right: 30px">Step 4</span>
+		</div>
+	</div>
+
+</section>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+$(window).on('scroll', function(){
+	$('.cd-timeline-block').each(function(){
+		if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+		$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+		}
+	});
+});
+</script>
+{% include directory ~'/partials/footer.html.twig' %}
