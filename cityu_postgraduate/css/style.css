@@ -59,7 +59,7 @@
 }
 
 /*admin navbar*/
-#block-cityu-postgraduate-usercityumenu {
+#block-cityu-postgraduate-usercityumenuadmin {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -69,7 +69,7 @@
 	background-color: pink;
 }
 
-#block-cityu-postgraduate-usercityumenu .dropdown-menu {
+#block-cityu-postgraduate-usercityumenuadmin .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }

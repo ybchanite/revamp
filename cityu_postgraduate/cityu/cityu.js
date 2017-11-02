@@ -7,7 +7,7 @@
 
 var admin = jQuery('#block-cityu-postgraduate-entityviewuser h2.block-title').text();
 jQuery('.region-cityu-user-menu ul li:last-child > a.dropdown-toggle').text(admin);
-//jQuery('#block-cityu-postgraduate-usercityumenu li a[title="User Logout"]').parents('.menu.nav-pills.dropdown-menu').siblings('.dropdown-toggle').text(admin);
+//jQuery('#block-cityu-postgraduate-usercityumenuadmin li a[title="User Logout"]').parents('.menu.nav-pills.dropdown-menu').siblings('.dropdown-toggle').text(admin);
 //jQuery('#block-cityu-postgraduate-usercityumenusupport li a[data-drupal-link-system-path="user/logout"]').parents('.menu.nav-pills.dropdown-menu').siblings('.dropdown-toggle').text(admin);
 
 
