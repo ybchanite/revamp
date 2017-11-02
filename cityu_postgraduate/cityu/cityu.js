@@ -1045,9 +1045,9 @@ jQuery(window).load(function() {
     localStorage.targetCollegeSchool = -1;
     if (temp > -1){
         
-        jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show();
-        jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
-        jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row:nth-child(' + temp + ')').addClass('programlistFocus');
+        jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show();
+        jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
+        jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row:nth-child(' + temp + ')').addClass('programlistFocus');
         var target = jQuery("#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + temp + ")");  
         jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive').css('display','none');
         target.css('display','block');
@@ -1057,35 +1057,35 @@ jQuery(window).load(function() {
 });
  
  
- jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon').addClass('glyphicon-plus');
+ jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon').addClass('glyphicon-plus');
  
  /*toggle of the program select list*/
  
  
- jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header').click(function(){
-        if (jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').css('display') === 'none'){
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show('slow');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-plus');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
+ jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header').click(function(){
+        if (jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').css('display') === 'none'){
+            jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show('slow');
+            jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-plus');
+            jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
 
         }
         else{
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').hide('slow');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-minus');
+            jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').hide('slow');
+            jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus');
+            jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-minus');
         }
             
  });
  
  
- jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').click(function(){
+ jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').click(function(){
         
         
-        jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').removeClass('programlistFocus');
+        jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').removeClass('programlistFocus');
         jQuery(this).addClass('programlistFocus');
         
         
-        var index = jQuery("#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row").index(jQuery(this)) + 1;
+        var index = jQuery("#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row").index(jQuery(this)) + 1;
         
         var target = jQuery("#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + index + ")");
         
@@ -1105,14 +1105,14 @@ jQuery(window).load(function() {
     
     
 /*full list button*/
-jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i> Show Full Programme List</a>').insertAfter( "#block-views-block-list-of-colleges-and-schools-block-2" );
+jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i> Show Full Programme List</a>').insertAfter( "#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2" );
 
 
  jQuery('#fullListButton').click(function(){
-    jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').removeClass('programlistFocus');
-    jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').hide('slow');
-    jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus');
-    jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-minus');
+    jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').removeClass('programlistFocus');
+    jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').hide('slow');
+    jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus');
+    jQuery('#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-minus');
     jQuery('#block-cityu-postgraduate-views-block-taught-programme-list-body3-block-1 .table-responsive').css('display','block');
     
     
@@ -1487,17 +1487,17 @@ jQuery('#contact-message-online-enquiry-form-form').submit(function(){
 /******/
 
 
-jQuery('#block-views-block-news-events-news-block-3 .views-row').each(function(){
+jQuery('#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row').each(function(){
     var newsLink = jQuery(this).find('.news_content p a').html();
     jQuery(this).wrap('<a href="'+ newsLink + '"></a>');
 });
 
 
 
-if(jQuery('#block-views-block-news-events-events-block-1').length || jQuery('#block-views-block-news-events-events-block-2').length){
+if(jQuery('#block-cityu-postgraduate-views-block-news-events-events-block-1').length || jQuery('#block-cityu-postgraduate-views-block-news-events-events-block-2').length){
     
     /*layout initialization*/
-    jQuery('#block-views-block-news-events-events-block-1').parent().addClass('col-lg-6 col-md-8 col-sm-12 col-xs-12 events-block col-centered');
+    jQuery('#block-cityu-postgraduate-views-block-news-events-events-block-1').parent().addClass('col-lg-6 col-md-8 col-sm-12 col-xs-12 events-block col-centered');
             
     /*merge into 1 block if the event lasts within a month*/
     jQuery('.views_event_date').each(function(){
@@ -1531,7 +1531,7 @@ if(jQuery('#block-views-block-news-events-events-block-1').length || jQuery('#bl
 
 /*hover effect*/
 
-jQuery('#block-views-block-news-events-public-lecture-block-1 .views-row .views-field-body p').each(function() {
+jQuery('#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-row .views-field-body p').each(function() {
 
     var title = jQuery(this).html();
     jQuery(jQuery(this).parents('.views-field-body').siblings('.views-field-field-image').find('img')).wrap( '<div class="newsContainer"></div>' );
@@ -1542,5 +1542,3 @@ jQuery('#block-views-block-news-events-public-lecture-block-1 .views-row .views-
     
 
 });
-
-

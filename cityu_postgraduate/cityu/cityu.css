@@ -4756,18 +4756,18 @@ table caption
     display: none;
 }*/
 
-#block-views-block-list-of-colleges-and-schools-block-2{
+#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2{
     margin-bottom: 2%;
     cursor: pointer;
 }
 
-#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header{
+#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header{
     
 /*    background-color: #f7f8f8;*/
     background-color: #f1f1f1;
 }
 
-#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong{
+#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong{
     
     display: inline-block;
     width: 3%;
@@ -4775,21 +4775,21 @@ table caption
     color: #863d75
 }
 
-#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header h2{
+#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header h2{
     margin: 0;
     font-size: 25px;
     display: inline-block;
     padding: 10px 0;
 }
 
-#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content{
+#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content{
     display: none;
     background-color: #EEE;
     
 }
 
 
-#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row{
+#block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row{
     padding-left: 5%;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -4905,7 +4905,7 @@ table caption
 
 
 @media(max-width: 767px){
-    #block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header h2{
+    #block-cityu-postgraduate-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header h2{
         font-size: 18px;
     }
 }
@@ -5274,11 +5274,11 @@ table caption
     margin: 0 auto;
 }
 
-#block-views-block-news-events-events-block-1{
+#block-cityu-postgraduate-views-block-news-events-events-block-1{
     margin-bottom: 20px;
 }
 
-#block-views-block-news-events-events-block-1 h2.block-title, #block-views-block-news-events-events-block-2 h2.block-title{
+#block-cityu-postgraduate-views-block-news-events-events-block-1 h2.block-title, #block-cityu-postgraduate-views-block-news-events-events-block-2 h2.block-title{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
@@ -5294,7 +5294,7 @@ table caption
 
 
 
-#block-views-block-news-events-events-block-1 .views-row, #block-views-block-news-events-events-block-2 .views-row{
+#block-cityu-postgraduate-views-block-news-events-events-block-1 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-2 .views-row{
     padding: 15px 0;
     background: #48454a;
     display: block;
@@ -5308,7 +5308,7 @@ table caption
 }
 
 
-#block-views-block-news-events-events-block-1 .views-row:hover, #block-views-block-news-events-events-block-2 .views-row:hover{
+#block-cityu-postgraduate-views-block-news-events-events-block-1 .views-row:hover, #block-cityu-postgraduate-views-block-news-events-events-block-2 .views-row:hover{
     color: #fff;
     background: #554a5d;
     
@@ -5365,7 +5365,7 @@ table caption
     margin: 0;
 }*/
 
-#block-views-block-news-events-events-block-2{
+#block-cityu-postgraduate-views-block-news-events-events-block-2{
     opacity: .6;
     
 }
@@ -5377,13 +5377,13 @@ table caption
 
 
 
-#block-views-block-news-events-events-block-1 h2.block-title, #block-views-block-news-events-events-block-2 h2.block-title, #block-views-block-news-events-events-block-5 h2.block-title{
+#block-cityu-postgraduate-views-block-news-events-events-block-1 h2.block-title, #block-cityu-postgraduate-views-block-news-events-events-block-2 h2.block-title, #block-cityu-postgraduate-views-block-news-events-events-block-5 h2.block-title{
     margin: 4% 0;
     color: #863275;
     position: relative;
 }
 
-#block-views-block-news-events-events-block-1 h2.block-title::before, #block-views-block-news-events-events-block-2 h2.block-title::before, #block-views-block-news-events-events-block-5 h2.block-title::before{
+#block-cityu-postgraduate-views-block-news-events-events-block-1 h2.block-title::before, #block-cityu-postgraduate-views-block-news-events-events-block-2 h2.block-title::before, #block-cityu-postgraduate-views-block-news-events-events-block-5 h2.block-title::before{
     background: #863275;
     border-bottom: 1px solid;
     bottom: -20px;
@@ -5394,12 +5394,12 @@ table caption
     transform: translateX(-50%);
 }
 
-#block-views-block-news-events-events-block-1, #block-views-block-news-events-events-block-2, #block-views-block-news-events-events-block-5{
+#block-cityu-postgraduate-views-block-news-events-events-block-1, #block-cityu-postgraduate-views-block-news-events-events-block-2, #block-cityu-postgraduate-views-block-news-events-events-block-5{
     text-align: center;
 }
 
 
-#block-views-block-news-events-events-block-1 .views-row, #block-views-block-news-events-events-block-2 .views-row, #block-views-block-news-events-events-block-5 .views-row{
+#block-cityu-postgraduate-views-block-news-events-events-block-1 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-2 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-5 .views-row{
     display: inline-block;
     vertical-align: middle;
     width: 18%;
@@ -5427,14 +5427,14 @@ table caption
 
 
 @media( max-width: 1199px){
-    #block-views-block-news-events-events-block-1 .views-row, #block-views-block-news-events-events-block-2 .views-row, #block-views-block-news-events-events-block-5 .views-row{
+    #block-cityu-postgraduate-views-block-news-events-events-block-1 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-2 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-5 .views-row{
         width: 31%;
         margin: 0 0.5%;
     }
 }
 
 @media( max-width: 767px){
-    #block-views-block-news-events-events-block-1 .views-row, #block-views-block-news-events-events-block-2 .views-row, #block-views-block-news-events-events-block-5 .views-row{
+    #block-cityu-postgraduate-views-block-news-events-events-block-1 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-2 .views-row, #block-cityu-postgraduate-views-block-news-events-events-block-5 .views-row{
         width: 70%;
         margin: 5%;
         height: auto;
@@ -5473,7 +5473,7 @@ table caption
     color: #863275;
 }
 
-#block-views-block-eventnewshome-upcoming-block-5 h2
+#block-cityu-postgraduate-views-block-eventnewshome-upcoming-block-5 h2
 {
     font-weight: 700;
     margin-top:5%;
@@ -5493,7 +5493,7 @@ table caption
     position: relative;
 }
 
-#block-views-block-eventnewshome-upcoming-block-5 .view-eventnewshome-upcoming .views-field{
+#block-cityu-postgraduate-views-block-eventnewshome-upcoming-block-5 .view-eventnewshome-upcoming .views-field{
     clear: both;
     overflow: auto;
     margin-top: 2%;
@@ -5525,7 +5525,7 @@ table caption
     min-height: 100px;
 }
 
-#block-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(1){
+#block-cityu-postgraduate-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(1){
     
     display: inline-block;
     float: left;
@@ -5541,7 +5541,7 @@ table caption
 }
 
 
-#block-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(2){
+#block-cityu-postgraduate-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(2){
     float: right;
     width: 90%;
     padding-left: 2%;
@@ -5558,7 +5558,7 @@ table caption
 /*News*/
 /******/
 
-#block-views-block-news-events-news-block-3 .views-row{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row{
     width: 23.5%;
     display: inline-block;
     vertical-align: top;
@@ -5570,7 +5570,7 @@ table caption
     color: #2C2C2C;
 }
 
-#block-views-block-news-events-news-block-3 .views-row:hover {
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row:hover {
     background: #fff;
     box-shadow: 0 0 10px #c3c3c3;
     -webkit-transition: all .2s ease-in-out;
@@ -5578,7 +5578,7 @@ table caption
     transition: all .2s ease-in-out;
 }
 
-#block-views-block-news-events-news-block-3  .news_image img{
+#block-cityu-postgraduate-views-block-news-events-news-block-3  .news_image img{
     opacity: .8;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -5586,31 +5586,31 @@ table caption
     width: 100%;
 }
 
-#block-views-block-news-events-news-block-3 .views-row:hover .news_image img{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row:hover .news_image img{
     opacity: 1;
 }
 
 
 
 
-#block-views-block-news-events-news-block-3 .views-row:hover .news_content h2, #block-views-block-news-events-news-block-3 .views-row:hover .news_content i.fa{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row:hover .news_content h2, #block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row:hover .news_content i.fa{
     color: #9a1555;
 
 
 }
 
-#block-views-block-news-events-news-block-3 .news_content{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .news_content{
     padding: 10px;
 }
 
-#block-views-block-news-events-news-block-3 .news_content h2{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .news_content h2{
     font-size: 20px;
     display: inline;
 }
 
 
 
-#block-views-block-news-events-news-block-3 .news_date{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .news_date{
     padding: 16px 0;
     
     font-size: 14px;
@@ -5620,19 +5620,19 @@ table caption
 }
 
 
-#block-views-block-news-events-news-block-3 .news_content p{
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .news_content p{
     display: none;
 }
 
 
 @media(max-width: 1199px){
-    #block-views-block-news-events-news-block-3 .views-row{
+    #block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row{
         width: 48.5%;
     }
 }
 
 @media(max-width: 767px){
-    #block-views-block-news-events-news-block-3 .views-row{
+    #block-cityu-postgraduate-views-block-news-events-news-block-3 .views-row{
         width: 100%;
     }
 }
@@ -5642,12 +5642,12 @@ table caption
 /* old design:
 
 
-#block-views-block-news-events-news-block-3{
+#block-cityu-postgraduate-views-block-news-events-news-block-3{
     margin: 0% 15%;
     
 }
 
-#block-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(1){
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(1){
     
     display: inline-block;
     float: left;
@@ -5670,14 +5670,14 @@ table caption
 
 }
 
-#block-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(2){
+#block-cityu-postgraduate-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(2){
     float: right;
     width: 85%;
     padding: 3%;
 }
 
 
-#block-views-block-news-events-news-block-3  .views-field{
+#block-cityu-postgraduate-views-block-news-events-news-block-3  .views-field{
     clear: both;
     overflow: hidden;
     background-color: #f0e9f1;
@@ -5686,7 +5686,7 @@ table caption
 
 }
 
-#block-views-block-news-events-news-block-3  .field-content h2{
+#block-cityu-postgraduate-views-block-news-events-news-block-3  .field-content h2{
     margin-top: 0;
     font-size: 25px;
     padding-left: 15%;
@@ -5695,7 +5695,7 @@ table caption
 
 }
 
-#block-views-block-news-events-news-block-3  .field-content p{
+#block-cityu-postgraduate-views-block-news-events-news-block-3  .field-content p{
     padding-left: 15%;
     padding-right: 3%;
 
@@ -5703,7 +5703,7 @@ table caption
 
 
 @media(max-width: 1199px){
-    #block-views-block-news-events-news-block-3{
+    #block-cityu-postgraduate-views-block-news-events-news-block-3{
         margin: 0;
     }
     .landing_news_events_news{
@@ -5713,7 +5713,7 @@ table caption
     
 
     
-    #block-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(1){
+    #block-cityu-postgraduate-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(1){
         font-size: 16px;
     }
 }
@@ -5726,24 +5726,24 @@ table caption
     }
     
     
-    #block-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(1),
+    #block-cityu-postgraduate-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(1),
     #block-eventnewshome-upcoming .views-field .field-content div > div:nth-child(1), #block-eventnewshome-past .views-field .field-content div > div:nth-child(1),
-    #block-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(1){
+    #block-cityu-postgraduate-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(1){
         float: none;
         padding: 2% 0;
         width: 100%;
         position: relative;
         text-align: center;
     }
-    #block-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(2),
+    #block-cityu-postgraduate-views-block-news-events-news-block-3 .views-field .field-content div > div:nth-child(2),
     #block-eventnewshome-upcoming .views-field .field-content div > div:nth-child(2), #block-eventnewshome-past .views-field .field-content div > div:nth-child(2),
-    #block-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(2){
+    #block-cityu-postgraduate-views-block-eventnewshome-upcoming-block-5 .views-field .field-content div > div:nth-child(2){
         float: none;
         width: 100%;
         padding: 3%;
     }
 
-    #block-views-block-news-events-news-block-3  .field-content h2{
+    #block-cityu-postgraduate-views-block-news-events-news-block-3  .field-content h2{
         font-size: 18px;
     }
 
@@ -5763,32 +5763,32 @@ table caption
         
 }
 
-#block-views-block-news-events-public-lecture-block-1 .views-field-title a{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-field-title a{
     font-size: 18px;
     color: #863d75;
 }
 
 
-#block-views-block-news-events-public-lecture-block-1 .views-col{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-col{
     width: 32%!important;
     margin-right: 1%;
     text-align: center;
     
 }
-#block-views-block-news-events-public-lecture-block-1 img{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 img{
     display: inline-block;
     width: 100%;
 
 }
 
-#block-views-block-news-events-public-lecture-block-1 .newsContainer {
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .newsContainer {
     width: auto;
     height: auto;
     text-align: center;
     position: relative;
 }
 
-#block-views-block-news-events-public-lecture-block-1 .titleLink{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .titleLink{
 
 
     text-align: center;
@@ -5800,7 +5800,7 @@ table caption
     transform: translate(-50%, -50%);
 }
 
-#block-views-block-news-events-public-lecture-block-1 .titleContainer {
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .titleContainer {
 /*    position: absolute;
     top: 0;
     bottom: 0;
@@ -5830,39 +5830,39 @@ table caption
 }
 
 
-#block-views-block-news-events-public-lecture-block-1 .titleLink a{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .titleLink a{
     color: #fff;
     font-size: 25px;
     text-decoration: none;
     
 }
-#block-views-block-news-events-public-lecture-block-1 .views-field-body{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-field-body{
     display: none;
 }
 
-/*#block-views-block-news-events-public-lecture-block-1 .views-field-title{
+/*#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-field-title{
     color: #863275;
     font-size: 18px;
     font-weight: 700;
     margin-top: 3%;
 }*/
 
-#block-views-block-news-events-public-lecture-block-1  .newsContainer:hover img{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1  .newsContainer:hover img{
     opacity: 0.9;
 
 }
 
-#block-views-block-news-events-public-lecture-block-1  .newsContainer:hover .titleContainer{
+#block-cityu-postgraduate-views-block-news-events-public-lecture-block-1  .newsContainer:hover .titleContainer{
     opacity: 1;
 }
 
 
 
 @media (max-width: 767px){
-    #block-views-block-news-events-public-lecture-block-1 .views-view-grid.horizontal.cols-3{
+    #block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-view-grid.horizontal.cols-3{
         text-align: center;
     }
-    #block-views-block-news-events-public-lecture-block-1 .views-col{
+    #block-cityu-postgraduate-views-block-news-events-public-lecture-block-1 .views-col{
         width: 70%!important;
         display: inline-block;
         float: none;
