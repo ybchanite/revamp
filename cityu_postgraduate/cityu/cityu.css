@@ -2605,7 +2605,7 @@ ul.action-links{
 /*********************************/
 
 
-#block-views-block-aboutcityu-student-alumni-block-1 > h2{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 > h2{
     font-size: 34px;
     color: #863275;
     margin-bottom: 5%;
@@ -2613,14 +2613,14 @@ ul.action-links{
 }
 
 
-#block-views-block-aboutcityu-student-alumni-block-1{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1{
 /*    text-align: center;
     margin-left: 20%;
     margin-right: 10%;*/
 
 }
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-field-title img{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-title img{
     display: inline-block;
     float: left;
     max-width: none;
@@ -2630,7 +2630,7 @@ ul.action-links{
 
 /*default views-row*/
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-row{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-row{
     background-color: burlywood;
     width: 48%;
     display: inline-block;
@@ -2639,23 +2639,23 @@ ul.action-links{
     margin-right: 1%;
 }
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-row .views-field-title{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-row .views-field-title{
     cursor: pointer;
 }
 
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-field-title > span > div{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-title > span > div{
     display: flex;
 }
 
-#block-views-block-aboutcityu-student-alumni-block-1 .view_aboutcityu_student_alumni_text{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .view_aboutcityu_student_alumni_text{
     align-self: flex-end;
     width: 100%;
     
 }
 
 /*name*/
-#block-views-block-aboutcityu-student-alumni-block-1 .views-field-title .view_aboutcityu_student_alumni_text div:nth-child(1){
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-title .view_aboutcityu_student_alumni_text div:nth-child(1){
     color: #ffffff;
     font-size: 25px;
     padding: 1% 3%;
@@ -2664,14 +2664,14 @@ ul.action-links{
 
 
 /*title description*/
-#block-views-block-aboutcityu-student-alumni-block-1 .view_aboutcityu_student_alumni_text div:nth-child(2){
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .view_aboutcityu_student_alumni_text div:nth-child(2){
     background-color: #ffffff;
     padding: 3%;
 }
 
 /*bottom right white bg*/
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-field-field-title-list{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-field-title-list{
     float: left;
     display: inline-block;
     width: 65%;
@@ -2681,11 +2681,11 @@ ul.action-links{
 
 /*work with modal at javascript*/
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-field-field-story{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-field-story{
     display: none;
 }
 
-#block-views-block-aboutcityu-student-alumni-block-1 .views-field-field-story-image{
+#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-field-story-image{
     display: none;
 }
 /*pop out modal*/
@@ -2754,13 +2754,13 @@ ul.action-links{
 
 
 @media(max-width: 1899px){
-    #block-views-block-aboutcityu-student-alumni-block-1 .views-field-title .view_aboutcityu_student_alumni_text div:nth-child(1){
+    #block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-title .view_aboutcityu_student_alumni_text div:nth-child(1){
         font-size: 20px;
     }  
 }
 
 @media(max-width: 1199px){
-    #block-views-block-aboutcityu-student-alumni-block-1 .views-row{
+    #block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-row{
         width: 100%!important;
 
     }
@@ -2773,11 +2773,11 @@ ul.action-links{
 }
 
 @media(max-width: 767px){
-    #block-views-block-aboutcityu-student-alumni-block-1{
+    #block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1{
         margin: 0;
     }
     
-    #block-views-block-aboutcityu-student-alumni-block-1 .views-field-title img{
+    #block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-field-title img{
         width: 100%;
         height: auto;
     }

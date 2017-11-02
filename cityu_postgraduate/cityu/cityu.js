@@ -297,7 +297,7 @@ jQuery(window).resize(function() {
 var alumniColorCount = 0;
 var alumniColors = ["#c79952", "#863275", "#0d617d", "#197b73", "#197b73", "#863275", "#863275", "#c79952", "#c79952", "#863275", "#0d617d", "#197b73", "#c79952", "#863275", "#0d617d", "#197b73", "#197b73" ];
 
-jQuery( "#block-views-block-aboutcityu-student-alumni-block-1 .views-row" ).each(function() {
+jQuery( "#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-row" ).each(function() {
     jQuery(this).css('background-color',alumniColors[alumniColorCount]);
     alumniColorCount++;
 
@@ -308,7 +308,7 @@ jQuery( "#block-views-block-aboutcityu-student-alumni-block-1 .views-row" ).each
 var alumniWidthCount = 0;
 var alumniWidth = [43, 45, 53, 45, 57, 50, 57, 43, 45];
 
-jQuery( "#block-views-block-aboutcityu-student-alumni-block-1 .views-row:nth-child(odd)" ).each(function() {
+jQuery( "#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-row:nth-child(odd)" ).each(function() {
 
     
     var x = alumniWidth[alumniWidthCount];
@@ -336,7 +336,7 @@ jQuery('.views-field-field-story .embedded_pdf').each(function(){
 
 
 /*pop out when profile is clicked*/
-jQuery( "#block-views-block-aboutcityu-student-alumni-block-1 .views-row .views-field-title" ).click(function() {
+jQuery( "#block-cityu-postgraduate-views-block-aboutcityu-student-alumni-block-1 .views-row .views-field-title" ).click(function() {
     jQuery(this).siblings('.views-field-field-story').css('display','block');
     jQuery(this).siblings('.views-field-field-story').find('.people_story_summary').hide();
     jQuery(this).siblings('.views-field-field-story').find('.people_story_hidden').show();
