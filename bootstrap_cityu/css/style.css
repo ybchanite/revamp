@@ -17,35 +17,35 @@
 
 
 
-#block-cityu-postgraduate-entityviewuser-3 h2 {
+#block-entityviewuser-3 h2 {
 	background-color: #dddddd;
     /* font-size: 20px;	*/
 }
-#block-cityu-postgraduate-entityviewuser-4 h2 {
+#block-entityviewuser-4 h2 {
     margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-cityu-postgraduate-entityviewuser-5 h2 {
+#block-entityviewuser-5 h2 {
 	margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-cityu-postgraduate-entityviewuser-6 h2 {
+#block-entityviewuser-6 h2 {
 	margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-cityu-postgraduate-entityviewuser-7 h2 {
+#block-entityviewuser-7 h2 {
 	margin-left: 10px;
 	margin-top: 15px;
     margin-bottom: 0px;
     font-size: medium;	
 }
-#block-cityu-postgraduate-entityviewuser-8 h2 {
+#block-entityviewuser-8 h2 {
 	margin-left: 10px;
 	margin-top: 5px;
     margin-bottom: 0px;
@@ -53,13 +53,13 @@
 }
 
 
-#block-cityu-postgraduate-frontpage-logo .media-image {
+#block-frontpage-logo .media-image {
     /* width: 50px; */
     /* height: 50px; */
 }
 
 /*admin navbar*/
-#block-cityu-postgraduate-usercityumenuadmin {
+#block-usercityumenu {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -69,12 +69,12 @@
 	background-color: pink;
 }
 
-#block-cityu-postgraduate-usercityumenuadmin .dropdown-menu {
+#block-usercityumenu .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }
 
-#block-cityu-postgraduate-usercityumenusupport {
+#block-usercityumenusupport {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -84,13 +84,13 @@
 	background-color: pink;
 }
 
-#block-cityu-postgraduate-usercityumenusupport .dropdown-menu {
+#block-usercityumenusupport .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }
 
 
-#block-cityu-postgraduate-usercityumenusgsteam {
+#block-usercityumenusgsteam {
 	/* align: center; */ 
 	/* float: center; */
 	/* align : center; */
@@ -100,21 +100,21 @@
 	background-color: pink;
 }
 
-#block-cityu-postgraduate-usercityumenusgsteam .dropdown-menu {
+#block-usercityumenusgsteam .dropdown-menu {
     background-color: pink;
     /* background-color: #c0598e; */
 }
 
-#block-cityu-postgraduate-views-block-cityu-adminnote-block-1 .col-sm-12{
+#block-views-block-cityu-adminnote-block-1 .col-sm-12{
     /* background-color: #f0e9f1; */
 	/* background-color: #eeeeee; */
 }
 
-#block-cityu-postgraduate-views-block-cityu-adminnote-block-1 .block-title{
+#block-views-block-cityu-adminnote-block-1 .block-title{
     /* background-color: #ffc0cb; */
 	/* background-color: #dddddd; */
 }
-#block-cityu-postgraduate-views-block-cityu-adminnote-block-1 h2 {
+#block-views-block-cityu-adminnote-block-1 h2 {
 	/* margin-top: 0px; */
     margin-bottom: 0px;	
 }

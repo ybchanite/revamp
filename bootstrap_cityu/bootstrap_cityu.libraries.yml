@@ -1,5 +1,4 @@
 global-css:
-    version: 8.0.0
     css:
         theme:
             css/overrides.min.css: {}
@@ -8,7 +7,6 @@ global-css:
             css/style.css: {}
             cityu/font-awesome/css/font-awesome.css: {}
 global-js:
-    version: 8.0.0
     js:
         cityu/numscroller-1.0.js: {}
         cityu/timeline.js: {}

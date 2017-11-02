@@ -66,7 +66,7 @@ jQuery(".timeline-marker, h3.at-step").mouseenter(
 
 
 
-jQuery('#block-cityu-postgraduate-views-block-research-atimeline-block-2 .views-field-field-at-step .field-content, #block-cityu-postgraduate-views-block-doctorate-atimeline-block-2 .views-field-field-at-step .field-content, #block-cityu-postgraduate-views-block-taught-atimeline-block-2 .views-field-field-at-step .field-content').click(function(){
+jQuery('#block-views-block-research-atimeline-block-2 .views-field-field-at-step .field-content, #block-views-block-doctorate-atimeline-block-2 .views-field-field-at-step .field-content, #block-views-block-taught-atimeline-block-2 .views-field-field-at-step .field-content').click(function(){
         
         jQuery('.form-group .view-content .views-row .views-field .field-content').not(jQuery(this)).removeClass('activeTimelineIndex');
         jQuery(this).addClass('activeTimelineIndex');
@@ -95,13 +95,13 @@ var sidebar;
 
 /*sticky side bar*/
 
-if(jQuery('#block-cityu-postgraduate-views-block-research-atimeline-block-2').length){
-    sidebar = jQuery("#block-cityu-postgraduate-views-block-research-atimeline-block-2");
+if(jQuery('#block-views-block-research-atimeline-block-2').length){
+    sidebar = jQuery("#block-views-block-research-atimeline-block-2");
 }
-else if(jQuery('#block-cityu-postgraduate-views-block-doctorate-atimeline-block-2').length){
-    sidebar = jQuery("#block-cityu-postgraduate-views-block-doctorate-atimeline-block-2");
-}else if(jQuery('#block-cityu-postgraduate-views-block-taught-atimeline-block-2').length){
-    sidebar = jQuery("#block-cityu-postgraduate-views-block-taught-atimeline-block-2");
+else if(jQuery('#block-views-block-doctorate-atimeline-block-2').length){
+    sidebar = jQuery("#block-views-block-doctorate-atimeline-block-2");
+}else if(jQuery('#block-views-block-taught-atimeline-block-2').length){
+    sidebar = jQuery("#block-views-block-taught-atimeline-block-2");
 }
 
 
