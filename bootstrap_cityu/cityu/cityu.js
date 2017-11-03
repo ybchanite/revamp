@@ -82,12 +82,14 @@ if (jQuery('#block-mainnavigation-2').css('display') === 'block' && (!jQuery('.r
 
 /*navbar image*/
 
-for (i = 1; i <= 7; i++) { 
+/*for (i = 1; i <= 7; i++) { 
     
     var photo = jQuery('#block-mainmenuphotos .paragraph:nth-child(' + i + ')').find('img');
     jQuery('#block-mainnavigation-2 > ul > li:nth-child(' + i + ') .dropdown-menu').append(photo);
     
-}
+}*/
+
+jQuery('#block-mainnavigation-2 > ul > li:nth-child(2) .dropdown-menu').append("<img id='theImg' src='http://www.cityu.edu.hk/cityu/images/congregation-2017.jpg'/>");
 
 jQuery('#block-mainnavigation-2 .dropdown-menu > li > a.is-active').each(function(){
     jQuery(this).parent('li').addClass('active');
