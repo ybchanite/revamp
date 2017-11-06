@@ -85,7 +85,7 @@ if (jQuery('#block-mainnavigation-2').css('display') === 'block' && (!jQuery('.r
 for (i = 1; i <= 7; i++) { 
     
 /*    var photo = jQuery('#block-mainmenuphotos .paragraph:nth-child(' + i + ')').find('img');		*/
-	var photo = jQuery('#block-mainmenuphotos div:nth-child(' + i + ')').find('img');
+	var photo = jQuery('#block-mainmenuphotos div:nth-child(' + i + ') .paragraph').find('img');
     jQuery('#block-mainnavigation-2 > ul > li:nth-child(' + i + ') .dropdown-menu').append(photo);
     
 }
