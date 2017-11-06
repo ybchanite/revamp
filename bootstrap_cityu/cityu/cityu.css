@@ -2797,7 +2797,7 @@ ul.action-links{
 }
 
 /* #block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(even){ */
-#block-aboutcityufacilitiesandsupports > div:nth-child(odd) .paragraph--type--bp-columns{
+#block-aboutcityufacilitiesandsupports > div:nth-child(even) .paragraph--type--bp-columns{
     background-color: #F1F2F2;
 }
 
