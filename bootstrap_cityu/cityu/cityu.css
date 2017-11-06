@@ -2807,12 +2807,15 @@ ul.action-links{
 
 /*image block*/
 
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1){
+/* #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1){ */
+#block-aboutcityufacilitiesandsupports div:nth-child(odd) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(1){
     width: 40%;
     float: right;
     padding: 0;
 }
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){
+
+/* #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){ */
+#block-aboutcityufacilitiesandsupports div:nth-child(even) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(1){
     width: 40%;
     float: left;
     padding: 0;
