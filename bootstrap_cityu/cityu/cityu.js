@@ -6,7 +6,7 @@
 /*user name is shown directly on the navbar*/
 
 var admin = jQuery('#block-entityviewuser h2.block-title').text();
-jQuery('.region-cityu-user-menu ul li:last-child > a.dropdown-toggle').text("Hello world!");
+jQuery('.region-cityu-user-menu ul li:last-child > a.dropdown-toggle').text(admin);
 //jQuery('#block-usercityumenu li a[title="User Logout"]').parents('.menu.nav-pills.dropdown-menu').siblings('.dropdown-toggle').text(admin);
 //jQuery('#block-usercityumenusupport li a[data-drupal-link-system-path="user/logout"]').parents('.menu.nav-pills.dropdown-menu').siblings('.dropdown-toggle').text(admin);
 
