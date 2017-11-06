@@ -1323,13 +1323,25 @@ a:focus, a:hover{
 
 
 
-#block-frontpageaboutcityu > .paragraph:nth-child(1){
+/* #block-frontpageaboutcityu > .paragraph:nth-child(1){
     padding: 3% 0 0 11%;
 }
 
 #block-frontpageaboutcityu > .paragraph:nth-child(2){
     padding-bottom: 3%;
+} */
+
+
+#block-frontpageaboutcityu > div:nth-child(1){
+    padding: 3% 0 0 11%;
 }
+
+#block-frontpageaboutcityu > div:nth-child(2){
+    padding-bottom: 3%;
+}
+
+
+
 
 #block-frontpageaboutcityu .field--name-bp-text h1{
     color: white;
