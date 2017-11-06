@@ -2791,11 +2791,13 @@ ul.action-links{
 
 
 
-#block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(odd){
+/*#block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(odd){ */
+#block-aboutcityufacilitiesandsupports > div:nth-child(odd) .paragraph--type--bp-columns{
     background-color: #F0E9F1;
 }
 
-#block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(even){
+/* #block-aboutcityufacilitiesandsupports > .paragraph--type--bp-columns:nth-child(even){ */
+#block-aboutcityufacilitiesandsupports > div:nth-child(odd) .paragraph--type--bp-columns{
     background-color: #F1F2F2;
 }
 
@@ -2824,12 +2826,14 @@ ul.action-links{
 
 /*content block*/
 
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
+/* #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){ */
+#block-aboutcityufacilitiesandsupports div:nth-child(odd) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(2){
     width: 59%;
     padding: 2% 0 2% 5%;
 }
 
-#block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
+/* #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){ */
+#block-aboutcityufacilitiesandsupports div:nth-child(even) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(2){
     width: 59%;
     padding: 2% 5% 2% 0;  
 }
@@ -2852,12 +2856,14 @@ ul.action-links{
 
 @media (max-width: 1899px){
 
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
+/*  #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){ */
+	#block-aboutcityufacilitiesandsupports div:nth-child(odd) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(2){
         padding-left: 5%;
         width: 49%;
     }
     
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
+/*  #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){	*/
+	#block-aboutcityufacilitiesandsupports div:nth-child(even) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(2){
         padding-right: 5%;      
         width: 49%;
     }
@@ -2867,19 +2873,23 @@ ul.action-links{
     #block-aboutcityufacilitiesandsupports h2{
         font-size: 20px;
     }
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1),
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){
+/*  #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(1),
+    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(1){	*/
+	#block-aboutcityufacilitiesandsupports div:nth-child(odd) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(1),
+	#block-aboutcityufacilitiesandsupports div:nth-child(even) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(1){
         width: 50%;
     }
 }
 
 @media (max-width: 767px){
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){
+/*  #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(odd) .paragraph--type--bp-columns__2col:nth-child(2){	*/
+	#block-aboutcityufacilitiesandsupports div:nth-child(odd) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(2){
         width: 95%;
         padding-bottom: 5%;
     }
     
-    #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){
+/*  #block-aboutcityufacilitiesandsupports .paragraph.paragraph--type--bp-columns:nth-child(even) .paragraph--type--bp-columns__2col:nth-child(2){	*/
+	#block-aboutcityufacilitiesandsupports div:nth-child(even) .paragraph.paragraph--type--bp-columns .paragraph--type--bp-columns__2col:nth-child(2){
         width: 95%;
         padding-bottom: 5%;
     }
