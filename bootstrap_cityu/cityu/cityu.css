@@ -664,6 +664,17 @@ a:focus, a:hover{
     }
 }
 
+/*IE Adjustment*/
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+	#block-site-footer{
+		text-align: center;
+	}
+	
+	#block-site-footer .paragraph--type--bp-columns{
+		text-align: left;
+	}
+
+}
 
 
 /***********************/
