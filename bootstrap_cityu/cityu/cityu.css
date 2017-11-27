@@ -4944,6 +4944,15 @@ table caption
     #block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header h2{
         font-size: 18px;
     }
+	
+    #block-views-block-taught-programme-list-body3-block-1 .table-responsive td:not(.views-field-field-admit-prog-code, .views-field-field-prog-title, .views-field-field-mode-of-study){
+    	display: none;	
+    }
+	
+    #block-views-block-taught-programme-list-body3-block-1 .table-responsive thead tr:nth-child(2),
+    #block-views-block-taught-programme-list-body3-block-1 .table-responsive th:nth-child(n+4){
+	display: none;
+    }
 }
 
 /*****************/
