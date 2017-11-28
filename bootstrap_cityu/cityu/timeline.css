@@ -285,6 +285,7 @@ ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper{
 
 #block-views-block-research-atimeline-block-2 .views-row .views-field .field-content, #block-views-block-doctorate-atimeline-block-2 .views-row .views-field .field-content, #block-views-block-taught-atimeline-block-2 .views-row .views-field .field-content{
     padding: 10px;
+    padding-left: 2em;
 }
 
 #block-views-block-research-atimeline-block-2 .view-content, #block-views-block-doctorate-atimeline-block-2 .view-content, #block-views-block-taught-atimeline-block-2 .view-content{
@@ -303,6 +304,8 @@ ul.timeline-list.alternate li.timeline-item.even .timeline-item-wrapper{
 #block-views-block-doctorate-atimeline-block-2 .views-row .views-field .field-content:before,
 #block-views-block-taught-atimeline-block-2 .views-row .views-field .field-content:before{
     content: counter(timelineIndexCounter) ". ";
+    position: absolute;
+    left: 1.8em;
 
 }
 #block-views-block-research-atimeline-block-2 .views-field-field-at-step .field-content, #block-views-block-doctorate-atimeline-block-2 .views-field-field-at-step .field-content,
