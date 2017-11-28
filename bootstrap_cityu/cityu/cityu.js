@@ -838,9 +838,9 @@ if (jQuery('#block-doctoratehome-introduction').length){
 
 
 
-/********************************/
-/*Taught Postgraduate Programmes*/
-/********************************/
+/**************************************/
+/*Taught Postgraduate Programmes: Home*/
+/**************************************/
 
 
 if (jQuery('#block-taughthome-introduction').length){
@@ -860,9 +860,14 @@ if (jQuery('#block-taughthome-introduction').length){
 //jQuery( "#block-views-block-taught-home-blocks-block-1 .views-field-field-image .img-responsive" ).addClass( "tppImg" );
 //
 
-
-
+/*append arrow to "More Details"*/
 jQuery('#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
+
+/*More Details for Flexible Study Mode*/
+jQuery('#block-views-block-taught-home-blocks-block-1 a.TPg_more_details').click(function(){
+    jQuery('#block-views-block-taught-home-blocks-block-1 .TPg_combined_mode').toggle();
+});
+
 
 /*************/
 /*divers area*/
@@ -1085,12 +1090,10 @@ jQuery(window).load(function() {
         
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').removeClass('programlistFocus');
         jQuery(this).addClass('programlistFocus');
-        
-        
-        var index = jQuery("#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row").index(jQuery(this)) + 1;
-        
-        var target = jQuery("#block-views-block-taught-programme-list-body3-block-1 .table-responsive:nth-child(" + index + ")");
-        
+          
+	var college = jQuery(this).find(".field-content").text();
+   
+        var target = jQuery("#block-views-block-taught-programme-list-body3-block-1 .table-responsive caption:contains('"+ college +"')").parents(".table-responsive");
         
         jQuery('#block-views-block-taught-programme-list-body3-block-1 .table-responsive').css('display','none');
 
