@@ -4134,6 +4134,10 @@ table caption
     
 }
 
+.landing_taught_applynow h2{
+    color: #863275;
+}
+
 .landing_taught_applynow_text{
 /*    background-color: #f0e9f1;*/
     padding: 2% 4%;
@@ -4648,6 +4652,13 @@ table caption
 
 }
 
+#block-views-block-taught-home-blocks-block-1 .TPg_more_details{
+    cursor: pointer;
+}
+
+#block-views-block-taught-home-blocks-block-1 .TPg_combined_mode{
+    display: none;
+}
 
 /*#block-views-block-taught-home-blocks-block-1 .views-field-field-image a{
     position: absolute;
@@ -4945,7 +4956,7 @@ table caption
         font-size: 18px;
     }
 	
-    #block-views-block-taught-programme-list-body3-block-1 .table-responsive td:not(.views-field-field-admit-prog-code, .views-field-field-prog-title, .views-field-field-mode-of-study){
+    #block-views-block-taught-programme-list-body3-block-1 .table-responsive td:not(.views-field-field-admit-prog-code):not(.views-field-field-prog-title):not(.views-field-field-mode-of-study){
     	display: none;	
     }
 	
