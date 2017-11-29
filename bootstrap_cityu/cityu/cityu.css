@@ -3098,10 +3098,13 @@ ul.action-links{
 
 }
 
-
-#block-views-block-research-home-figures-block-1 .views-col:hover a{
-    text-decoration: underline;
+#block-views-block-research-home-figures-block-1 .views-col a{
+    font-size: 18px;
+    font-weight: 300;
+    color: #337ab7;
+    text-decoration: none;
 }
+
 
 
 
@@ -3838,12 +3841,13 @@ table caption
     margin: 0;
     background: #595063;
     padding: 10px 16px;
-    
+    cursor: pointer;
 }
 
 #block-views-block-research-entrance-eng-p-require-block-1 .views-row .views-field-field-coll-eng-p-require{
     padding: 16px;
     background: #efecf1;
+    display: none;
 }
 
 
@@ -3996,6 +4000,10 @@ table caption
     color: #ffffff!important;
     background-color: #9a7894;    
 }
+
+.landing_research_phdfscheme > .col-sm-2 p:hover a{
+     color: #ffffff!important;
+ }
 
 
 /*indent items*/
