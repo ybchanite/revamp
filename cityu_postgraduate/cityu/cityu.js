@@ -412,17 +412,6 @@ if (jQuery('#block-researchhome-bar').length){
 
 
 
-/*photo + text = hyperlink*/
-
-jQuery('#block-views-block-research-home-figures-block-1 .views-col .views-field-body a').each(function() {
-    var link = jQuery(this).attr('href');
-    jQuery(this).parents('.views-col').wrap('<a href="'+ link + '"></a>');
-
-
-});
-
-
-
 
 /*hover effect for the profile*/
 
@@ -675,7 +664,7 @@ jQuery('#block-views-block-research-areas-block-1 .view_research_areas .view_res
 /*****/
 
 if(jQuery('.landing_research_phdfscheme').length){
-    jQuery('.landing_research_phdfscheme > .col-sm-2 p:first-child').addClass('activeTimelineIndex');
+    jQuery('.landing_research_phdfscheme > .col-sm-2 > p:first-child').addClass('activeTimelineIndex');
 }
 
 
@@ -752,15 +741,7 @@ jQuery('.landing_research_phdfscheme .col-sm-2 p:nth-child(-n+13):not(:nth-child
     });
 
 
-/*anchor: introduction -> enquiries*/
-    
-jQuery('.landing_research_phdfscheme .anchor1').click(function(){
-    
-    jQuery('.landing_research_phdfscheme > .col-sm-10 div').css('display','none');
-    jQuery('.landing_research_phdfscheme .col-sm-10 div:nth-child(12)').show(); 
-       
-        
-});
+
 
 
 
@@ -1353,6 +1334,14 @@ jQuery('.entrance_block.landing_research_entrance_min_require').closest('.contai
 jQuery('#block-taughtentrancerequirements').closest('.container').removeClass('container').addClass('fluid-container');
 
 
+//English Proficiency Requirements hover effect
+
+jQuery('#block-views-block-research-entrance-eng-p-require-block-1 .views-row').mouseenter(function(){
+    if (jQuery(this).find('.views-field-field-coll-eng-p-require').css('display') === 'none'){
+        jQuery('#block-views-block-research-entrance-eng-p-require-block-1 .views-row .views-field-field-coll-eng-p-require').hide('fast');
+        jQuery(this).find('.views-field-field-coll-eng-p-require').show('fast');
+    }
+});
 
 
 //old design
