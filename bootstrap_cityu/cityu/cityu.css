@@ -2589,7 +2589,7 @@ ul.action-links{
     #block-whycityu-home-fastfacts-foto .paragraph--type--bp-columns{
         display: table;
     }
-    #block-whycityu-home-fastfacts-foto > .paragraph--type--bp-image{
+    #block-whycityu-home-fastfacts-foto > div > .paragraph--type--bp-image{
         display: none;
     }
 }
