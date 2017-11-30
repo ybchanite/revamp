@@ -1408,14 +1408,12 @@ jQuery('#edit-field-type-of-study-name').change(function(){
             break;      
     }
     
+    jQuery('#edit-field-interested-prog-name').prop('selectedIndex',0);
     jQuery('#edit-field-interested-prog-name option').hide();
     if(!(levelCode === 0)){
-        jQuery('#edit-field-interested-prog-name option').hide();
-
         jQuery('#edit-field-interested-prog option').each(function(){
             if(jQuery(this).text().charAt(0) === levelCode){
                 var progName = jQuery(this).text().substring(1, jQuery(this).text().indexOf('+'));
-                console.log(progName);
                 jQuery('#edit-field-interested-prog-name option:contains("' + progName + '")').show();
             }
 
@@ -1438,7 +1436,7 @@ jQuery('#contact-message-online-enquiry-form-form').submit(function(){
     var losEmail = losInfo.split('+');
     
     /*get program related emails*/
-    var program = jQuery("#edit-field-interested-prog-name option:selected").text();
+    var program = jQuery("#edit-field-interested-prog-name option:selected").text().split(/ -  (.+)?/, 2);
     var pInfo = jQuery('#edit-field-interested-prog option:contains("' + program + '")').text();
     var pEmail = pInfo.split('+');
     
