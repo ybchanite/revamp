@@ -804,6 +804,27 @@ jQuery(function() {
 });
 
 
+/*print function*/
+
+jQuery('.apply_now_print').click(
+    function(){ 
+        
+        var divToPrint=document.getElementsByClassName('landing_taught_applynow')[0];
+
+        var newWin=window.open('','Print-Window');
+
+        newWin.document.open();
+
+        newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+
+        newWin.document.close();
+  
+        newWin.close();
+  
+        return true;
+});
+
+
 /***********************************/
 /*Professional Doctorate Programmes*/
 /***********************************/
