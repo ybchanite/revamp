@@ -91,7 +91,7 @@ jQuery('a[href="#deadline"]').click(function(){
     });
     
     
-var sidebar;
+var sidebar = null;
 
 /*sticky side bar*/
 
@@ -105,11 +105,11 @@ else if(jQuery('#block-views-block-doctorate-atimeline-block-2').length){
 }
 
 
-var offset = sidebar.offset();
 
 
+if (!(sidebar === null)){
 
-
+    var offset = sidebar.offset();
 
     jQuery(window).scroll(function() {
         if (jQuery('.timeline-item-wrapper .views-field-field-at-info').css('position') === 'absolute'){
@@ -125,5 +125,5 @@ var offset = sidebar.offset();
         }
     });
     
-
+}
 
