@@ -3535,7 +3535,8 @@ ul.action-links{
     margin: 15px 0 7px 0;
 }
 
-#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official a{
+#block-views-block-research-areas-block-1 .view_research_areas .view_research_areas_dept .field--name-field-dept-url-official a,
+a.research_areas_school_website{
     padding: 8px 10px;
     background: #f7f7f7;
 
@@ -5376,6 +5377,16 @@ table caption
     color: #fff;
     background: #554a5d;
     
+}
+#block-views-block-news-events-events-block-1 .views-row a, #block-views-block-news-events-events-block-2 .views-row a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #eaeaea;
+}
+
+#block-views-block-news-events-events-block-1 .views-row a:hover, #block-views-block-news-events-events-block-2 .views-row a:hover{
+    color: #eaeaea;
 }
 
 .views_event_date, .views_event_content{
