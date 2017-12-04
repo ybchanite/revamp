@@ -1315,11 +1315,11 @@ jQuery('.view-taught-faq-01 #edit-combine').attr("placeholder", "Insert Your Key
 jQuery('.views-field-field-faq-question').click(function(){
     if (jQuery(this).siblings('.view-taught-faq-01 .views-field-body').css('display') === 'none'){
         jQuery(this).find('.field-content > div:nth-child(1)').css('background-color','#863275');
-        jQuery(this).find('.view_taught_faq_plus').text("-");
+        jQuery(this).find('.view_taught_faq_plus').html("<i class='fa fa-minus' aria-hidden='true'></i>");
     }
     else{
         jQuery(this).find('.field-content > div:nth-child(1)').css('background-color','#aaa4ad');
-        jQuery(this).find('.view_taught_faq_plus').text("+");
+        jQuery(this).find('.view_taught_faq_plus').html("<i class='fa fa-plus' aria-hidden='true'></i>");
         
     }
     jQuery(this).siblings('.view-taught-faq-01 .views-field-body').toggle('fast');
