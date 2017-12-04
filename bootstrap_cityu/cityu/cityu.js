@@ -1220,13 +1220,8 @@ jQuery(".view-programme-search thead").html('<tr><th rowspan="2">Code</th><th ro
 /*****/
 
 
-jQuery('.view-taught-faq-01 .form-group').attr('id', 'faqAnchor');
-
-var originAction = jQuery('#views-exposed-form-taught-faq-01-page-1').attr('action');
-var newAction = originAction + '#faqAnchor';
-jQuery('#views-exposed-form-taught-faq-01-page-1').attr('action', newAction);
-
-jQuery('#edit-field-faq-role-target-id, #edit-field-faq-category-target-id-1, #edit-field-faq-language-target-id').change(function(){
+function sortedResult(){
+    
     var qapp = jQuery('#edit-field-faq-role-target-id option:selected').text();
     var qcat = jQuery('#edit-field-faq-category-target-id-1 option:selected').text();
     var qlang = jQuery('#edit-field-faq-language-target-id option:selected').text();
@@ -1234,9 +1229,6 @@ jQuery('#edit-field-faq-role-target-id, #edit-field-faq-category-target-id-1, #e
     jQuery('.view-taught-faq-01 .views-row').hide();
     jQuery('.view-empty').hide();
     jQuery('#block-views-block-taught-faq-01-block-1').show();
-
-
-
 
 
     /*to get the instant sorted result*/
@@ -1253,13 +1245,68 @@ jQuery('#edit-field-faq-role-target-id, #edit-field-faq-category-target-id-1, #e
         }
     });
     
+}
+
+
+/*select condition
     
+  Local Application : Category A ~ G
+
+ */
+
+
+function localCategory(){
+    var applicantValue = jQuery("#edit-field-faq-role-target-id option:selected").val();
+    if (applicantValue === '419'){
+        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(8)').hide();
+        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(9)').hide();
+
+    }else{
+        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(8)').show();
+        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(9)').show();
+    }
+
+}
+
+jQuery(document).ready(function(){
+    
+    /*change faq language based on interface language*/
+    
+    var lang = jQuery('html').attr('lang');
+    switch(lang){
+        case 'en':
+            jQuery('#edit-field-faq-language-target-id').val('445');
+            break;
+        case 'zh-hant':
+            jQuery('#edit-field-faq-language-target-id').val('446');
+            break;
+        case 'zh-hans':
+            jQuery('#edit-field-faq-language-target-id').val('447');
+            break;
+    }
+    
+    sortedResult();
+	
+    //Local Application : Category A ~ G
+    localCategory();
     
 });
 
+jQuery('#edit-field-faq-role-target-id, #edit-field-faq-category-target-id-1, #edit-field-faq-language-target-id').change(function(){
+    sortedResult();
+});
 
 
+jQuery("#edit-field-faq-role-target-id").change(function(){
+    localCategory();
+});
 
+
+jQuery('.view-taught-faq-01 .form-group').attr('id', 'faqAnchor');
+
+var originAction = jQuery('#views-exposed-form-taught-faq-01-page-1').attr('action');
+var newAction = originAction + '#faqAnchor';
+jQuery('#views-exposed-form-taught-faq-01-page-1').attr('action', newAction);
 
 
 
@@ -1283,68 +1330,6 @@ jQuery('.views-field-field-faq-question').click(function(){
 
 jQuery( '.view-taught-faq-01 #edit-submit-taught-faq-01').empty();
 jQuery( '.view-taught-faq-01 #edit-submit-taught-faq-01').addClass('glyphicon glyphicon-search');
-
-
-
-
-
-
-
-
-
-/* old design
-
-jQuery( '<span id="showAllButton">Show All</span>').insertAfter( "#edit-submit-taught-faq" );
-jQuery( '<span id="topQuestionButton">Top Questions</span>').insertAfter( "#edit-submit-taught-faq" );
-
-
-jQuery('#topQuestionButton').click(function(){
-   jQuery('.view-taught-faq-page .view-content').css('display','none');
-   jQuery('#block-views-block-taught-faq-block-1').css('display','none');
-   jQuery('#block-views-block-taught-faq-block-2').css('display','block');
-});
-
-
-jQuery('#showAllButton').click(function(){
-   jQuery('.view-taught-faq-page .view-content').css('display','none');
-   jQuery('#block-views-block-taught-faq-block-2').css('display','none');
-   jQuery('#block-views-block-taught-faq-block-1').css('display','block');
-});
-*/
-
-
-
-/*select condition
-    
-  Local Application : Category A ~ G
-
- */
-
-/*when page initialize*/
-var applicantValue = jQuery("#edit-field-faq-role-target-id option:selected").val();
-if (applicantValue === '419'){
-    jQuery('#edit-field-faq-category-target-id-1 option:nth-child(8)').hide();
-    jQuery('#edit-field-faq-category-target-id-1 option:nth-child(9)').hide();
-
-}else{
-    jQuery('#edit-field-faq-category-target-id-1 option:nth-child(8)').show();
-    jQuery('#edit-field-faq-category-target-id-1 option:nth-child(9)').show();
-}
-
-
-/*when option selected*/
-jQuery("#edit-field-faq-role-target-id").change(function(){
-    var applicantValue = jQuery("#edit-field-faq-role-target-id option:selected").val();
-    if (applicantValue === '419'){
-        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(8)').hide();
-        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(9)').hide();
-
-    }else{
-        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(8)').show();
-        jQuery('#edit-field-faq-category-target-id-1 option:nth-child(9)').show();
-    }
-});
-
 
 
 /**********************/
