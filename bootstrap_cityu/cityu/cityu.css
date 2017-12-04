@@ -6451,9 +6451,9 @@ table caption
 
 .view_taught_faq_plus{
     display: inline-block;
-    font-size: 30px;
-    right: 1.4%;
-    top: 10%;
+/*     font-size: 30px; */
+    right: 2%;
+    top: 35%;
     position: absolute;
     
 }
@@ -6568,7 +6568,7 @@ table caption
 }*/
 
 #views-exposed-form-taught-faq-01-page-1 .form-item-field-faq-category-target-id-1, #views-exposed-form-taught-faq-01-page-1 .form-item-field-faq-role-target-id{
-    width: 33%;
+    width: 39%;
     padding: 2% 0%;
     margin-left: 2%;
 }
@@ -6577,6 +6577,8 @@ table caption
     width: 10%;
     padding: 2% 0%;
     margin-left: 2%;
+	
+    display: none;
 }
 
 
