@@ -36,6 +36,28 @@ if(jQuery('body.user-logged-in.path-view').length || jQuery('body.user-logged-in
 jQuery('.region-header p.navbar-text').wrap('<a href="/"></a>');
 
 
+/*******************/
+/*Language switcher*/
+/*******************/
+
+//Disable language switcher when no translation is available
+
+jQuery(document).ready(function(){
+    var en = jQuery('#block-languageswitcher li[hreflang = "en"] a');
+    var tc = jQuery('#block-languageswitcher li[hreflang = "zh-hant"] a');
+    var sc = jQuery('#block-languageswitcher li[hreflang = "zh-hans"] a');
+    
+    if (!(tc.attr('href').indexOf(en.attr('href')) >= 0)){
+        tc.parent().hide();
+    }
+    if (!(sc.attr('href').indexOf(en.attr('href')) >= 0)){
+        sc.parent().hide();
+    }
+    
+});
+
+
+
 
 /********/
 /*navbar*/
