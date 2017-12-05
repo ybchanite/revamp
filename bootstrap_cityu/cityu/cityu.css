@@ -15,106 +15,6 @@
 .cityu_pink2 {color: #f0e9f1;}
 
 
-
-/****************************/
-/*initialize the font family*/
-/****************************/
-
-
-
-
-/*@font-face {
-    font-family: "roboto";
-    src: url(roboto.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "raleway";
-    src: url(raleway.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "raleway400";
-    src: url(raleway400.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "raleway500";
-    src: url(raleway500.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "roboto500";
-    src: url(roboto500.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "roboto";
-    src: url(./roboto.ttf?#iefix) format('embedded-opentype');
-}
-
-@font-face {
-    font-family: "raleway";
-    src: url(./raleway.ttf?#iefix) format('embedded-opentype');
-}
-
-@font-face {
-    font-family: "raleway400";
-    src: url(./raleway400.ttf?#iefix) format('embedded-opentype');
-}
-
-@font-face {
-    font-family: "raleway500";
-    src: url(./raleway500.ttf?#iefix) format('embedded-opentype');
-}
-
-@font-face {
-    font-family: "roboto500";
-    src: url(./roboto500.ttf?#iefix) format('embedded-opentype');
-}*/
-
-
-/*old design:
-
-@font-face {
-    font-family: "mps";
-    src: url('./MPS.woff?#iefix') format('embedded-opentype');
-}
-
-
-@font-face {
-    font-family: "mps";
-    src: url(MPS.otf) format("truetype");
-}
-
-
-@font-face {
-    font-family: "mpr";
-    
-    src: url('./MPR.eot?#iefix') format('embedded-opentype');
-}
-
-@font-face {
-    font-family: "mpr";
-    
-    src: url('./MPR.eot');
-    src: url(MPR.otf) format("truetype");
-}
-
-
-
-@font-face {
-    font-family: "mpb";
-    src: url('./MPB.woff?#iefix') format('embedded-opentype');
-}
-@font-face {
-    font-family: "mpb";
-    src: url('./MPB.eot');    
-    src: url(MPB.otf) format("truetype");
-}
-
-*/
-
 /*************************/
 /*global & initialization*/
 /*************************/
@@ -4490,20 +4390,12 @@ table caption
 }
 
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing{
+#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .PDg_intro_button{
     text-align: right;
     margin-top: 2%;
-    padding-right: 5%;
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing a{
-    
-/*    background-color: #863d75;
-    color: #ffffff;
-    padding: 8px 25px 8px 25px;
-    font-size: 18px;
-    text-decoration: none;*/
-    color: #ffffff;
+#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .PDg_intro_button a{
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
@@ -4517,7 +4409,7 @@ table caption
 
 }
 
-#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .views-field-nothing a:hover{
+#block-views-block-doctorate-home-prof-doctorate-prog-block-1 .PDg_intro_button a:hover{
     background: #bbcc03;
 }
 
