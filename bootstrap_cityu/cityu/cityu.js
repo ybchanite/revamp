@@ -137,7 +137,7 @@ if (jQuery('#block-researchhome-bar').length || jQuery('#block-doctoratehome-int
 
 /*learn more*/
 
-jQuery('a:contains("Learn More")').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
+jQuery('#block-frontpageaboutcityu a:contains("Learn More")').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
 
 /*animation*/
 
