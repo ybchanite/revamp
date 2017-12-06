@@ -775,8 +775,11 @@ jQuery('.landing_research_phdfscheme .col-sm-2 p:nth-child(-n+13):not(:nth-child
 
 /*Add CSS class for styling*/
 
-jQuery('#block-researchdegreeapplynow div.paragraph--type--bp-simple:eq(1) .field--name-bp-text').addClass('landing_taught_applynow_text');
-jQuery('#block-researchdegreeapplynow .landing_taught_applynow_text table:eq(0)').addClass('landing_taught_applynow_table1');
+
+jQuery('#block-researchdegreeapplynow, #block-professionaldoctorateapplynow, #block-taughtapplynow').addClass('landing_taught_applynow');
+
+jQuery('.landing_taught_applynow div.paragraph--type--bp-simple:eq(1) .field--name-bp-text').addClass('landing_taught_applynow_text');
+jQuery('.landing_taught_applynow .landing_taught_applynow_text table:eq(0)').addClass('landing_taught_applynow_table1');
 
 
 
@@ -814,11 +817,11 @@ jQuery('#applynow_checkBox').change(function() {
 
 jQuery(function() {
 	     
-    jQuery('#block-researchdegreeapplynow #styled-checkbox-1').click(function() {
+    jQuery('.landing_taught_applynow #styled-checkbox-1').click(function() {
         window.location.href = jQuery('.landing_taught_applynow_button a').attr('href');
     }); 
     
-    jQuery("#block-researchdegreeapplynow .read-notes").click(function(){
+    jQuery(".landing_taught_applynow .read-notes").click(function(){
 	jQuery(".landing_taught_applynow_text").addClass("active");
 	setTimeout(function() {
         jQuery(".landing_taught_applynow_text").removeClass('active');
