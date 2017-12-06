@@ -4037,13 +4037,13 @@ table caption
 /*apply now page*/
 /***************/
 
-.landing_taught_applynow h5{
+#block-researchdegreeapplynow h5{
     margin-bottom: 50px;
     text-align: center;
     
 }
 
-.landing_taught_applynow h2{
+#block-researchdegreeapplynow h2{
     color: #863275;
 }
 
@@ -4055,8 +4055,8 @@ table caption
     overflow-y: scroll;
     border: 1px solid #ececec;
     max-height: 500px;
-    transition: .2s linear;
-    -webkit-transition: .2s linear;
+/*     transition: .2s linear;
+    -webkit-transition: .2s linear; */
     
 }
 .landing_taught_applynow_text.active {
@@ -4146,7 +4146,7 @@ table caption
 
 
 /*modal*/
-.landing_taught_applynow .modal:before {
+#block-researchdegreeapplynow .modal:before {
     content: '';
     display: inline-block;
     height: 100%;
@@ -4154,39 +4154,39 @@ table caption
     margin-right: -4px;
 }
 
-.landing_taught_applynow .modal{
+#block-researchdegreeapplynow .modal{
     text-align: center;
     padding: 0!important;
 }
 
 
-.landing_taught_applynow .modal-dialog {
+#block-researchdegreeapplynow .modal-dialog {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
 }
 
-.landing_taught_applynow .modal-content .close {
+#block-researchdegreeapplynow .modal-content .close {
     margin: 10px 10px 0 0;
     position: relative;
     z-index: 9;
 }
 
-.landing_taught_applynow .modal .modal-body {
+#block-researchdegreeapplynow .modal .modal-body {
     margin: 100px 0;
 }
-.landing_taught_applynow .check-agreement {
+#block-researchdegreeapplynow .check-agreement {
     text-align: center;
     margin: 0 auto;
     display: block;
 }
 
-.landing_taught_applynow .styled-checkbox {
+#block-researchdegreeapplynow .styled-checkbox {
     position: absolute;
     opacity: 0;
 }
 
-.landing_taught_applynow .styled-checkbox+label {
+#block-researchdegreeapplynow .styled-checkbox+label {
     position: relative;
     cursor: pointer;
     padding: 0;
@@ -4197,11 +4197,11 @@ table caption
     display: inline;
 }
 
-.landing_taught_applynow .styled-checkbox:checked+label:before {
+#block-researchdegreeapplynow .styled-checkbox:checked+label:before {
     background: #863d75;
 }
 
-.landing_taught_applynow .styled-checkbox+label:before {
+#block-researchdegreeapplynow .styled-checkbox+label:before {
     content: '';
     margin-right: 10px;
     display: inline-block;
@@ -4212,7 +4212,7 @@ table caption
     border: 2px solid #bbadb8;
 }
 
-.landing_taught_applynow .styled-checkbox:checked+label:after {
+#block-researchdegreeapplynow .styled-checkbox:checked+label:after {
     content: '';
     position: absolute;
     left: 5px;
