@@ -773,9 +773,14 @@ jQuery('.landing_research_phdfscheme .col-sm-2 p:nth-child(-n+13):not(:nth-child
 /*apply now*/
 /***********/
 
+/*Add CSS class for styling*/
+
+jQuery('#block-researchdegreeapplynow div.paragraph--type--bp-simple:eq(1) .field--name-bp-text').addClass('landing_taught_applynow_text');
+jQuery('#block-researchdegreeapplynow .landing_taught_applynow_text table:eq(0)').addClass('landing_taught_applynow_table1');
+
+
+
 /*for anchor from steps & procedures*/
-
-
 
 jQuery('#block-body-2 > div > div.landing_taught_applynow_text > ul:nth-child(45)').attr('id', 'landling_taught_applynow_visa');
 jQuery('#block-body-2 > div > div.landing_taught_applynow_text > h2:nth-child(46)').removeAttr('id');
@@ -808,15 +813,12 @@ jQuery('#applynow_checkBox').change(function() {
 
 
 jQuery(function() {
-	
-    var apply_link = jQuery('.landing_taught_applynow_link').text();
-        
-    jQuery('.landing_taught_applynow #styled-checkbox-1').click(function() {
-        window.location.href = apply_link;
-//        window.location = apply_link; 
+	     
+    jQuery('#block-researchdegreeapplynow #styled-checkbox-1').click(function() {
+        window.location.href = jQuery('.landing_taught_applynow_button a').attr('href');
     }); 
     
-    jQuery(".landing_taught_applynow .read-notes").click(function(){
+    jQuery("#block-researchdegreeapplynow .read-notes").click(function(){
 	jQuery(".landing_taught_applynow_text").addClass("active");
 	setTimeout(function() {
         jQuery(".landing_taught_applynow_text").removeClass('active');
@@ -831,7 +833,7 @@ jQuery(function() {
 jQuery('.apply_now_print').click(
     function(){ 
         
-        var divToPrint=document.getElementsByClassName('landing_taught_applynow')[0];
+        var divToPrint=document.getElementById('block-researchdegreeapplynow');
 
         var newWin=window.open('','Print-Window');
 
