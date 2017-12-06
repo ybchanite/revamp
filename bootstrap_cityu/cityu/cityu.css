@@ -4037,13 +4037,13 @@ table caption
 /*apply now page*/
 /***************/
 
-#block-researchdegreeapplynow h5{
+.landing_taught_applynow h5{
     margin-bottom: 50px;
     text-align: center;
     
 }
 
-#block-researchdegreeapplynow h2{
+.landing_taught_applynow h2{
     color: #863275;
 }
 
@@ -4146,7 +4146,7 @@ table caption
 
 
 /*modal*/
-#block-researchdegreeapplynow .modal:before {
+.landing_taught_applynow .modal:before {
     content: '';
     display: inline-block;
     height: 100%;
@@ -4154,39 +4154,39 @@ table caption
     margin-right: -4px;
 }
 
-#block-researchdegreeapplynow .modal{
+.landing_taught_applynow .modal{
     text-align: center;
     padding: 0!important;
 }
 
 
-#block-researchdegreeapplynow .modal-dialog {
+.landing_taught_applynow .modal-dialog {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
 }
 
-#block-researchdegreeapplynow .modal-content .close {
+.landing_taught_applynow .modal-content .close {
     margin: 10px 10px 0 0;
     position: relative;
     z-index: 9;
 }
 
-#block-researchdegreeapplynow .modal .modal-body {
+.landing_taught_applynow .modal .modal-body {
     margin: 100px 0;
 }
-#block-researchdegreeapplynow .check-agreement {
+.landing_taught_applynow .check-agreement {
     text-align: center;
     margin: 0 auto;
     display: block;
 }
 
-#block-researchdegreeapplynow .styled-checkbox {
+.landing_taught_applynow .styled-checkbox {
     position: absolute;
     opacity: 0;
 }
 
-#block-researchdegreeapplynow .styled-checkbox+label {
+.landing_taught_applynow .styled-checkbox+label {
     position: relative;
     cursor: pointer;
     padding: 0;
@@ -4197,11 +4197,11 @@ table caption
     display: inline;
 }
 
-#block-researchdegreeapplynow .styled-checkbox:checked+label:before {
+.landing_taught_applynow .styled-checkbox:checked+label:before {
     background: #863d75;
 }
 
-#block-researchdegreeapplynow .styled-checkbox+label:before {
+.landing_taught_applynow .styled-checkbox+label:before {
     content: '';
     margin-right: 10px;
     display: inline-block;
@@ -4212,7 +4212,7 @@ table caption
     border: 2px solid #bbadb8;
 }
 
-#block-researchdegreeapplynow .styled-checkbox:checked+label:after {
+.landing_taught_applynow .styled-checkbox:checked+label:after {
     content: '';
     position: absolute;
     left: 5px;
