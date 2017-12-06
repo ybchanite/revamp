@@ -779,7 +779,7 @@ jQuery('.landing_research_phdfscheme .col-sm-2 p:nth-child(-n+13):not(:nth-child
 jQuery('#block-researchdegreeapplynow, #block-professionaldoctorateapplynow, #block-taughtapplynow').addClass('landing_taught_applynow');
 
 jQuery('.landing_taught_applynow div.paragraph--type--bp-simple:eq(1) .field--name-bp-text').addClass('landing_taught_applynow_text');
-jQuery('.landing_taught_applynow .landing_taught_applynow_text table:eq(0)').addClass('landing_taught_applynow_table1');
+jQuery('#block-researchdegreeapplynow .landing_taught_applynow_text table:eq(0), #block-professionaldoctorateapplynow .landing_taught_applynow_text table:eq(0)').addClass('landing_taught_applynow_table1');
 
 
 
