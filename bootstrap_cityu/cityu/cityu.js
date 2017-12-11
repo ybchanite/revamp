@@ -1469,7 +1469,7 @@ jQuery('#edit-field-personal-information-wrapper').click(function(){
     var losEmail = losInfo.split('+');
     
     /*get program related emails*/
-    var program = jQuery("#edit-field-interested-prog-name option:selected").text().split(/ - (.+)/)[1]);
+    var program = jQuery("#edit-field-interested-prog-name option:selected").text().split(/ - (.+)/)[1];
     console.log('program', program);
     var pInfo = jQuery('#edit-field-interested-prog option:contains("' + program + '")').text();
 	console.log('pInfo', pInfo);
