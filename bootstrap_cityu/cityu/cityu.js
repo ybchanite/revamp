@@ -1456,12 +1456,13 @@ jQuery('#edit-field-type-of-study-name').change(function(){
 });
 
 
-/*debug*/
+/*form logic flow*/
 
 
-jQuery('#edit-field-personal-information-wrapper').click(function(){
+jQuery('#contact-message-online-enquiry-form-form').submit(function(){
     
     var logicCheck = 0;
+    var defaultEmail = jQuery('#edit-field-recipient-0-value').val();
     
     /*get level of study related emails*/
     var levelOfStudy = jQuery("#edit-field-type-of-study-name option:selected").text();
@@ -1470,9 +1471,7 @@ jQuery('#edit-field-personal-information-wrapper').click(function(){
     
     /*get program related emails*/
     var program = jQuery("#edit-field-interested-prog-name option:selected").text().split(/ - (.+)/)[1];
-    console.log('program', program);
     var pInfo = jQuery('#edit-field-interested-prog option:contains("' + program + '")').text();
-	console.log('pInfo', pInfo);
     var pEmail = pInfo.split('+');
     
     var qtype = jQuery('#edit-field-question-type option:selected').text();
@@ -1496,55 +1495,10 @@ jQuery('#edit-field-personal-information-wrapper').click(function(){
     
     if (logicCheck === 0){
         jQuery('#edit-field-recipient-0-value').val(losEmail[1]);
-	console.log('los', losEmail[1]);
-    }else{
-        jQuery('#edit-field-recipient-0-value').val(pEmail[1]);
-	console.log('p', pEmail[1]);
-        
-    }
-    
-    
-});
-
-
-/*form logic flow*/
-
-
-jQuery('#contact-message-online-enquiry-form-form').submit(function(){
-    
-    var logicCheck = 0;
-    
-    /*get level of study related emails*/
-    var levelOfStudy = jQuery("#edit-field-type-of-study-name option:selected").text();
-    var losInfo = jQuery('#edit-field-type-of-study option:contains("' + levelOfStudy + '")').text();
-    var losEmail = losInfo.split('+');
-    
-    /*get program related emails*/
-    var program = jQuery("#edit-field-interested-prog-name option:selected").text().split(/ -  (.+)?/, 2);
-    var pInfo = jQuery('#edit-field-interested-prog option:contains("' + program + '")').text();
-    var pEmail = pInfo.split('+');
-    
-    var qtype = jQuery('#edit-field-question-type option:selected').text();
-    
-
-    
-    jQuery('#edit-field-i-want-to-ask-about-0-value').val(program);
-    jQuery('#edit-field-email-level-study-0-value').val(levelOfStudy);
-    jQuery('#edit-field-email-question-type-0-value').val(qtype);
-    
-
-
-    /*exceptional case*/
-    if (levelOfStudy === "Taught Postgraduate Programmes (TPg)" && !(program === "- None -")){
-        if (!(qtype === "Fees / Payment" || qtype === "System Related Matters" || qtype === "Visa and Pre-arrival Information" || qtype === "Others")){
-            if (!(pEmail[1] === "")){
-                logicCheck = 1;
-            }
-        }
-    }
-    
-    if (logicCheck === 0){
-        jQuery('#edit-field-recipient-0-value').val(losEmail[1]);
+	if (losEmail[1] === "" || losEmail[1] === null){
+            jQuery('#edit-field-recipient-0-value').val(defaultEmail);
+        }  
+	
     }else{
         jQuery('#edit-field-recipient-0-value').val(pEmail[1]);
         
