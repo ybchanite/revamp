@@ -562,6 +562,13 @@ a:focus, a:hover{
     }
 }
 
+@media (max-width: 767px){
+    .region-footer .info-box {
+        padding: 0;
+    }
+}
+
+
 /*IE Adjustment*/
 @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
 	#block-site-footer{
@@ -578,12 +585,6 @@ a:focus, a:hover{
 /***********************/
 /*      Home page      */
 /***********************/
-
-/*logo*/
-/*.region-header{
-    margin-bottom: 5px;
-}*/
-
 
 
 .main-header{
@@ -875,11 +876,6 @@ a:focus, a:hover{
 
 
 #block-mainnavigation-2 > ul{
-/*    line-height: 0;
-    font-size: 18px;
-    width: 100%;
-    display: table;
-    margin: 0;*/
     
     font-family: Raleway,sans-serif;
     font-size: 16px;
@@ -942,19 +938,8 @@ a:focus, a:hover{
     text-align: left;
     max-width: none;
     
-/*    width: 50%;
-    float: left;
-    clear: left;*/
-    
 }
 
-/*hide the home link from the main navbar*/
-
-/*#block-mainnavigation-2 > ul > .expanded:nth-child(2) > .dropdown-menu > li:nth-child(2),
-#block-mainnavigation-2 > ul > .expanded:nth-child(3) > .dropdown-menu > li:nth-child(2),
-#block-mainnavigation-2 > ul > .expanded:nth-child(4) > .dropdown-menu > li:nth-child(2){
-    display: none;
-}*/
 
 
 .menu .dropdown-menu{
@@ -981,9 +966,6 @@ a:focus, a:hover{
 }
 
 #block-mainnavigation-2 .dropdown-menu > li > a{
-/*    color: #863275;
-    font-size: 14px;
-    padding: 3% 5%;*/
     font-family: Roboto ,sans-serif;
     font-weight: 300;
     padding: 10px;
@@ -1028,10 +1010,6 @@ a:focus, a:hover{
 
 /*main nav menu photo*/
 #block-mainnavigation-2 > ul >li .dropdown-menu .img-responsive{
-/*    float: left;*/
-/*    float: right;
-    width: 50%;*/
-/*    padding: 10px;*/
     width: 100%;
     
 }
@@ -1048,36 +1026,6 @@ a:focus, a:hover{
         right: 0;
     }
 }
-
-/*
-@media (max-width: 1900px){  
-    #block-mainnavigation-2 > ul > li:nth-child(6) .dropdown-menu{
-        left: auto;
-        right: 0;
-    }
-}
-
-
-
-@media (max-width: 1620px){
-    #block-mainnavigation-2 > ul > li:nth-child(5) .dropdown-menu{
-        left: auto;
-        right: 0;
-    }
-}
-@media (max-width: 1130px){
-    #block-mainnavigation-2 > ul > li:nth-child(4) .dropdown-menu{
-        left: auto;
-        right: 0;
-    }
-}
-
-@media (max-width: 825px){
-    #block-mainnavigation-2 > ul > li:nth-child(3) .dropdown-menu, #block-mainnavigation-2 > ul > li:nth-child(4) .dropdown-menu{
-        width: 510px;
-    }
-}*/
-
 
 
 
@@ -1110,14 +1058,6 @@ a:focus, a:hover{
     
 }
 
-/*@media(min-width: 1920px){
-    .fixedNavbar{
-        width: 1900px;
-        padding: 0 180px;
-    }
-
-    
-}*/
 
 
 /*********************/
@@ -1156,9 +1096,9 @@ a:focus, a:hover{
     padding-right: 0;
 }
 
-/*************/
-/*about cityu*/
-/*************/
+/************************/
+/*Home page: about cityu*/
+/************************/
 
 
 #block-frontpageaboutcityu{
@@ -1218,16 +1158,6 @@ a:focus, a:hover{
 #block-frontpageaboutcityu .carousel-indicators{
     margin-left: -40%;
 }
-
-
-
-/* #block-frontpageaboutcityu > .paragraph:nth-child(1){
-    padding: 3% 0 0 11%;
-}
-
-#block-frontpageaboutcityu > .paragraph:nth-child(2){
-    padding-bottom: 3%;
-} */
 
 
 #block-frontpageaboutcityu > div:nth-child(1){
@@ -1312,6 +1242,7 @@ a:focus, a:hover{
 @media(max-width: 767px){
     #block-frontpageaboutcityu .field--name-bp-text h1{
         font-size: 30px;
+	margin-bottom: 30px;
     }
     
     #block-frontpageaboutcityu > .paragraph:nth-child(1){
@@ -1331,6 +1262,10 @@ a:focus, a:hover{
     }
     #myCarousel-306{
         margin-left: 10%;
+    }
+	
+    #block-frontpageaboutcityu > div:nth-child(1){
+        padding: 3%;	
     }
     
 }
@@ -1436,66 +1371,8 @@ a:focus, a:hover{
 
 /*position adjustment for different window width size*/
 
-/*@media (max-width: 1899px){ 
-    .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
-        top: 14%;
-        margin-left: 14.5%;
-    }
-    
-    .view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content{
-        top: 23%;
-        margin-left: 15%;
-    }
-
-    .view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content{
-        top: 14%;
-        margin-left: 13%;
-    }
-    
-}
-
-
-@media (max-width: 1199px){ 
-    .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
-        top: 15%;
-        margin-left: 14%;
-        font-size: 100px;
-    }
-    
-    .view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content{
-        top: 24%;
-        margin-left: 14.5%;
-        font-size: 100px;
-    }
-
-    .view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content{
-        top: 14%;
-        margin-left: 12%;
-        font-size: 100px;
-    }
-    
-}*/
 
 @media (max-width: 991px){ 
-/*    .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
-        top: 12%;
-        margin-left: 13.5%;
-        font-size: 70px;
-    }
-    
-    .view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content{
-        top: 19%;
-        margin-left: 14%;
-        font-size: 70px;
-    }
-
-    .view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content{
-        top: 12%;
-        margin-left: 11.5%;
-        font-size: 70px;
-    }*/
-   
-
     .view-id-frontpage_whycityu_up .views-field-field-toi .field-content{
         font-size: 70px;
     }
@@ -1515,34 +1392,24 @@ a:focus, a:hover{
     #block-testfortoi .views-field-title a{
         font-size: 15px;
     }
-    
-/*    .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
-        top: 15%;
-        margin-left: 13.5%;
-        font-size: 9vw;
-    }
-    
-    .view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content{
-        top: 23%;
-        margin-left: 14.5%;
-        font-size: 9vw;
-    }
-
-    .view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content{
-        top: 15%;
-        margin-left: 11.5%;
-        font-size: 9vw;
-    }*/
-
+	
     .view-id-frontpage_whycityu_up .views-field-field-toi .field-content{
         font-size: 9vw;
+    }
+	
+    #block-testfortoi .views-col{
+        width: 100%!important;
+    }
+	
+    .para_background.field--name-field-background-image{
+        display: none;
     }
 }
 
 
 /*mobile: iphone 5 - iphone 6 plus*/
 @media (max-width: 448px){ 
-    .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
+/*     .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
         top: 10%;
         font-size: 8vw;
     }
@@ -1557,7 +1424,7 @@ a:focus, a:hover{
         top: 10%;
         margin-left: 11%;
         font-size: 8vw; 
-    }
+    } */
     
     #block-testfortoi .block-title{
         font-size: 25px;
@@ -1590,24 +1457,12 @@ a:focus, a:hover{
     
 }
 .para_frontpage_whycityu_text p a{
-    
-/*    display: inline-block;
-    padding: 0% 5%;
-    background-color: #b9d138;
-    color: #ffffff;
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 1%;
-    text-decoration: none;*/
-
-
     color: #ffffff;
     text-decoration: none;
     padding: 16px 50px;
     background-color: #f8b62b;
     border-radius: 50px;
     font-size: 24px;
-/*    opacity: 0;*/
     
     animation-duration: 450ms;
     animation-timing-function: linear;
@@ -1659,19 +1514,6 @@ a:focus, a:hover{
 }
 
 
-/*#block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content{
-    top: 52%;
-    margin-left: 15%;
-}
-#block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content{
-    top: 52%;
-    margin-left: 13%;
-}
-#block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content{
-    top: 52%;
-    margin-left: 11%;
-}*/
-
 #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content::after{
     content: '%';
 }
@@ -1685,44 +1527,13 @@ a:focus, a:hover{
 /*media: why cityu block*/
 
 
-@media (max-width: 1199px){ 
-/*    #block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
-        margin-left: 14%;
-        font-size: 100px;
-    }
-    
-    #block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
-        margin-left: 11%;
-        font-size: 100px;
-    }
-
-    #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
-        margin-left: 7%;
-        font-size: 100px;
-    }*/
-    
-    
+@media (max-width: 1199px){   
     #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
         font-size: 100px;
     }
 }
 
 @media (max-width: 991px){ 
-/*    #block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
-        font-size: 80px;
-    }
-    
-    #block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
-
-        font-size: 80px;
-    }
-
-    #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
-        
-        font-size: 80px;
-    }*/
-    
-    
     #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
         
         font-size: 80px;
@@ -1731,34 +1542,19 @@ a:focus, a:hover{
 
 
 @media (max-width: 767px){ 
-    
-    
-/*  #block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content {
-        font-size: 13vw;
-        top: 44%;
-
-    }
-    
-    #block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content {
-        top: 44%;
-        font-size: 13vw;
-    }
-
-    #block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content {
-        top: 44%;
-        font-size: 13vw;
-    }*/
-
-
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
+/*     #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
         top: 44%;
         font-size: 11vw;
         transform: translate(-50%,-20%);
 
-    }
+    } */
     
     #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
         font-size: 16px;
+    }
+	
+    #block-views-block-frontpage-whycityu-down-block-1 .views-col{
+	width: 100%!important;
     }
 
 }
@@ -2241,30 +2037,7 @@ ul.action-links{
     
 }
 
-/*customize secondary menu*/
 
-/*#block-menu2-about-cityu ul li{
-    width: 30%;
-}
-
-#block-menu2-professional-doctorate ul li{  
-    width: 30%;
-
-}
-
-#block-menu2-taught-postgraduate ul li{  
-    width: 16%;
-
-}
-
-#block-menu2-visiting-postgraduate-student ul li{  
-    width: 30%;
-
-}
-#block-menu2-news-events ul li{  
-    width: 24%;
-
-}*/
 
 
 
@@ -2324,6 +2097,14 @@ ul.action-links{
     
 }
 
+
+/*media: secondary menu*/
+
+@media(max-width: 767px){
+    .region-secondary-menu{
+        display: none;
+    }
+}
 
 
 /***********/
