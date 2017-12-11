@@ -1459,7 +1459,7 @@ jQuery('#edit-field-type-of-study-name').change(function(){
 /*form logic flow*/
 
 
-jQuery('#contact-message-online-enquiry-form-form').submit(function(){
+jQuery('#edit-field-personal-information-wrapper').click(function(){
     
     var logicCheck = 0;
     
@@ -1494,8 +1494,12 @@ jQuery('#contact-message-online-enquiry-form-form').submit(function(){
     
     if (logicCheck === 0){
         jQuery('#edit-field-recipient-0-value').val(losEmail[1]);
+	    alert(losEmail[0]);
+	alert(losEmail[1]);
     }else{
         jQuery('#edit-field-recipient-0-value').val(pEmail[1]);
+	    alert(pEmail[0]);
+	alert(pEmail[1]);
         
     }
     
