@@ -1488,7 +1488,7 @@ jQuery('#edit-field-personal-information-wrapper').click(function(){
     /*exceptional case*/
     if (levelOfStudy === "Taught Postgraduate Programmes (TPg)" && !(program === "- None -")){
         if (!(qtype === "Fees / Payment" || qtype === "System Related Matters" || qtype === "Visa and Pre-arrival Information" || qtype === "Others")){
-            if (!(pEmail[1] === "")){
+            if (!(pEmail[1] === "" || pEmail[1] === null)){
                 logicCheck = 1;
             }
         }
