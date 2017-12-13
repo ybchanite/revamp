@@ -14,8 +14,8 @@ regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   cityu_user_menu: 'CityU User Menu'
-  header: Header
-  header_right: 'Header right' 
+  header_right: 'Header right'
+  header: Header 
   primary_menu: 'Primary menu'
   banner: 'Banner'
   secondary_menu: 'Secondary menu'
