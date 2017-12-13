@@ -47,6 +47,14 @@
             </div>
         {% endblock %}
     {% endif %}
+    {# Header Right #}
+    {% if page.header_right %}
+        {% block header_right %}    
+            <aside class="col-sm-2" role="heading">
+                {{ page.header_right }}
+            </aside>
+         {% endblock %}
+    {% endif %}
     {# Header Left #}
     {%
         set header_classes = [
@@ -63,14 +71,6 @@
              {% endblock %}
         {% endif %}
     </section>
-    {# Header Right #}
-    {% if page.header_right %}
-        {% block header_right %}    
-            <aside class="col-sm-2" role="heading">
-                {{ page.header_right }}
-            </aside>
-         {% endblock %}
-    {% endif %}
     {# Primary Menu #}
     {% if page.primary_menu %}
         {% block primary_menu %}
