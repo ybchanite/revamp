@@ -2648,12 +2648,6 @@ ul.action-links{
 
 }
 #block-researchhome-bar .field--name-bp-text p{
-/*    color: #ffffff;
-    margin-bottom: 4%;
-    font-size: 16px;
-    line-height: 1.7;
-    text-align: justify;*/
-
     font-family: Raleway;
     font-size: 18px;
     text-align: center;
@@ -2664,10 +2658,6 @@ ul.action-links{
 
     
 }
-
-/*#block-researchhome-bar .field--name-bp-image-field img{
-    margin: 15% 5%;
-}*/
 
 
 #block-researchhome-bar .field--name-field-background-image img{
@@ -2684,18 +2674,13 @@ ul.action-links{
 
 
 
-/*@media (max-width: 1899px){ 
-    #block-researchhome-bar .field--name-bp-text {
-        padding: 3% 1% 5% 5%;
-    }
-    #block-researchhome-bar .field--name-bp-text h1{
-        font-size: 35px;
-    }
-    #block-researchhome-bar .field--name-bp-text p{
-            font-size: 14px;
-            line-height: 1.5;
-    }
-}*/
+@media (max-width: 767px){ 
+	#block-researchhome-bar .field--name-bp-text p{
+	    text-align: justify;
+	    font-size: 16px;
+	    line-height: 1.5;
+	}
+}
 
 
 
@@ -2716,17 +2701,7 @@ ul.action-links{
 }
 
 #block-views-block-research-home-figures-block-1 .views-field-field-toi{
-/*    position: absolute;
-    color: #ffb03a;
-    font-size: 70px; 
-    top: 16%;
-    opacity: 0;
-    margin-top: -10%;*/
-
-
     position: absolute;
-/*    color: #ffb03a;
-    font-size: 70px;*/
     top: 50%;
     left: 50%;
     opacity: 0;
@@ -2739,23 +2714,10 @@ ul.action-links{
 
 }
 
-/*#block-researchhome-figures .views-col.col-1 .views-field-field-toi{
-        margin-left: 13.5%;
-}
-
-#block-researchhome-figures .views-col.col-2 .views-field-field-toi{
-        margin-left: 10%;
-}
-
-#block-researchhome-figures .views-col.col-3 .views-field-field-toi{
-        margin-left: 13%;
-}*/
-
 
 
 #block-views-block-research-home-figures-block-1 .views-field-body{
     margin-bottom: 15%;
-/*    margin-top: 10%;*/
     padding: 0 8%;
 }
 
@@ -2788,20 +2750,7 @@ ul.action-links{
 @media (max-width: 1899px){ 
     #block-views-block-research-home-figures-block-1 .views-field-field-toi{ 
         font-size: 60px; 
-/*        top: 19%;*/
     }
-/*    #block-researchhome-figures .views-col.col-1 .views-field-field-toi{
-        margin-left: 13%;
-        
-    }
-    #block-researchhome-figures .views-col.col-2 .views-field-field-toi{
-        margin-left: 9%;
-        
-    }
-    #block-researchhome-figures .views-col.col-3 .views-field-field-toi{
-        margin-left: 12%;
-        
-    } */
     
 }
 
@@ -2814,28 +2763,10 @@ ul.action-links{
         top: 55%;
     }
     
-/*    #block-researchhome-figures .views-col.col-1 .views-field-field-toi{
-        margin-left: 12%;
-    }
-    
-    #block-researchhome-figures .views-col.col-2 .views-field-field-toi{
-        margin-left: 8%;
-    }
-    
-    #block-researchhome-figures .views-col.col-3 .views-field-field-toi {
-        margin-left: 11%;
-    }*/
     
     
 }
 
-
-/*@media(max-width: 991px){
-    #block-researchhome-figures .views-field-field-toi{
-        top: 18%;
-    }
-    
-}*/
 
 @media(max-width: 767px){
     #block-views-block-research-home-figures-block-1 .views-field-field-toi{
@@ -2852,18 +2783,7 @@ ul.action-links{
     #block-views-block-research-home-figures-block-1 .views-field-field-toi {
         top: 45%;
     }
-/*    
-    #block-researchhome-figures .views-col.col-1 .views-field-field-toi{
-        margin-left: 10%;
-        
-    }
-    
-    #block-researchhome-figures .views-col.col-3 .views-field-field-toi{
-        margin-left: 9%;
-    }*/
-
-    
-    
+ 
 }
 
 
@@ -3300,7 +3220,7 @@ a.research_areas_school_website{
 
 @media (max-width: 1199px){   
     #block-views-block-research-entrance-eng-p-require-block-1 .views-row{
-        width: 47%;
+        width: 46%;
     }
 }
 
@@ -3312,8 +3232,12 @@ a.research_areas_school_website{
     }
 	
     #block-views-block-research-entrance-eng-p-require-block-1 .views-row{
-        width: 90%;
-	padding: 8% 2%;
+        width: 95%;
+	padding: 0% 2%;
+    }
+	
+    #block-views-block-research-entrance-eng-p-require-block-1{
+	padding: 2% 0; 
     }
 }
 
@@ -3735,28 +3659,8 @@ a.research_areas_school_website{
 
 }
 
-/*#block-doctoratehome-introduction .field--name-bp-text h1, #block-taughthome-introduction .field--name-bp-text h1{
-    color: #ffffff;
-    margin-bottom: 4%;
-    font-size: 40px;
-    text-align: left;
-
-    
-}
-
-#block-doctoratehome-introduction .field--name-bp-text h1::before, #block-taughthome-introduction .field--name-bp-text h1::before{
-    left: 0;
-    width: 50px;
-    transform: translate(0);
-}*/
 
 #block-doctoratehome-introduction  .field--name-bp-text p{
-/*    color: #ffffff;
-    margin-bottom: 4%;
-    font-size: 16px;
-    line-height: 1.7;*/
-    
-    
     color: #ffffff;
     margin-bottom: 4%;
     font-size: 16px;
@@ -3859,9 +3763,9 @@ a.research_areas_school_website{
 
 
 @media(max-width: 1199px){
-    #block-doctoratehome-introduction  .field--name-bp-text p{
-        line-height: 1.42857143;
-        font-size: 15px;
+    #block-doctoratehome-introduction .field--name-bp-text p{
+        line-height: 1.5;
+        font-size: 16px;
     }
     
     #block-doctoratehome-introduction .field--name-bp-text h2{
@@ -3879,6 +3783,9 @@ a.research_areas_school_website{
 }
 
 @media(max-width: 767px){
+    #block-doctoratehome-introduction .field--name-bp-text p{
+        text-align: justify;
+    }
     #block-views-block-doctorate-home-prof-doctorate-prog-block-1 .view-doctorate-home-prof-doctorate-prog .views-field-field-prog-image img{
         float: none;
     }
@@ -3948,19 +3855,10 @@ a.research_areas_school_website{
     padding: 5% 0;
 }
 
-/*#block-taughthome-introduction .field--name-bp-text h2{
-    color: #ffffff;
-    margin-bottom: 4%;
-    font-size: 40px;
-    text-align: left;
-}*/
+
 
 
 #block-taughthome-introduction  .field--name-bp-text p{
-/*    color: #ffffff;
-    margin-bottom: 4%;
-    font-size: 16px;
-    line-height: 1.7;*/
     
     color: #ffffff;
     margin-bottom: 4%;
@@ -4030,8 +3928,8 @@ a.research_areas_school_website{
         font-size: 30px;
     }
     #block-taughthome-introduction  .field--name-bp-text p{
-            font-size: 15px;
-            line-height: 1.42857143;
+            font-size: 16px;
+            line-height: 1.5;
     }
 }
 
@@ -4039,6 +3937,9 @@ a.research_areas_school_website{
 @media (max-width: 767px){
     #block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col{
         width: 100%!important;
+    }
+    #block-taughthome-introduction  .field--name-bp-text p{
+        text-align: justify;
     }
 }
 /****************/
