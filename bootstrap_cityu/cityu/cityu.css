@@ -2888,6 +2888,7 @@ ul.action-links{
 
 .profileContainer {
     position: relative;
+    width: 65%;
 }
 
 .profileImage {
@@ -2925,10 +2926,7 @@ ul.action-links{
     opacity: 1;
 }
 
-/*.profileContainer:hover .profileBG {
-    opacity: 0.7;
-    background-color: #D79BC6;
-}*/
+
 
 /*old design*/
 .knowMore {
@@ -2953,9 +2951,12 @@ ul.action-links{
 
 
 
-/*media: tio-notch researchers*/
+/*media: top-notch researchers*/
 
 @media(max-width: 767px){
+    .profileContainer{
+	width: auto;
+    } 
     #block-researchhomeresearchers .views-field-field-know-more .field-content .profileContainer:nth-child(2){
         font-size: 15px;
     }
