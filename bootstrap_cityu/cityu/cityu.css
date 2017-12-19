@@ -4168,17 +4168,22 @@ a.research_areas_school_website{
 
 .prog_general_info .prog_label{
     display: inline-block;
-    width: 40%;
+    padding-right: 8%; 
     font-weight: 500;
 }
 
 .prog_general_info .prog_content{
     display: inline-block;
-    width: 60%;
 }
 
 .prog_outline{
     margin: 30px 0;
+}
+
+@media (max-width: 767px){
+  .prog_general_info{
+    width: 100%;
+  }
 }
 
 /**********/
