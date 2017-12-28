@@ -12,10 +12,10 @@ libraries:
 
 regions:
   navigation: 'Navigation'
-  navigation_collapsible: 'Navigation (Collapsible)'
   cityu_user_menu: 'CityU User Menu'
   header_right: 'Header right'
-  header: Header 
+  header: Header
+  navigation_collapsible: 'Navigation (Collapsible)'
   primary_menu: 'Primary menu'
   banner: 'Banner'
   secondary_menu: 'Secondary menu'
