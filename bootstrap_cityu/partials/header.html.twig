@@ -71,7 +71,11 @@
                     {# Navigation (collapsible) #}
                         {% if page.navigation_collapsible %}
                             <div id="navbar-collapse" class="navbar-collapse collapse">
-                            {{ page.navigation_collapsible }}
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" id="close_navbutton">
+                                    <span class="sr-only">{{ 'Toggle navigation'|t }}</span>
+                                    <span class="fa fa-times" aria-hidden="true"></span>
+                                </button>
+                                {{ page.navigation_collapsible }}
                             </div>
                         {% endif %}
                         {% if not navbar_attributes.hasClass(container) %}
