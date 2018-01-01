@@ -371,13 +371,35 @@ a:focus, a:hover{
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
+    margin-bottom: 0;
+}
+
+/*fixed toggle button*/
+
+.fixedButton {
+    position: fixed;
+    top: 0;
+    right: 15px;
+    z-index: 1000;
 }
 
 #navbar-collapse{
     background-color: #8e6791;
     border-color: #8e6791;
     clear: both;
+    height: 100vh;
+    position: fixed;
+    z-index: 2000;
+    width: 60vw;
+    top: 0;
+    right: 0;
 }
+
+
+#close_navbutton{
+    z-index: 2000;
+}
+
 
 
 #navbar-collapse .navbar-nav>li>a{
@@ -434,15 +456,21 @@ a:focus, a:hover{
         display: none;
     }
 }
+
+
 @media only screen and (max-width: 767px) {
     #block-mainnavigation-2 {
         display: none;
     }
-    
-    
-    
-
 }
+
+@media (max-width: 550px){
+    #navbar-collapse{
+        width: 100%;
+        margin: 0;
+    }
+}
+
 
 
 /********/
