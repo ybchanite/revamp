@@ -69,7 +69,27 @@ jQuery(document).ready(function(){
 jQuery('#block-mainnavigation-2 .dropdown a:nth-child(1)').removeAttr('data-toggle');
 
 
+/*fixed toggle button*/
 
+if (jQuery('#navbar').css('display') === 'block'){
+    jQuery(window).scroll(function(){
+            
+        var navbar = jQuery('#navbar > div.navbar-header');
+        var offset = jQuery('#navbar').offset();
+        
+        /*when window scroll down to certain height, fixed bar appears*/
+        
+        if (jQuery(window).scrollTop()  >  offset.top) {
+            navbar.addClass('fixedButton');
+        }
+
+        /*when window scroll up to certain height, fixed bar disappears*/
+        if (jQuery(window).scrollTop()  <  offset.top ){
+            navbar.removeClass('fixedButton');
+        }
+    });
+
+}
 
 /*fixed navbar*/
 
