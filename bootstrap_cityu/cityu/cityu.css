@@ -1326,11 +1326,12 @@ a:focus, a:hover{
     
     #block-frontpageaboutcityu iframe{
         height: 10pc;
+	width: 90%;
     }
-    #myCarousel-306{
-        margin-left: 10%;
+
+    #block-frontpageaboutcityu .right.carousel-control{
+        right: -5%;	
     }
-	
     #block-frontpageaboutcityu > div:nth-child(1){
         padding: 3%;	
     }
