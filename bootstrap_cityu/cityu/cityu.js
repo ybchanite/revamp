@@ -71,7 +71,7 @@ jQuery('#block-mainnavigation-2 .dropdown a:nth-child(1)').removeAttr('data-togg
 
 /*fixed toggle button mask*/
 
-jQuery('#navbar .navbar-header').click(function(){
+jQuery('#navbar .navbar-header button').click(function(){
 	jQuery('div.mask').addClass('maskin');
 });
 
@@ -84,7 +84,7 @@ jQuery('#close_navbutton').click(function(){
 
 
 
-if (jQuery('#block-mainnavigation-2').css('display') === 'block'){
+if (jQuery('#block-mainnavigation-2').css('display') === 'block' && (!jQuery('.region-cityu-user-menu').length) ){
     jQuery(window).scroll(function(){
             
         var navbar = jQuery('body > div.main-header');
@@ -842,28 +842,19 @@ if (jQuery('#block-doctoratehome-introduction').length){
 
 
 if (jQuery('#block-taughthome-introduction').length){
-    
     /*introduction banner layout*/
     jQuery('#block-taughthome-introduction > div').addClass('container');
 
 }
 
-
-
-
-/*hover effect*/
-//jQuery( "#block-views-block-taught-home-blocks-block-1 .views-field-field-image .field-content > div" ).addClass( "tppContainer" );
-//jQuery( "#block-views-block-taught-home-blocks-block-1 .views-field-field-image .field-content > div > div:nth-child(2) a" ).addClass( "tppLink" );
-//jQuery( "#block-views-block-taught-home-blocks-block-1 .views-field-field-image .field-content > div > div:nth-child(2) p" ).addClass( "tppLink" );
-//jQuery( "#block-views-block-taught-home-blocks-block-1 .views-field-field-image .img-responsive" ).addClass( "tppImg" );
-//
-
 /*append arrow to "More Details"*/
-jQuery('#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
+jQuery('#block-taughthomeinfographic .field--name-field-body a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
 
 /*More Details for Flexible Study Mode*/
-jQuery('#block-views-block-taught-home-blocks-block-1 a.TPg_more_details').click(function(){
-    jQuery('#block-views-block-taught-home-blocks-block-1 .TPg_combined_mode').toggle();
+jQuery('#block-taughthomeinfographic .field--name-field-body a').click(function(){
+    if (jQuery(this).parents('.field--name-field-body').siblings('.field--name-bp-text').length){
+    	jQuery(this).parents('.field--name-field-body').siblings('.field--name-bp-text').toggle();
+    }
 });
 
 
