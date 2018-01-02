@@ -1348,7 +1348,7 @@ a:focus, a:hover{
 }
 
 
-#block-testfortoi .views-col{
+#block-testfortoi .paragraph--type--bp-columns__3col{
     opacity: 0;
     
     animation-duration: 450ms;
@@ -1357,19 +1357,6 @@ a:focus, a:hover{
     
     position: relative;
 }
-
-
-
-#block-testfortoi .block-title{
-    margin-bottom: 5%;
-    font-size: 40px;
-    color: #863275;
-    text-align: center;
-    
-    
-}
-
-
 
 #block-testfortoi .para_background img{
     position: absolute;
@@ -1380,60 +1367,49 @@ a:focus, a:hover{
     top: 20%;
 }
     
-#block-testfortoi .views-field-field-url-website a{
+#block-testfortoi .field--name-field-body a{
     font-size: 21px;
     color: #595757;
 }
 
-.view-id-frontpage_whycityu_up .views-field-field-image .field-content{
+#block-testfortoi .field--name-field-image{
     text-align: center;
 }
-.view-id-frontpage_whycityu_up .views-field-field-image img{
+
+#block-testfortoi .field--name-field-image img{
     display: inline-block;
     width: 190px;
 }
 
-.view-id-frontpage_whycityu_up .views-field-field-toi .field-content{
+#block-testfortoi .field--name-field-title{
     position: absolute;
     color: #f8b62b;
     font-size: 80px;
     font-weight: 500;
-}
-
-
-.view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
-    top: 37%;
-/*    margin-left: 15%;*/
-}
-
-.view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content{
-    top: 49%;
-/*    margin-left: 15.5%;*/
-}
-
-.view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content{
-    top: 37%;
-/*    margin-left: 14%;*/
-}
-
-.view-id-frontpage_whycityu_up .views-field-field-toi .field-content{
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
 
+#block-testfortoi .paragraph--type--bp-columns__3col:nth-child(1) .field--name-field-title{
+    top: 37%;
+}
 
-#block-testfortoi .views-field-field-url-website{
+#block-testfortoi .paragraph--type--bp-columns__3col:nth-child(2) .field--name-field-title{
+    top: 49%;
+}
+
+#block-testfortoi .paragraph--type--bp-columns__3col:nth-child(3) .field--name-field-title{
+    top: 37%;
+}
+
+
+#block-testfortoi .field--name-field-body{
     text-align: center;
     width: 70%;
     margin-left: 15%;
 }
 
-
-
-#block-frontpage-3circles-bar > div > div > div{
-    padding: 0;
-}
 
 /*media: worldwide admission*/
 
@@ -1441,60 +1417,22 @@ a:focus, a:hover{
 
 
 @media (max-width: 991px){ 
-    .view-id-frontpage_whycityu_up .views-field-field-toi .field-content{
+    #block-testfortoi .field--name-field-title{
         font-size: 70px;
     }
     
 }
 
-@media (max-width: 767px){ 
-    #block-testfortoi .block-title{
-        font-size: 30px;
-    }
-    
-    #block-testfortoi .views-field-title{
-        margin: 0;
-        width: 95%;
-    }
-    
-    #block-testfortoi .views-field-title a{
-        font-size: 15px;
-    }
-	
-    #block-testfortoi .views-col{
+@media (max-width: 767px){     
+    #block-testfortoi .paragraph--type--bp-columns__3col{
         width: 100%!important;
     }
 	
-    .para_background.field--name-field-background-image{
+    #block-testfortoi .para_background img{
         display: none;
     }
 }
 
-
-/*mobile: iphone 5 - iphone 6 plus*/
-@media (max-width: 448px){ 
-/*     .view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content{
-        top: 10%;
-        font-size: 8vw;
-    }
-    
-    .view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content{
-        top: 16%;
-        font-size: 8vw;        
-    }
-    
-
-    .view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content {
-        top: 10%;
-        margin-left: 11%;
-        font-size: 8vw; 
-    } */
-    
-    #block-testfortoi .block-title{
-        font-size: 25px;
-    }
-    
-}
 
 /*why cityu block*/
 
@@ -1502,25 +1440,16 @@ a:focus, a:hover{
 
 /*divide line*/
 
-.para_frontpage_whycityu_line{
-    margin-top: 3%;
-    display: block;
-    width: 100%;
-    height: 10px;
-    background-color: #b9d138;
-}
-
-
-.para_frontpage_whycityu_text{
-    
+#block-frontpage-whycityu-bar-2{
     text-align: center;
 }
 
-.para_frontpage_whycityu_text p{
+#block-frontpage-whycityu-bar-2 .field--name-bp-text p{
     margin: 50px 0;
     
 }
-.para_frontpage_whycityu_text p a{
+
+#block-frontpage-whycityu-bar-2 .field--name-bp-text p a{
     color: #ffffff;
     text-decoration: none;
     padding: 16px 50px;
@@ -1535,54 +1464,47 @@ a:focus, a:hover{
     
 }
 
-.para_frontpage_whycityu_text p a:hover{
+#block-frontpage-whycityu-bar-2 .field--name-bp-text p a:hover{
     background-color: #e8a008;
 }
 
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-image{
+#block-frontpagewhycityudown .field--name-field-image{
     display: inline-block;
     width: 100%;
     height: auto;
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-image img{
+#block-frontpagewhycityudown ..field--name-field-image img{
     display: inline-block;
 }
 
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-col{
+#block-frontpagewhycityudown .paragraph--type--bp-columns__3col{
     text-align: center;
     opacity: 0;
-}
-
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content{
-    position: absolute;
-/*    color: #f8b62b;*/
-    color: #615e67;
-    font-size: 100px;
-    font-family: Raleway, sans-serif;
-}
-
-#block-views-block-frontpage-whycityu-down-block-1 .views-col{
     animation-duration: 450ms;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     position: relative;
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content{
+#block-frontpagewhycityudown .field--name-field-title{
+    position: absolute;
+    color: #615e67;
+    font-size: 100px;
+    font-family: Raleway, sans-serif;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-25%);
 }
 
 
-#block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content::after{
+#block-frontpagewhycityudown .paragraph--type--bp-columns__3col:nth-child(3) .field--name-field-title::after{
     content: '%';
 }
 
-#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
+#block-frontpagewhycityudown .field--name-field-body a{
     font-size: 21px;
     color: #595757;
 }
@@ -1592,32 +1514,25 @@ a:focus, a:hover{
 
 
 @media (max-width: 1199px){   
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
+    #block-frontpagewhycityudown .field--name-field-title{
         font-size: 100px;
     }
 }
 
 @media (max-width: 991px){ 
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
-        
+    #block-frontpagewhycityudown .field--name-field-title{
         font-size: 80px;
     }
 }
 
 
 @media (max-width: 767px){ 
-/*     #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content {
-        top: 44%;
-        font-size: 11vw;
-        transform: translate(-50%,-20%);
 
-    } */
-    
-    #block-views-block-frontpage-whycityu-down-block-1 .views-field-field-url-website a{
+    #block-frontpagewhycityudown .field--name-field-body a{
         font-size: 16px;
     }
 	
-    #block-views-block-frontpage-whycityu-down-block-1 .views-col{
+    #block-frontpagewhycityudown .paragraph--type--bp-columns__3col{
 	width: 100%!important;
     }
 
@@ -1633,6 +1548,10 @@ a:focus, a:hover{
 #block-frontpage-3circles-colleges{
     text-align: center;
 /*    margin-top: 7%;*/
+}
+
+#block-frontpage-3circles-bar > div > div > div{
+    padding: 0;
 }
 
 #block-frontpage-3circles-colleges .img-responsive{
