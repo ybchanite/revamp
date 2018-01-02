@@ -863,9 +863,9 @@ jQuery('#block-taughthomeinfographic .field--name-field-body a').click(function(
 /*************/
 
 /*hover effect*/
-jQuery( "#block-views-block-taught-diverse-areas-block-1 .views-col" ).addClass( "daContainer" );
-jQuery( "#block-views-block-taught-diverse-areas-block-1 .views-field-body .field-content a" ).addClass( "daLink" );
-jQuery( "#block-views-block-taught-diverse-areas-block-1 .views-field-field-image img" ).addClass( "daImg" );
+jQuery( "#block-taughtdiversearea .paragraph--type--bp-columns__7col" ).addClass( "daContainer" );
+jQuery( "#block-taughtdiversearea .field--name-field-body a" ).addClass( "daLink" );
+jQuery( "#block-taughtdiversearea .field--name-field-image img" ).addClass( "daImg" );
 
 
 /*glbal variable for redirection to program list page*/
@@ -882,17 +882,12 @@ jQuery( "#block-views-block-taught-diverse-areas-block-1 .views-field-field-imag
     
 */
 
-jQuery('#block-views-block-taught-diverse-areas-block-1 .views-field-body p a').click(function(){
+jQuery('#block-taughtdiversearea .field--name-field-body a').click(function(){
     /*store the index of the college/school*/
-    var index = jQuery("#block-views-block-taught-diverse-areas-block-1 .daContainer").index(jQuery(this).parents('.daContainer')) + 1;
+    var index = jQuery("#block-taughtdiversearea .daContainer").index(jQuery(this).parents('.daContainer')) + 1;
     localStorage.targetCollegeSchool = index;
     
 });
-
-
-
-
-
 
     
    
