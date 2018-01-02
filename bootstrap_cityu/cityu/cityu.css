@@ -365,22 +365,16 @@ a:focus, a:hover{
 #navbar > div.navbar-header{
     background-color: #b01861;
     width: 75px;
-    float: right;
+    position: fixed;
+    top: 0;
+    right: 15px;
+    z-index: 1000;
 }
 
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
-    margin-bottom: 0;
-}
-
-/*fixed toggle button*/
-
-.fixedButton {
-    position: fixed;
-    top: 0;
-    right: 15px;
-    z-index: 1000;
+    position: absolute;
 }
 
 .collapsing{
@@ -411,6 +405,30 @@ a:focus, a:hover{
 
 #close_navbutton{
     z-index: 2000;
+}
+
+/*mask for collapsible navbar transition*/
+
+.mask{
+    opacity: 0;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.maskin {
+    display: block;
+    opacity: .7;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -ms-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
 }
 
 
@@ -724,7 +742,11 @@ a:focus, a:hover{
     color: #484548; 
 }
 
-
+@media(max-width: 767px){
+    .main-header.container > aside.col-sm-2{
+        display: none;
+    }
+}
 
 
 /*language switcher*/
