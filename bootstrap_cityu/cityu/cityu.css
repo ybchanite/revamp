@@ -5072,43 +5072,46 @@ a.research_areas_school_website{
 }
 
 
-/*************/
-/*Divers Area*/
-/************/
+/**************/
+/*Diverse Area*/
+/**************/
 
 
 
 
-#block-views-block-taught-diverse-areas-block-1{
-    margin: 3% 2%;
+#block-taughtdiversearea{
+    margin: 3% 0;
+}
+
+#block-taughtdiversearea .paragraph--type--bp-columns__7col{
+    width: 14.285714285714%;
+    display: inline-block;
 }
 
 
-
-
-#block-views-block-taught-diverse-areas-block-1 .views-field-body .field-content{
+#block-taughtdiversearea .field--name-field-body{
     position: absolute;
-    top: 40%;
-    padding-left: 4%;
+    top: 30%;
     font-size: 1.5vw;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.8;
     text-align: center;
+    padding: 0 2em;
 }
 
-#block-views-block-taught-diverse-areas-block-1 .views-col.col-4 > div.views-field.views-field-body > .field-content,
-#block-views-block-taught-diverse-areas-block-1 .views-col.col-3 > div.views-field.views-field-body > .field-content,
-#block-views-block-taught-diverse-areas-block-1 .views-col.col-6 > div.views-field.views-field-body > .field-content{
-    
-    padding-left: 2%;
+#block-taughtdiversearea .paragraph--type--bp-columns__7col:nth-child(3) .field--name-field-body{
+    padding: 0 1.5em;
 }
 
+#block-taughtdiversearea .paragraph--type--bp-columns__7col:nth-child(6) .field--name-field-body{
+    padding: 0 1em;
+}
 
-
+#block-taughtdiversearea .field--name-field-image img{
+    max-width: 159px!important;
+}
 
 .daImg{
-    
-    /*z-index: 2;*/
     transition: .3s ease;
     opacity: 1;
     backface-visibility: hidden;
