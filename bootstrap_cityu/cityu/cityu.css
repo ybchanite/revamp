@@ -3771,9 +3771,6 @@ a.research_areas_school_website{
 }
 
 
-
-
-
 #block-taughthome-introduction{
     margin-bottom: 5%;
     background-color: #a591a5;
@@ -3792,12 +3789,6 @@ a.research_areas_school_website{
     display: none;
 }
 
-
-/*#block-taughthome-introduction .field--name-bp-image-field img{
-    margin: 5% 10%;
-}*/
-
-
 #block-taughthome-introduction .field--name-bp-text{
     padding: 5% 0;
 }
@@ -3805,7 +3796,7 @@ a.research_areas_school_website{
 
 
 
-#block-taughthome-introduction  .field--name-bp-text p{
+#block-taughthome-introduction .field--name-bp-text p{
     
     color: #ffffff;
     margin-bottom: 4%;
@@ -3821,53 +3812,20 @@ a.research_areas_school_website{
     
 }
 
-#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-col{
+/*Infographic*/
+
+#block-taughthomeinfographic .paragraph--type--bp-columns__3col{
     text-align: center;
     padding: 0 20px;
 }
 
-
-#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-field-field-url-website a{
-    
-    font-size: 18px;
-    color: #863275;
-    font-weight: bold;
-}
-
-#block-views-block-taught-home-blocks-block-1 .view-taught-home-blocks .views-field-field-url-website{
-    margin-top: 3%;
-}
-
-
-#block-views-block-taught-home-blocks-block-1 .views-field-field-image img{
+#block-taughthomeinfographic .field--name-field-image img{
     display: inline-block;
-    
-
 }
 
-#block-views-block-taught-home-blocks-block-1 .TPg_more_details{
-    cursor: pointer;
-}
-
-#block-views-block-taught-home-blocks-block-1 .TPg_combined_mode{
+#block-taughthomeinfographic .field--name-bp-text{
     display: none;
 }
-
-
-
-#block-views-block-taught-home-blocks-block-1 .col-1 .views-field-field-image p, #block-views-block-taught-home-blocks-block-1 .col-2 .views-field-field-image p{
-
-    font-size: 16px;
-    font-weight: 300;
-    
-
-}
-
-
-
-
-
-
 
 
 @media (max-width: 991px){
