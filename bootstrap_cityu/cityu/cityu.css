@@ -1475,7 +1475,7 @@ a:focus, a:hover{
     height: auto;
 }
 
-#block-frontpagewhycityudown ..field--name-field-image img{
+#block-frontpagewhycityudown .field--name-field-image img{
     display: inline-block;
 }
 
@@ -1602,16 +1602,6 @@ a:focus, a:hover{
 }
 
 #block-frontpage-3circles-colleges .field--name-field-toi{
-/*    position: absolute;
-    width: 135px;
-    font-size: 26px;
-    color: #595757;
-    bottom: 25%;
-    font-weight: bold;
-    margin-left: 30%;
-    text-align: center;*/
-
-
     position: absolute;
     width: 135px;
     font-size: 26px;
@@ -2598,7 +2588,6 @@ ul.action-links{
 /*introduction*/
 
 #block-researchhome-bar{
-/*    background-color: #94708d;*/
     background-color: #a591a5;
 }
 
@@ -2607,18 +2596,6 @@ ul.action-links{
 #block-researchhome-bar .field--name-bp-text{
     padding: 5% 0;
 }
-
-/*#block-researchhome-bar .field--name-bp-text h1{
-    color: #ffffff;
-    margin-bottom: 4%;
-    text-align: left;
-}
-
-#block-researchhome-bar .field--name-bp-text h1:before{
-    left: 0;
-    width: 50px;
-    transform: translate(0);
-}*/
 
 #block-researchhome-bar .field--name-bp-text a{
     color: #e8e1ea;
@@ -2653,8 +2630,7 @@ ul.action-links{
 }
 
 
-/*media: research degree program*/
-
+/*media: research degree program: Home*/
 
 
 @media (max-width: 767px){ 
@@ -2668,22 +2644,22 @@ ul.action-links{
 
 
 
-/*research figures*/
+/*Research Home Infographic*/
 
-#block-views-block-research-home-figures-block-1{
+#block-researchhomeinfographic{
     text-align: center;
     margin-top: 5%;
 }
 
-#block-views-block-research-home-figures-block-1 .views-col{
+#block-researchhomeinfographic .paragraph--type--bp-columns__3col{
     position: relative;
 }
 
-#block-views-block-research-home-figures-block-1 img{
+#block-researchhomeinfographic .field--name-field-image img{
     display: inline-block;
 }
 
-#block-views-block-research-home-figures-block-1 .views-field-field-toi{
+#block-researchhomeinfographic .field--name-field-title{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2699,19 +2675,18 @@ ul.action-links{
 
 
 
-#block-views-block-research-home-figures-block-1 .views-field-body{
+#block-researchhomeinfographic .field--name-field-body{
     margin-bottom: 15%;
     padding: 0 8%;
 }
 
-#block-views-block-research-home-figures-block-1 .views-field-body p, 
-#block-views-block-research-home-figures-block-1 .views-field-body a{
+#block-researchhomeinfographic .field--name-field-body p{
     font-size: 23px;
     color: #863275;
 
 }
 
-#block-views-block-research-home-figures-block-1 .views-col a{
+#block-researchhomeinfographic .field--name-field-body a{
     font-size: 18px;
     font-weight: 300;
     color: #337ab7;
@@ -2722,37 +2697,25 @@ ul.action-links{
 
 
 /*media: research figures*/
-/*@media (min-width: 1900px){
-    #block-views-block-research-home-figures-block-1{
-        margin-left: 15%;
-        margin-right: 15%;
-    }
-}
-*/
-
 @media (max-width: 1899px){ 
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi{ 
+    #block-researchhomeinfographic .field--name-field-title{ 
         font-size: 60px; 
     }
     
 }
 
 @media (max-width: 1199px){
-        #block-views-block-research-home-figures-block-1 .views-field-body p, #block-views-block-research-home-figures-block-1 .views-field-body a{
+    #block-researchhomeinfographic .field--name-field-body p, #block-researchhomeinfographic .field--name-field-body a{
         font-size: 18px;
     }
     
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi{
+    #block-researchhomeinfographic .field--name-field-title{
         top: 55%;
     }
-    
-    
-    
 }
 
-
 @media(max-width: 767px){
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi{
+    #block-researchhomeinfographic .field--name-field-title{
         font-size: 7vw;
     }
     
@@ -2760,10 +2723,10 @@ ul.action-links{
 
 @media(max-width: 448px){
     
-    #block-views-block-research-home-figures-block-1 .views-field-body p, #block-views-block-research-home-figures-block-1 .views-field-body a{
+    #block-researchhomeinfographic .field--name-field-body p, #block-researchhomeinfographic .field--name-field-body a{
         font-size: 15px;
     }
-    #block-views-block-research-home-figures-block-1 .views-field-field-toi {
+    #block-researchhomeinfographic .field--name-field-title{
         top: 45%;
     }
  
