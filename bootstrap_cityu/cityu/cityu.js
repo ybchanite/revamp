@@ -69,27 +69,16 @@ jQuery(document).ready(function(){
 jQuery('#block-mainnavigation-2 .dropdown a:nth-child(1)').removeAttr('data-toggle');
 
 
-/*fixed toggle button*/
+/*fixed toggle button mask*/
 
-if (jQuery('#navbar').css('display') === 'block'){
-    jQuery(window).scroll(function(){
-            
-        var navbar = jQuery('#navbar > div.navbar-header');
-        var offset = jQuery('#navbar').offset();
-        
-        /*when window scroll down to certain height, fixed bar appears*/
-        
-        if (jQuery(window).scrollTop()  >  offset.top) {
-            navbar.addClass('fixedButton');
-        }
+jQuery('.navbar-header').click(function(){
+	jQuery('div.mask').addClass('maskin');
+});
 
-        /*when window scroll up to certain height, fixed bar disappears*/
-        if (jQuery(window).scrollTop()  <  offset.top ){
-            navbar.removeClass('fixedButton');
-        }
-    });
+jQuery('#collapse_close').click(function(){
+	jQuery('div.mask').removeClass('maskin');
+});
 
-}
 
 /*fixed navbar*/
 
