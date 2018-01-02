@@ -71,11 +71,11 @@ jQuery('#block-mainnavigation-2 .dropdown a:nth-child(1)').removeAttr('data-togg
 
 /*fixed toggle button mask*/
 
-jQuery('.navbar-header').click(function(){
+jQuery('#navbar .navbar-header').click(function(){
 	jQuery('div.mask').addClass('maskin');
 });
 
-jQuery('#collapse_close').click(function(){
+jQuery('#close_navbutton').click(function(){
 	jQuery('div.mask').removeClass('maskin');
 });
 
@@ -84,7 +84,7 @@ jQuery('#collapse_close').click(function(){
 
 
 
-if (jQuery('#block-mainnavigation-2').css('display') === 'block' && (!jQuery('.region-cityu-user-menu').length)){
+if (jQuery('#block-mainnavigation-2').css('display') === 'block'){
     jQuery(window).scroll(function(){
             
         var navbar = jQuery('body > div.main-header');
@@ -400,18 +400,16 @@ jQuery('.people_alumni_modal_class .people_story_more').click(function() {
 /*pop up number effect when scrolling down*/
 
 if (jQuery('#block-researchhome-bar').length){
-    
-    
-    
     /*introduction banner layout*/
     jQuery('#block-researchhome-bar > div').addClass('container');
-    
-    
+}
+
+if (jQuery('#block-researchhomeinfographic').length){
     jQuery(window).scroll(function() {
             var windowPos = window.pageYOffset;
-            var noPos = jQuery('#block-views-block-research-home-figures-block-1 .views-col .views-field-field-toi').offset();
+            var noPos = jQuery('#block-researchhomeinfographic .field--name-field-title').offset();
             if (windowPos >= (noPos.top - (noPos.top/2))) {
-                jQuery('#block-views-block-research-home-figures-block-1 .views-col .views-field-field-toi').animate({
+                jQuery('#block-researchhomeinfographic .field--name-field-title').animate({
                     opacity: 1,
                     marginTop: 0
                   }, 800 );
@@ -419,7 +417,7 @@ if (jQuery('#block-researchhome-bar').length){
 
     });
 }
-    
+
 
 
 
@@ -502,20 +500,6 @@ if (jQuery('#block-researchhomeresearchers').length){
 /*more researchers button*/
 
 jQuery('#block-researchhomeresearchers .field--name-bp-text a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
