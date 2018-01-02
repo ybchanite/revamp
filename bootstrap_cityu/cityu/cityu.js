@@ -151,40 +151,25 @@ jQuery('#block-frontpageaboutcityu a:contains("Learn More")').append(' <i class=
 /*animation*/
 
 
-if (jQuery('#block-testfortoi ').length){
+if (jQuery('#block-testfortoi').length){
     jQuery(window).scroll(function() {
             var windowPos = window.pageYOffset;   
-            var wwPos = jQuery('#block-testfortoi .views-col').offset();
+            var wwPos = jQuery('#block-testfortoi .paragraph--type--bp-columns__3col').offset();
             if (windowPos >= (wwPos.top - (wwPos.top/2))) {
-                jQuery('#block-testfortoi .views-col').css('animation-name', 'fadeIn');
+                jQuery('#block-testfortoi .paragraph--type--bp-columns__3col').css('animation-name', 'fadeIn');
                 
             }
 
-
-
-//            var wcPos = jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col').offset();
-//            if (windowPos >= (wcPos.top - (wcPos.top/2.5))) {
-//                jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col.col-1').fadeTo('fast', 1 ,function(){
-//                   jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col.col-2').fadeTo('fast', 1, function(){
-//                        jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col.col-3').fadeTo('fast', 1);
-//                   });
-//                });
-//            }
             
-            var wcPos = jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col').offset();
+            var wcPos = jQuery('#block-frontpagewhycityudown .paragraph--type--bp-columns__3col').offset();
             if (windowPos >= (wcPos.top - (wcPos.top/2.5))) {
-//                jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col.col-1').fadeTo(200, 1);
-//                jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col.col-2').fadeTo(600, 1);
-//                jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col.col-3').fadeTo(1000, 1);
-                jQuery('#block-views-block-frontpage-whycityu-down-block-1 .views-col').css('animation-name', 'fadeIn');
-                
-
+                jQuery('#block-frontpagewhycityudown .paragraph--type--bp-columns__3col').css('animation-name', 'fadeIn');
             }
             
             
-            var wcbPos = jQuery('.para_frontpage_whycityu_text p a').offset();
+            var wcbPos = jQuery('#block-frontpage-whycityu-bar-2 .field--name-bp-text').offset();
             if (windowPos >= (wcbPos.top - (wcbPos.top/2.5))) {
-                jQuery('.para_frontpage_whycityu_text p a').css('animation-name', 'fadeInUp');
+                jQuery('#block-frontpage-whycityu-bar-2 .field--name-bp-text').css('animation-name', 'fadeInUp');
 
             }            
             
@@ -199,7 +184,7 @@ if (jQuery('#block-testfortoi ').length){
     });
 }
     
-jQuery('.view-frontpage-whycityu-up .views-col .views-field-field-toi .field-content').each(function(){
+jQuery('#block-testfortoi .field--name-field-title').each(function(){
     var max = jQuery(this).text();
     var no_increment;
     if(max <= 10){
@@ -213,7 +198,7 @@ jQuery('.view-frontpage-whycityu-up .views-col .views-field-field-toi .field-con
 });
 
 
-jQuery( "#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-toi .field-content").each(function(){
+jQuery( "#block-frontpagewhycityudown .field--name-field-title").each(function(){
     var max = jQuery(this).text();
     var no_increment;
     if(max <= 10){
@@ -226,13 +211,6 @@ jQuery( "#block-views-block-frontpage-whycityu-down-block-1 .views-field-field-t
     jQuery(this).addClass('numscroller').attr('data-min', '1').attr('data-max', max).attr('data-delay', no_increment).attr('data-increment', no_increment).delay(1000);
 });
     
-//jQuery( ".view-id-frontpage_whycityu_up .col-1 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '4').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
-//jQuery( ".view-id-frontpage_whycityu_up .col-2 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '7').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
-//jQuery( ".view-id-frontpage_whycityu_up .col-3 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '49').attr('data-delay', '3').attr('data-increment', '2').delay(1000);
-//jQuery( "#block-views-block-frontpage-whycityu-down-block-1 .col-1 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '8').attr('data-delay', '1').attr('data-increment', '1').delay(1000);
-//jQuery( "#block-views-block-frontpage-whycityu-down-block-1 .col-2 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '38').attr('data-delay', '2').attr('data-increment', '2').delay(1000);
-//jQuery( "#block-views-block-frontpage-whycityu-down-block-1 .col-3 .views-field-field-toi .field-content").addClass('numscroller').attr('data-min', '1').attr('data-max', '70').attr('data-delay', '2').attr('data-increment', '2').delay(1000);
-
 
 
 /*hover effect*/
