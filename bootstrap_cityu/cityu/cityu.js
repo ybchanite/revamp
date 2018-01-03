@@ -631,46 +631,6 @@ jQuery('#block-views-block-research-areas-block-1 .view_research_areas .view_res
 
 
 
-/*****/
-/*phd*/
-/*****/
-
-/*
-    This index list mechanism is based on the order of the list item and the content block.
-    ie. The user select the 2nd item of the select list, then the 2nd description block will be shown.
-
-    Therfore, please be careful when modifying either the list items and the content blocks.
-    
-    The list item is recognized as <p>.
-    The description block is recognized as <div> inside class "col-sm-10".
-    
-*/
-
-
-jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p:nth-child(-n+13):not(:nth-child(12))').click(function(){
-
-        var index = jQuery("#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p").index(jQuery(this)) + 1;
-        /*For exceptional case as the 12th list item is a hyperlink with no corresponding description block*/
-        if (index === 13) { index--;}
-
-	jQuery('#block-researchphdfellowshipscheme201718 .col-sm-10 .field--item').css('display','none');
-	if (index === 2 || index === 3 ){
-            var target1 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(2)");
-            var target2 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(3)");
-            target1.show();
-            target2.show();
-            
-        }else{
-	    var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(" + index + ")");
-            target.show();
-	
-	}
-        
-});
-
-
-
-
 
 
 
@@ -866,6 +826,9 @@ jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').not(
         
 });
     
+
+
+
     
 /**************/  
 /*program list*/
@@ -1381,5 +1344,49 @@ jQuery('#block-views-block-news-events-public-lecture-block-1 .views-row .views-
     
 
 });
+
+
+
+/*****/
+/*phd*/
+/*****/
+
+/*
+    This index list mechanism is based on the order of the list item and the content block.
+    ie. The user select the 2nd item of the select list, then the 2nd description block will be shown.
+
+    Therfore, please be careful when modifying either the list items and the content blocks.
+    
+    The list item is recognized as <p>.
+    The description block is recognized as <div> inside class "col-sm-10".
+    
+*/
+
+
+jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p:nth-child(-n+13):not(:nth-child(12))').click(function(){
+
+        var index = jQuery("#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p").index(jQuery(this)) + 1;
+        /*For exceptional case as the 12th list item is a hyperlink with no corresponding description block*/
+        if (index === 13) { index--;}
+
+	jQuery('#block-researchphdfellowshipscheme201718 .col-sm-10 .field--item').css('display','none');
+	if (index === 2 || index === 3 ){
+            var target1 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(2)");
+            var target2 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(3)");
+            target1.show();
+            target2.show();
+            
+        }else{
+	    var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(" + index + ")");
+            target.show();
+	
+	}
+        
+});
+
+
+
+
+
 
 
