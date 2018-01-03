@@ -799,7 +799,7 @@ jQuery('.paragraph--type--contents-with-menu .field--name-field-caption').wrap('
 jQuery('.paragraph--type--contents-with-menu .field--name-field-body').wrap('<div class="col-sm-10"/>');
 
 
-jQuery('.paragraph--type--contents-with-menu .content_with_menu ').prepend( "<i class="fa fa-caret-down collapse_caret" aria-hidden="true"></i>" );
+jQuery('.paragraph--type--contents-with-menu .content_with_menu ').prepend('<i class="fa fa-caret-down collapse_caret" aria-hidden="true"></i>');
 	
 jQuery('.collapse_caret').click(function(){
 	jQuery('.content_with_menu .col-sm-2').toggle('fast');
