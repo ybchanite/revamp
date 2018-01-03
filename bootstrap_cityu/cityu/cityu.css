@@ -3195,21 +3195,7 @@ a.research_areas_school_website{
 
 
 
-/*select list*/
-
-.landing_research_phdfscheme > .col-sm-2{
-    background-color: #F1F2F2;
-    padding: 0;
-}
-
-.landing_research_phdfscheme > .col-sm-2 p{
-    cursor: pointer;
-    margin-bottom: 0;
-    padding: 10px;
-}
-
-
-
+/*menu*/
 
 .landing_research_phdfscheme > .col-sm-2 p:not(:nth-child(14)):not(:nth-child(17)):hover{
     color: #ffffff!important;
@@ -3222,68 +3208,27 @@ a.research_areas_school_website{
 
 
 /*indent items*/
-.landing_research_phdfscheme > .col-sm-2 p:nth-child(3){
+#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .field--name-field-caption p:nth-child(3){
     padding-left: 8%;
     color: grey;
 }
 
-/*description blocks*/
-
-.landing_research_phdfscheme .col-sm-10{
-    padding: 0 7%;
-    line-height: 2;
-}
+/*Content blocks*/
 
 
-.landing_research_phdfscheme > .col-sm-10 h1, .landing_research_phdfscheme > .col-sm-10 h2{
+#block-researchphdfellowshipscheme201718 .col-sm-10 h1, #block-researchphdfellowshipscheme201718 .col-sm-10 h2{
     color: #863d75;
     font-size: 25px;
 }
 
 
-.landing_research_phdfscheme > .col-sm-10 div{
+#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items{
     display: none;
 }
 
-.landing_research_phdfscheme > .col-sm-10 div p{
+#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items{
     text-align: justify;
 }
-
-/*introduction is shown as default*/
-.landing_research_phdfscheme > .col-sm-10 div:nth-child(1){
-    display: block;
-}
-
-.landing_research_phdfscheme table{
-    background-color: #f1f2f2;
-    width: 100%;
-    
-}
-
-/*
-.landing_research_phdfscheme table tr:nth-child(1){
-    background-color: #58585A
-}
-*/
-
-.landing_research_phdfscheme table td, .landing_research_phdfscheme table th{
-    vertical-align: top;
-    /*padding: 1% 3%;*/
-    padding: 10px;
-    border: 1px solid #ffffff;
-/*    width: 45px;*/
-}
-
-
-
-
-.landing_research_phdfscheme table th{
-    background-color: #58585A;
-    color: #ffffff;
-}
-
-
-
 
 @media(max-width: 991px){
     .landing_research_phdfscheme > h1{
@@ -3294,18 +3239,18 @@ a.research_areas_school_website{
 }
 
 @media (max-width: 767px){
-    .landing_research_phdfscheme .col-sm-10{
+    #block-researchphdfellowshipscheme201718 .col-sm-10{
         padding: 0 15px;
         line-height: 1.42857143;
     }
     
-    .landing_research_phdfscheme h1{
+    #block-researchphdfellowshipscheme201718 .col-sm-10 h1{
         font-size: 30px;
 
 
     }
     
-    .landing_research_phdfscheme > .col-sm-2{
+    #block-researchphdfellowshipscheme201718 .col-sm-2{
         padding: 5%;
     }
 }
