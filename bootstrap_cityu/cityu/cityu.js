@@ -897,119 +897,41 @@ jQuery('#block-taughtdiversearea .field--name-field-body a').click(function(){
 /*visiting*/
 /**********/
 
+/*styling*/
 
+jQuery('.paragraph--type--contents-with-menu .field--name-field-caption, .paragraph--type--contents-with-menu .field--name-field-body').wrapAll('<div class="content_with_menu col-sm-12"/>')
 
-/* old design
+jQuery('.paragraph--type--contents-with-menu .field--name-field-caption').wrap('<div class="col-sm-2"/>');
 
-jQuery( ".landing_visiting_research .col-sm-6:nth-child(1) li:nth-child(1)" ).addClass('visitingLinkFocus');
+jQuery('.paragraph--type--contents-with-menu .field--name-field-body').wrap('<div class="col-sm-10"/>');
 
-jQuery('.landing_visiting_research .col-sm-6 li').click(function(){
-    
-        jQuery('.landing_visiting_research .col-sm-6 li').removeClass('visitingLinkFocus');
-        jQuery(this).addClass('visitingLinkFocus');
-        
-        
-        var index = jQuery(".landing_visiting_research .col-sm-6 li").index(jQuery(this)) + 1;
-        
-        var target = jQuery(".landing_visiting_research .col-sm-6 div:nth-child(" + index + ")");
-        
-        
-        jQuery('.landing_visiting_research .col-sm-6 div').css('display','none');
-        target.css('display','block');
-        
-       
-        
-    });
-    
-  */
-    
-    
-/*
-jQuery( ".landing_visiting_postgraduate .col-sm-6:nth-child(1) li:nth-child(1)" ).addClass('visitingLinkFocus');
+/*menu*/
 
-jQuery('.landing_visiting_postgraduate .col-sm-6 li').click(function(){
-    
-        jQuery('.landing_visiting_postgraduate .col-sm-6 li').removeClass('visitingLinkFocus');
-        jQuery(this).addClass('visitingLinkFocus');
-        
-        
-        var index = jQuery(".landing_visiting_postgraduate .col-sm-6 li").index(jQuery(this)) + 1;
-        
-        var target = jQuery(".landing_visiting_postgraduate .col-sm-6 div:nth-child(" + index + ")");
-        
-        
-        jQuery('.landing_visiting_postgraduate .col-sm-6 div').css('display','none');
-        target.css('display','block');
-        
-        
- 
-        
-    });
-    
-
-*/
-
-
-
-
-
-
-/*sidebar*/
-
-
-if(jQuery('.landing_visiting_research').length){
-    jQuery('.landing_visiting_research .col-sm-2 li:first-child').addClass('activeTimelineIndex');
+if(jQuery('.paragraph--type--contents-with-menu').length){
+    jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p:first-child').addClass('activeTimelineIndex');
 }
 
-if(jQuery('.landing_visiting_postgraduate').length){
-    jQuery('.landing_visiting_postgraduate .col-sm-2 li:first-child').addClass('activeTimelineIndex');
-}
-
-
-jQuery('.landing_visiting_research > .col-sm-2  ul li, .landing_visiting_postgraduate > .col-sm-2  ul li').click(function(){
-    jQuery('.col-sm-2  ul li').not(jQuery(this)).removeClass('activeTimelineIndex');
+jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').click(function(){
+    jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').not(jQuery(this)).removeClass('activeTimelineIndex');
     jQuery(this).addClass('activeTimelineIndex');
-    
-    
-    
+   
 });
-        
 
-
-
-
-/*same design as phd*/
-jQuery('.landing_visiting_research .col-sm-2 li').click(function(){
+jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').click(function(){
 
         
         
-        var index = jQuery(".landing_visiting_research .col-sm-2 li").index(jQuery(this)) + 1;
+        var index = jQuery(".paragraph--type--contents-with-menu .field--name-field-caption p").index(jQuery(this)) + 1;
         
-        var target = jQuery(".landing_visiting_research .col-sm-10 div:nth-child(" + index + ")");
+        var target = jQuery(".paragraph--type--contents-with-menu .field--name-field-body .field--item:nth-child(" + index + ")");
         
         
-        jQuery('.landing_visiting_research .col-sm-10 div').css('display','none');
+        jQuery('.paragraph--type--contents-with-menu .field--name-field-body .field--item').css('display','none');
         target.css('display','block');
         
        
         
-    });
-    
-       jQuery('.landing_visiting_postgraduate .col-sm-2 li').click(function(){
-
-        
-        
-        var index = jQuery(".landing_visiting_postgraduate .col-sm-2 li").index(jQuery(this)) + 1;
-        
-        var target = jQuery(".landing_visiting_postgraduate .col-sm-10 div:nth-child(" + index + ")");
-        
-        
-        jQuery('.landing_visiting_postgraduate .col-sm-10 div').css('display','none');
-        target.css('display','block');
-        
-       
-        
-    });
+});
     
     
 /**************/  
