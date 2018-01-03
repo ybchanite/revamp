@@ -658,19 +658,6 @@ jQuery('#block-views-block-research-areas-block-1 .view_research_areas .view_res
 /*phd*/
 /*****/
 
-if(jQuery('.landing_research_phdfscheme').length){
-    jQuery('.landing_research_phdfscheme > .col-sm-2 > p:first-child').addClass('activeTimelineIndex');
-}
-
-
-jQuery('.landing_research_phdfscheme > .col-sm-2 p:not(:nth-child(14)):not(:nth-child(17))').click(function(){
-    jQuery('.landing_research_phdfscheme > .col-sm-2 p').not(jQuery(this)).removeClass('activeTimelineIndex');
-    jQuery(this).addClass('activeTimelineIndex');
-    
-    
-    
-});
-
 /*
     This index list mechanism is based on the order of the list item and the content block.
     ie. The user select the 2nd item of the select list, then the 2nd description block will be shown.
@@ -683,8 +670,8 @@ jQuery('.landing_research_phdfscheme > .col-sm-2 p:not(:nth-child(14)):not(:nth-
 */
 
 
-jQuery('.landing_research_phdfscheme .col-sm-2 p:nth-child(-n+13):not(:nth-child(12))').click(function(){
-        var index = jQuery(".landing_research_phdfscheme .col-sm-2 p").index(jQuery(this)) + 1;
+jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .field--name-field-caption p:nth-child(-n+13):not(:nth-child(12))').click(function(){
+        var index = jQuery("#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .field--name-field-caption p").index(jQuery(this)) + 1;
         
         /*For exceptional case as the 12th list item is a hyperlink with no corresponding description block*/
         if (index === 12) {index = -1;}
@@ -693,45 +680,19 @@ jQuery('.landing_research_phdfscheme .col-sm-2 p:nth-child(-n+13):not(:nth-child
         
         jQuery('.landing_research_phdfscheme > .col-sm-10 div').css('display','none');
         
-        var target = jQuery(".landing_research_phdfscheme .col-sm-10 div:nth-child(" + index + ")");
+        var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items:nth-child(" + index + ")");
+	jQuery('#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items').css('display','none');
         target.show();
-        
-        
-        
-        
-        
         
          
         if (index === 2 || index === 3 ){
-            var target1 = jQuery(".landing_research_phdfscheme .col-sm-10 div:nth-child(2)");
-            var target2 = jQuery(".landing_research_phdfscheme .col-sm-10 div:nth-child(3)");
+            var target1 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items:nth-child(2)");
+            var target2 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items:nth-child(3)");
             target1.show();
             target2.show();
             
         }
-        
-    
-        /* old design:
-        else if (index === 4 || index === 5 ){
-                var target1 = jQuery(".landing_research_phdfscheme .col-sm-10 div:nth-child(4)");
-                var target2 = jQuery(".landing_research_phdfscheme .col-sm-10 div:nth-child(5)");
-                target1.show();
-                target2.show();   
-        }else{
-            
-            var target = jQuery(".landing_research_phdfscheme .col-sm-10 div:nth-child(" + index + ")");
-            target.show();
-        }
-        
-        */
-       
-        /*
-        if (target.length){
-            jQuery('html,body').animate({scrollTop: target.offset().top},'slow');
-        }
-        */
-       
-        
+
         
     });
 
@@ -917,7 +878,7 @@ jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').clic
    
 });
 
-jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').click(function(){
+jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').not(jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .field--name-field-caption p')).click(function(){
 
         
         
