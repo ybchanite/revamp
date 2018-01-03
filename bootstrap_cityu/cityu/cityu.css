@@ -4047,6 +4047,8 @@ a.research_areas_school_website{
     font-size: 24px!important;
     font-weight: 700!important;
     margin-right: 10px;
+    color: #863275;
+    cursor: pointer;
 }
 
 
@@ -4074,7 +4076,8 @@ a.research_areas_school_website{
 
 }
 
-.content_with_menu .col-sm-2  p:hover{
+#block-visitingresearchstudents .content_with_menu .col-sm-2  p:hover, 
+#block-visitingpostgraduatestudents .content_with_menu .col-sm-2  p:hover{
     color: #ffffff;
     background-color: #9a7894;
 }
@@ -4101,6 +4104,7 @@ a.research_areas_school_website{
 .content_with_menu .col-sm-10 .field--item table{
     background-color: #f1f2f2;
     width: 100%;
+    text-align: left;
 }
 
 
@@ -4138,6 +4142,12 @@ a.research_areas_school_website{
 #block-visitingpostgraduatestudents table th p{
 
     text-align: center;
+}
+
+@media (min-width: 768px){
+    .content_with_menu .col-sm-2{
+        display: block!important;
+    }
 }
 
 @media (max-width: 767px){
