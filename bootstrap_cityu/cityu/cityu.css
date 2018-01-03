@@ -4137,6 +4137,7 @@ a.research_areas_school_website{
 
 .content_with_menu .col-sm-10 .field--item{
     display: none;
+    text-align: justify;
 }
 
 
@@ -4166,93 +4167,33 @@ a.research_areas_school_website{
 /*postgraduate visiting*/
 
 
-.landing_visiting_postgraduate > .col-sm-2 {
-    background-color: #F1F2F2;
-    padding: 0;
-}
-
-
-.landing_visiting_postgraduate > .col-sm-2  ul{
-    padding-left: 0;
-    list-style-type: none;
-    margin: 0;
-}
-
-.landing_visiting_postgraduate > .col-sm-2  ul li{
-    padding: 10px;
-    cursor: pointer;
-
-}
-
-
-.landing_visiting_postgraduate > .col-sm-2  ul li:hover{
-    color: #fff;
-    background-color: #9a7894;
-
-}
-
-.landing_visiting_postgraduate .col-sm-10{
-    padding: 0 7%;
-    line-height: 2;
-}
-
-.landing_visiting_postgraduate > .col-sm-10 div:nth-child(1){
-    display: block;
-}
-
-.landing_visiting_postgraduate > .col-sm-10 div{
-    display: none;
+#block-visitingpostgraduatestudents .content_with_menu{
+    margin-top: 2%;
 }
 
 
 
-.landing_visiting_postgraduate{
-    margin: 2% 0;
-}
-
-.landing_visiting_postgraduate p{
-    text-align: justify;
-}
-
-
-
-
-
-.landing_visiting_postgraduate table{
-    background-color: #f1f2f2;
-    width: 100%;
-    
-}
-
-
-.landing_visiting_postgraduate table th{
+#block-visitingpostgraduatestudents table th{
     background-color: #58585A;
     color: #ffffff;
 }
 
-.landing_visiting_postgraduate table td, .landing_visiting_postgraduate table th{
-
-    vertical-align: top;
-    padding: 10px;
-    border: 1px solid #ffffff;
-}
-
-.landing_visiting_postgraduate table th p{
+#block-visitingpostgraduatestudents table th p{
 
     text-align: center;
 }
 
 @media (max-width: 767px){
     
-    .landing_visiting_research > .col-sm-2{
+    .content_with_menu .col-sm-2{
         padding: 5%;
     }
-    .landing_visiting_research .col-sm-10{
+    .content_with_menu .col-sm-10{
         padding: 0 15px;
         line-height: 1.42857143;
     }
     
-    .landing_visiting_postgraduate > .col-sm-2{
+    .content_with_menu .col-sm-2{
         padding: 5%;
     }
 
