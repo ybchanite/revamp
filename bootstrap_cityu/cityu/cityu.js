@@ -333,11 +333,12 @@ jQuery( "#block-views-block-aboutcityu-student-alumni-block-1 .views-row:nth-chi
 
 /*show embedded pdf*/
 
-jQuery('.views-field-field-story .embedded_pdf').each(function(){
-    var pdf_link = jQuery(this).html();
-    jQuery(this).html('<embed src="'+ pdf_link+ '"></embed>');
+jQuery('.people_alumni_modal_content .embedded-entity').each(function(){
+	
+    var pdf_link = jQuery(this).find('.file-link a').attr('href');
+    var embedded = '<div class="embedded_pdf"><embed src="'+ pdf_link+ '"></embed></div>';
+	jQuery(this).replaceWith(embedded);
 });
-
 
 
 
