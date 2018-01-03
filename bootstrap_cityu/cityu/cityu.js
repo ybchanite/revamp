@@ -36,29 +36,6 @@ if(jQuery('body.user-logged-in.path-view').length || jQuery('body.user-logged-in
 jQuery('.region-header p.navbar-text').wrap('<a href="/"></a>');
 
 
-/*******************/
-/*Language switcher*/
-/*******************/
-
-//Disable language switcher when no translation is available
-
-jQuery(document).ready(function(){
-    var en = jQuery('#block-languageswitcher li[hreflang = "en"] a');
-    var tc = jQuery('#block-languageswitcher li[hreflang = "zh-hant"] a');
-    var sc = jQuery('#block-languageswitcher li[hreflang = "zh-hans"] a');
-    
-    if (!(tc.attr('href').indexOf(en.attr('href')) >= 0)){
-        tc.parent().hide();
-    }
-    if (!(sc.attr('href').indexOf(en.attr('href')) >= 0)){
-        sc.parent().hide();
-    }
-    
-});
-
-
-
-
 /********/
 /*navbar*/
 /********/
@@ -674,25 +651,22 @@ jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with
 
         var index = jQuery("#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p").index(jQuery(this)) + 1;
         /*For exceptional case as the 12th list item is a hyperlink with no corresponding description block*/
-        if (index === 12) { index = -1;}
         if (index === 13) { index--;}
-        
-        
-        var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(" + index + ")");
+
 	jQuery('#block-researchphdfellowshipscheme201718 .col-sm-10 .field--item').css('display','none');
-        target.show();
-        
-         
-        if (index === 2 || index === 3 ){
+	if (index === 2 || index === 3 ){
             var target1 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(2)");
             var target2 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(3)");
             target1.show();
             target2.show();
             
-        }
-
+        }else{
+	    var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(" + index + ")");
+            target.show();
+	
+	}
         
-    });
+});
 
 
 
