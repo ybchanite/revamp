@@ -670,23 +670,22 @@ jQuery('#block-views-block-research-areas-block-1 .view_research_areas .view_res
 */
 
 
-jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p').click(function(){
+jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p:nth-child(-n+13):not(:nth-child(12))').click(function(){
 
         var index = jQuery("#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .col-sm-2 p").index(jQuery(this)) + 1;
-        console.log(index);
         /*For exceptional case as the 12th list item is a hyperlink with no corresponding description block*/
-        if (index === 12) {index = -1;}
+        if (index === 12) { index = -1;}
         if (index === 13) { index--;}
         
         
-        var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items:nth-child(" + index + ")");
-	jQuery('#block-researchphdfellowshipscheme201718 .col-sm-10 .field--items').css('display','none');
+        var target = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(" + index + ")");
+	jQuery('#block-researchphdfellowshipscheme201718 .col-sm-10 .field--item').css('display','none');
         target.show();
         
          
         if (index === 2 || index === 3 ){
-            var target1 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items:nth-child(2)");
-            var target2 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--items:nth-child(3)");
+            var target1 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(2)");
+            var target2 = jQuery("#block-researchphdfellowshipscheme201718 .field--name-field-body .field--item:nth-child(3)");
             target1.show();
             target2.show();
             
