@@ -1041,7 +1041,7 @@ function sortedResult(){
     
     var qapp = jQuery('#edit-field-faq-role-target-id option:selected').text();
     var qcat = jQuery('#edit-field-faq-category-target-id-1 option:selected').text();
-    var qlang = jQuery('#edit-field-faq-language-target-id option:selected').text();
+//     var qlang = jQuery('#edit-field-faq-language-target-id option:selected').text();
 
     jQuery('.view-taught-faq-01 .views-row').hide();
     jQuery('.view-empty').hide();
@@ -1052,9 +1052,9 @@ function sortedResult(){
     jQuery('#block-views-block-taught-faq-01-block-1 .views-row').each(function(){
         var aapp = jQuery.trim(jQuery(this).find('.views-field-field-faq-role .field-content').text());
         var acat = jQuery.trim(jQuery(this).find('.views-field-field-faq-category .field-content').text());
-        var alang = jQuery.trim(jQuery(this).find('.views-field-field-faq-language .field-content').text());
+//         var alang = jQuery.trim(jQuery(this).find('.views-field-field-faq-language .field-content').text());
         
-        if(aapp === qapp && acat === qcat &&  alang === qlang){
+        if(aapp === qapp && acat === qcat){
             jQuery(this).show();
         }
         else{
@@ -1086,24 +1086,7 @@ function localCategory(){
 }
 
 jQuery(document).ready(function(){
-    
-    /*change faq language based on interface language*/
-    
-    var lang = jQuery('html').attr('lang');
-    switch(lang){
-        case 'en':
-            jQuery('#edit-field-faq-language-target-id').val('445');
-            break;
-        case 'zh-hant':
-            jQuery('#edit-field-faq-language-target-id').val('446');
-            break;
-        case 'zh-hans':
-            jQuery('#edit-field-faq-language-target-id').val('447');
-            break;
-    }
-    
     sortedResult();
-	
     //Local Application : Category A ~ G
     localCategory();
     
