@@ -166,13 +166,13 @@ if (jQuery('#block-testfortoi').length){
 
 
 /*Counting effect*/
-if (('#block-testfortoi').length){
+if (jQuery('#block-testfortoi').length){
 
     
     var ranking = jQuery('#block-testfortoi .field--name-field-title').text().slice(0,-2);
     var after = jQuery('#block-testfortoi .field--name-field-title').text().slice(-2);
 	
-    jQuery('<style>#block-testfortoi .field--name-field-title:after{content:"'+after+'"; top: 42px; font-size: 2em; position: absolute;}</style>').appendTo('head');
+    jQuery('<style>#block-testfortoi .field--name-field-title:after{content:"'+after+'"; top: 0; font-size: 30px; position: absolute;}</style>').appendTo('head');
     jQuery('#block-testfortoi .field--name-field-title').text(ranking);
 	
     jQuery('#block-testfortoi .field--name-field-title').each(function(){
