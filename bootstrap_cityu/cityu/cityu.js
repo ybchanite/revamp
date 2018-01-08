@@ -160,19 +160,36 @@ if (jQuery('#block-testfortoi').length){
 
     });
 }
+
+/*Worldwide Recognition*/
+
+
+
+/*Counting effect*/
+if (('#block-testfortoi').length){
+
     
-jQuery('#block-testfortoi .field--name-field-title').each(function(){
-    var max = jQuery(this).text();
-    var no_increment;
-    if(max <= 10){
-        no_increment = 1;
-    }else if (max <= 50){
-        no_increment = 2;
-    }else{
-        no_increment = 5;
-    }
-    jQuery(this).addClass('numscroller').attr('data-min', '1').attr('data-max', max).attr('data-delay', no_increment).attr('data-increment', no_increment).delay(1000);
-});
+    var ranking = jQuery('#block-testfortoi .field--name-field-title').text().slice(0,-2);
+    var after = jQuery('#block-testfortoi .field--name-field-title').text().slice(-2);
+	
+    jQuery('<style>#block-testfortoi .field--name-field-title:after{content:"'+after+'"; top: 42px; font-size: 2em; position: absolute;}</style>').appendTo('head');
+    jQuery('#block-testfortoi .field--name-field-title').text(ranking);
+	
+    jQuery('#block-testfortoi .field--name-field-title').each(function(){
+        var max = jQuery(this).text();
+        var no_increment;
+    	if(max <= 10){
+        	no_increment = 1;
+    	}else if (max <= 50){
+        	no_increment = 2;
+    	}else{
+        	no_increment = 5;
+    	}
+    	jQuery(this).addClass('numscroller').attr('data-min', '1').attr('data-max', max).attr('data-delay', no_increment).attr('data-increment', no_increment).delay(1000);
+    });
+
+
+}
 
 
 jQuery( "#block-frontpagewhycityudown .field--name-field-title").each(function(){
