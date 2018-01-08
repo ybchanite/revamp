@@ -223,70 +223,12 @@ jQuery( "#block-frontpagenewsevents-2 .field--name-field-toi" ).each(function() 
 /*about cityu*/
 /*************/
 
+/*Overlay effect*/
 
-
-/*old design: rearrange the layout when the screen size shrinks
-
-var lowerSwap;
-var upperSwap;
-
-if (jQuery('#block-mainnavigation-2').css('display') === 'none') {
-    lowerSwap = 0;
-    upperSwap = 1;
-    jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
-    jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '0');
-    jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-right', '0');
-    
-    jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
-    jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '0');
-    jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-right', '0');
-    
-    jQuery('#block-whycityu-home-subject-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').css('padding-top', '0');
-    jQuery('#block-whycityu-home-subject-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-top', '6%');
-    
-}else{
-    lowerSwap = 1;
-    upperSwap = 0;
-}
-
-jQuery(window).resize(function() {
-    if (jQuery('#block-mainnavigation-2').css('display') === 'none') {
-        if (lowerSwap === 1){
-            jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
-            jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '0');
-            jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-right', '0');
-            
-            jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
-            jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '0');
-            jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-right', '0');
-            
-            jQuery('#block-whycityu-home-subject-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').css('padding-top', '0');
-            jQuery('#block-whycityu-home-subject-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-top', '6%');
-    
-            lowerSwap = 0;
-            upperSwap = 1;
-        }  
-    }else{
-        if (upperSwap === 1){
-            jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
-            jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '15px');
-            jQuery('#block-whycityu-home-intl-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-right', '15px');
-            
-            jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').insertAfter('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)');
-            jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-left', '15px');
-            jQuery('#block-whycityu-home-students-from-50countries .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-right', '15px');
-            
-            jQuery('#block-whycityu-home-subject-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(1)').css('padding-top', '6%');
-            jQuery('#block-whycityu-home-subject-rankings .paragraph__column .paragraph--type--bp-columns__2col:nth-child(2)').css('padding-top', '0');
-            upperSwap = 0;
-            lowerSwap = 1;
-        }  
-        
-        
-    }
+jQuery('#block-aboutcityu .paragraph__column > a').each(function(){
+    jQuery(this).prepend('<div class="aboutcityu_overlay"><i class="fa fa-search" aria-hidden="true"></i></div>');
 });
 
-*/
 
 
 /********/
