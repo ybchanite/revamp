@@ -742,12 +742,12 @@ if (jQuery('#block-taughthome-introduction').length){
 }
 
 /*append arrow to "More Details"*/
-jQuery('#block-taughthomeinfographic .field--name-field-body a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
+jQuery('#block-taughthomeinfographic .field--name-field-text-demo a').append(' <i class="fa fa-angle-right" aria-hidden="true"></i>');
 
 /*More Details for Flexible Study Mode*/
-jQuery('#block-taughthomeinfographic .field--name-field-body a').click(function(){
-    if (jQuery(this).parents('.field--name-field-body').siblings('.field--name-bp-text').length){
-    	jQuery(this).parents('.field--name-field-body').siblings('.field--name-bp-text').toggle();
+jQuery('#block-taughthomeinfographic .field--name-field-text-demo a').click(function(){
+    if (jQuery(this).parents('.field--name-field-text-demo').siblings('.field--name-bp-text').length){
+    	jQuery(this).parents('.field--name-field-text-demo').siblings('.field--name-bp-text').toggle();
     }
 });
 
@@ -758,7 +758,7 @@ jQuery('#block-taughthomeinfographic .field--name-field-body a').click(function(
 
 /*hover effect*/
 jQuery( "#block-taughtdiversearea .paragraph--type--bp-columns__7col" ).addClass( "daContainer" );
-jQuery( "#block-taughtdiversearea .field--name-field-body a" ).addClass( "daLink" );
+jQuery( "#block-taughtdiversearea .field--name-field-text-demo a" ).addClass( "daLink" );
 jQuery( "#block-taughtdiversearea .field--name-field-image img" ).addClass( "daImg" );
 
 
@@ -776,7 +776,7 @@ jQuery( "#block-taughtdiversearea .field--name-field-image img" ).addClass( "daI
     
 */
 
-jQuery('#block-taughtdiversearea .field--name-field-body a').click(function(){
+jQuery('#block-taughtdiversearea .field--name-field-text-demo a').click(function(){
     /*store the index of the college/school*/
     var index = jQuery("#block-taughtdiversearea .daContainer").index(jQuery(this).parents('.daContainer')) + 1;
     localStorage.targetCollegeSchool = index;
