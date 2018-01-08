@@ -2088,185 +2088,60 @@ ul.action-links{
 /*why cityu*/
 /***********/
 
-
-/*#block-banner-about-cityu .paragraph--type--bp-image .field--name-field-toi{
-    left: 41%;
-}*/
-
-#block-whycityu-home-fastfacts-foto h1{
-    font-size: 40px;
-    color: #863275;
-    
-    
+#block-aboutcityu{
+    margin-top: 50px;
 }
 
-@media(max-width: 991px){
-    #block-whycityu-home-fastfacts-foto h1{
-        font-size: 35px;
-
-
-    }
+#block-aboutcityu > div{
+    margin-bottom: 10px;
 }
 
-@media(max-width: 767px){
-    #block-whycityu-home-fastfacts-foto h1{
-        font-size: 30px;
-    }
-    #block-views-block-taught-programme-list-body3-block-1 .table-responsive caption{
-        font-size: 20px;
-    }
+#block-aboutcityu > div > .paragraph > .paragraph__column > div{
+    padding: 0 10px 0 5px;
 }
 
-
-#block-whycityu-home-fastfacts-foto{
-    margin-top: 3%;
-}
-
-#block-whycityu-home-fastfacts-foto img{
+#block-aboutcityu img{
     width: 100%;
+    height: 100%!important;
 }
 
-#block-whycityu-home-fastfacts-foto .paragraph--type--bp-image{
-    display: table;
-}
-
-
-#block-whycityu-home-fastfacts-foto .paragraph--type--bp-columns__2col{
+.aboutcityu_overlay{
     width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0,0,0,.5);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
-#block-whycityu-home-fastfacts-foto .paragraph--type--bp-columns{
+.aboutcityu_overlay:hover{
+    opacity: 1;
+}
+
+.aboutcityu_overlay i.fa-search{
+    position: absolute;
+    top: 40%;
+    font-size: 50px;
+    color: white;
+    left: 45%;
+}
+#block-aboutcityumap img[alt="Mobile Map"]{
     display: none;
 }
 
-
-
-#block-whycityu-home-intl-rankings .paragraph--type--bp-carousel, #block-whycityu-home-subject-rankings .paragraph--type--bp-carousel{
-    display: inline-block;
-    max-width: 100%;
-}
-
-#block-whycityu-home-fastfacts-foto .paragraph--type--bp-image{
-    margin-bottom: 30px;
-}
-
-
-
-#block-whycityu-home-students-from-50countries,
-#block-whycityu-home-subject-rankings,
-#block-whycityu-home-intl-rankings{
-    margin-bottom: 5%;
-  
-}
-
-#block-whycityu-home-students-from-50countries strong,
-#block-whycityu-home-subject-rankings strong,
-#block-whycityu-home-intl-rankings strong{
-    color: #863275;
-    font-size: 40px;
-  
-}
-
-
-#block-whycityu-home-students-from-50countries  .paragraph--type--bp-simple,
-#block-whycityu-home-subject-rankings  .paragraph--type--bp-simple,
-#block-whycityu-home-intl-rankings  .paragraph--type--bp-simple{
-    /*background-color: #f7eef3;*/
-    text-align: center;
-}
-
-#block-whycityu-home-subject-rankings .carousel-indicators{
-    visibility: visible;
-    bottom: -5%;
-}
-
-#block-whycityu-home-intl-rankings .paragraph--type--bp-columns__2col:nth-child(1),
-#block-whycityu-home-subject-rankings .paragraph--type--bp-columns__2col:nth-child(2),
-#block-whycityu-home-students-from-50countries .paragraph--type--bp-columns__2col:nth-child(1){
-    width: 60%;
-    padding: 0;
-}
-
-#block-whycityu-home-intl-rankings .paragraph--type--bp-columns__2col:nth-child(2),
-#block-whycityu-home-subject-rankings .paragraph--type--bp-columns__2col:nth-child(1),
-#block-whycityu-home-students-from-50countries .paragraph--type--bp-columns__2col:nth-child(2){
-    width: 40%;
-    padding-top: 6%;
-}
-
-
-#block-whycityu-home-subject-rankings,
-#block-whycityu-home-students-from-50countries{
-/*    background-color: #f7eef3;*/
-    margin-bottom: 5%;
-}
-
-#block-whycityu-home-intl-rankings .carousel-inner .img-responsive ,#block-whycityu-home-subject-rankings .carousel-inner .img-responsive{
-    max-width: 100%;
-    display: inline-block;
-}
-
-
-
-
-
-
-@media (min-width: 1900px){ 
-
-    
-    
-    #block-whycityu-home-intl-rankings .paragraph--type--bp-columns__2col:nth-child(2),
-    #block-whycityu-home-subject-rankings .paragraph--type--bp-columns__2col:nth-child(1),
-    #block-whycityu-home-students-from-50countries .paragraph--type--bp-columns__2col:nth-child(2){
-        padding-top: 10%;
-    }
-}
-
-@media (max-width: 991px){ 
-
-    #block-whycityu-home-students-from-50countries strong,
-    #block-whycityu-home-subject-rankings strong,
-    #block-whycityu-home-intl-rankings strong{
-        font-size: 30px;
-
-    }
-    
-    #block-whycityu-home-fastfacts-foto .paragraph--type--bp-columns{
-        display: table;
-    }
-    #block-whycityu-home-fastfacts-foto > div > .paragraph--type--bp-image{
+@media(max-width: 767px){
+    #block-aboutcityumap img[alt="Desktop Map"]{
         display: none;
     }
-}
-
-@media (max-width: 767px){ 
-
-    #block-whycityu-home-intl-rankings .paragraph--type--bp-columns__2col:nth-child(1),
-    #block-whycityu-home-subject-rankings .paragraph--type--bp-columns__2col:nth-child(2),
-    #block-whycityu-home-students-from-50countries .paragraph--type--bp-columns__2col:nth-child(1){
-        width: 100%;
-    }
-    
-    #block-whycityu-home-intl-rankings .paragraph--type--bp-columns__2col:nth-child(2),
-    #block-whycityu-home-subject-rankings .paragraph--type--bp-columns__2col:nth-child(1),
-    #block-whycityu-home-students-from-50countries .paragraph--type--bp-columns__2col:nth-child(2){
-        width: 100%;
-    }
-    
-    #block-whycityu-home-students-from-50countries strong,
-    #block-whycityu-home-subject-rankings strong,
-    #block-whycityu-home-intl-rankings strong{
-        font-size: 25px;
-
-    }
-    
-    #block-whycityu-home-students-from-50countries p,
-    #block-whycityu-home-subject-rankings p,
-    #block-whycityu-home-intl-rankings p{
-        display: inline;
-
+    #block-aboutcityumap img[alt="Mobile Map"]{
+        display: block;
     }
 }
+
 
 /*********************************/
 /*Student and Alumni Achievements*/
