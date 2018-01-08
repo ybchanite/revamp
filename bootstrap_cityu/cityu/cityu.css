@@ -1367,9 +1367,9 @@ a:focus, a:hover{
     top: 20%;
 }
     
-#block-testfortoi .field--name-field-body a{
+#block-testfortoi .field--name-field-text-demo a{
     font-size: 21px;
-    color: #595757;
+    color: #48193f;
 }
 
 #block-testfortoi .field--name-field-image{
@@ -1382,16 +1382,16 @@ a:focus, a:hover{
 }
 
 #block-testfortoi .field--name-field-title{
-    position: absolute;
-    color: #f8b62b;
-    font-size: 80px;
+/*     position: absolute; */
+    color: #48193f;
+    font-size: 100px;
     font-weight: 500;
-    left: 50%;
-    transform: translate(-50%,-50%);
+/*     left: 50%;
+    transform: translate(-50%,-50%); */
 }
 
 
-#block-testfortoi .paragraph--type--bp-columns__3col:nth-child(1) .field--name-field-title{
+/* #block-testfortoi .paragraph--type--bp-columns__3col:nth-child(1) .field--name-field-title{
     top: 37%;
 }
 
@@ -1401,10 +1401,10 @@ a:focus, a:hover{
 
 #block-testfortoi .paragraph--type--bp-columns__3col:nth-child(3) .field--name-field-title{
     top: 37%;
-}
+} */
 
 
-#block-testfortoi .field--name-field-body{
+#block-testfortoi .field--name-field-text-demo{
     text-align: center;
     width: 70%;
     margin-left: 15%;
@@ -1504,7 +1504,7 @@ a:focus, a:hover{
     content: '%';
 }
 
-#block-frontpagewhycityudown .field--name-field-body a{
+#block-frontpagewhycityudown .field--name-field-text-demo a{
     font-size: 21px;
     color: #595757;
 }
@@ -1528,7 +1528,7 @@ a:focus, a:hover{
 
 @media (max-width: 767px){ 
 
-    #block-frontpagewhycityudown .field--name-field-body a{
+    #block-frontpagewhycityudown .field--name-field-text-demo a{
         font-size: 16px;
     }
 	
@@ -4851,7 +4851,7 @@ a.research_areas_school_website{
 }
 
 
-#block-taughtdiversearea .field--name-field-body{
+#block-taughtdiversearea .field--name-field-text-demo{
     position: absolute;
     top: 30%;
     font-size: 1.5vw;
@@ -4861,11 +4861,11 @@ a.research_areas_school_website{
     padding: 0 1em;
 }
 
-#block-taughtdiversearea .paragraph--type--bp-columns__7col:nth-child(3) .field--name-field-body{
+#block-taughtdiversearea .paragraph--type--bp-columns__7col:nth-child(3) .field--name-field-text-demo{
     padding: 0 0.5em;
 }
 
-#block-taughtdiversearea .paragraph--type--bp-columns__7col:nth-child(6) .field--name-field-body{
+#block-taughtdiversearea .paragraph--type--bp-columns__7col:nth-child(6) .field--name-field-text-demo{
     padding: 0 0em;
 }
 
@@ -4899,7 +4899,7 @@ a.research_areas_school_website{
 }
 
 @media(min-width: 1900px){
-    #block-taughtdiversearea .field--name-field-body{
+    #block-taughtdiversearea .field--name-field-text-demo{
         font-size: 25px;
     }
 
