@@ -3678,16 +3678,6 @@ a.research_areas_school_website{
 
 
 #fullListButton{
-/*    color: #fff;
-    background-color: #863d75;
-    padding: 7px 0px;
-    width: 120px;
-    text-align: center;
-    display: inline-block;
-    margin: 1%;
-    cursor: pointer;*/
-
-
     color: #fff;
     text-align: center;
     display: inline-block;
@@ -3709,19 +3699,12 @@ a.research_areas_school_website{
 }
 
 
-/*
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive{
-    display: none;
-}*/
-
 #block-views-block-list-of-colleges-and-schools-block-2{
     margin-bottom: 2%;
     cursor: pointer;
 }
 
 #block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header{
-    
-/*    background-color: #f7f8f8;*/
     background-color: #f1f1f1;
 }
 
@@ -3780,18 +3763,9 @@ a.research_areas_school_website{
 
 
 #block-views-block-taught-programme-list-body3-block-1 .table-responsive .views-field-field-refer-coll-code, 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive .views-field-field-dept-long-desc{
+#block-views-block-taught-programme-list-body3-block-1 .table-responsive .views-field-name{
     display: none;
 }
-
-
-
-
-
-#block-views-block-taught-programme-list-body3-block-1 table.sticky-header{
-    display: none;
-}
-
 
 #block-views-block-taught-programme-list-body3-block-1 .table-responsive thead{
     background-color: #863d75;
@@ -3843,19 +3817,6 @@ a.research_areas_school_website{
     vertical-align: middle;
     border: 1px solid #ffffff;
 }
-
-/*
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive tbody tr:nth-child(odd),
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive tbody tr:nth-child(odd){
-    background-color: #f1f2f2;
-}
-
-#block-views-block-taught-programme-list-body2-block-1 .table-responsive tbody tr:nth-child(even), 
-#block-views-block-taught-programme-list-body3-block-1 .table-responsive tbody tr:nth-child(even){
-    background-color: #f0e9f1;
-}
-*/
-
  
 #block-views-block-taught-programme-list-body3-block-1 .table-responsive tbody tr{
     background-color: #f1f2f2;
