@@ -3828,7 +3828,7 @@ a.research_areas_school_website{
         font-size: 18px;
     }
 	
-    #block-views-block-taught-programme-list-body3-block-1 .table-responsive td:not(.views-field-field-admit-prog-code):not(.views-field-title):not(.views-field-field-mode-of-study){
+    #block-views-block-taught-programme-list-body3-block-1 .table-responsive td:not(.views-field-field-admit-prog-code):not(.views-field-title):not(.views-field-field-mode-of-study):not(.deptName){
     	display: none;	
     }
 	
