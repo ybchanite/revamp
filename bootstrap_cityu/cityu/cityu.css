@@ -4499,28 +4499,6 @@ a.research_areas_school_website{
 
 }
 
-/* old design: 
-#views-exposed-form-programme-search-page-1:before {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 1pc;
-     height: 10px; 
-    width: 92%;
-    border-bottom: 20px solid #f9f9f9;
-}
-
-
-#views-exposed-form-programme-search-page-1:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    margin-top: 1%;
-    height: 5px;
-    width: 92%;
-    border-bottom: 5px solid #f9f9f9;
-}*/
-
 #views-exposed-form-programme-search-page-1 .form--inline.form-inline{
     position: relative;
 }
@@ -4581,15 +4559,7 @@ a.research_areas_school_website{
 }
 
 .view-programme-search #edit-submit-programme-search{
-/*    color: #fff;
-    background-color: #863d75;
-    border-color: #863d75;
-    padding: 7px 35px;
-    border-radius: 0px;
-    margin-top: 5%;
-    margin-left: 10px;*/
-    
-    
+
     color: #fff;
     background-color: #863d75;
     border-color: transparent;
@@ -4671,7 +4641,20 @@ a.research_areas_school_website{
     #views-exposed-form-programme-search-page-1 .form-item-field-prog-title-value{
         width: 95%;
     }
+	
+	
+    .view-programme-search .table-responsive td:not(.views-field-field-admit-prog-code):not(.views-field-title):not(.views-field-field-mode-of-study){
+    	display: none;	
+    }
+	
+    .view-programme-search .table-responsive thead tr:nth-child(2),
+    .view-programme-search .table-responsive th:nth-child(n+4){
+	display: none;
+    }
+	
 }
+
+
 
 
 /**************/
