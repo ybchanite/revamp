@@ -5195,6 +5195,7 @@ a.research_areas_school_website{
     display: inline-block;
     width: auto;
     max-width: 100%;
+    border-radius: 0;
 }
 
 #webform-submission-enquiries-add-form .form-item .form-contro{
@@ -5244,7 +5245,7 @@ a.research_areas_school_website{
 
 #webform-submission-enquiries-add-form .form-item-interested-pd-programme, 
 #webform-submission-enquiries-add-form .form-item-interested-tp-programme,
-#webform-submission-enquiries-add-form .form-item-have-you-applied-for-admission-this-year- {
+#webform-submission-enquiries-add-form .form-item-applied-for-admission{
     margin-left: 205px;
 }
 
@@ -5270,6 +5271,18 @@ a.research_areas_school_website{
     outline: none;
     border-color: transparent;
     box-shadow: none;
+}
+
+#webform-submission-enquiries-add-form .captcha .control-label{
+    width: 100%;
+}
+
+#webform-submission-enquiries-add-form .captcha #edit-captcha-response{
+    width: auto;
+}
+
+.form-required:after{
+    display: none;
 }
 
 /*Contact Us*/
@@ -5303,7 +5316,7 @@ a.research_areas_school_website{
     
     #webform-submission-enquiries-add-form .form-item-interested-pd-programme, 
     #webform-submission-enquiries-add-form .form-item-interested-tp-programme, 
-    #webform-submission-enquiries-add-form .form-item-have-you-applied-for-admission-this-year-{
+    #webform-submission-enquiries-add-form .form-item-applied-for-admission{
         margin-left: 0;
     }
     
