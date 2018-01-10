@@ -5163,6 +5163,10 @@ a.research_areas_school_website{
 /********************/
 /*      Enquiry     */
 /********************/
+/*********/
+/*Enquiry*/
+/*********/
+
 #block-banner-enquiries .paragraph--type--bp-carousel{
     display: table;
 }
@@ -5171,32 +5175,104 @@ a.research_areas_school_website{
     margin-bottom: 3%;
 }
 
-/*#block-banner-enquiries .paragraph--type--bp-image .field--name-field-toi{
-    
-    left: 44%;
-}*/
+#block-enquiryheader-2 p{
+    padding: 0% 5%;
+    margin: 20px 0!important;
+}
 
-#block-enquiryheader > div > h1 > strong,#block-enquirycontact-us h2{
+#webform-submission-enquiries-add-form{
+    padding: 5%;
+    border: 1px solid #efefef;
+    background: #fff;
+}
+
+#webform-submission-enquiries-add-form h2{
     color: #863275;
-    font-weight: 400;
+    margin-bottom: 25px;
 }
 
+#webform-submission-enquiries-add-form .webform-element--title-inline .form-control{
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+}
 
+#webform-submission-enquiries-add-form .form-item .form-contro{
+    border-radius: 0;
+    background-color: transparent;
+    border-color: #ececec;
+    box-shadow: none;
+    font-size: 1em;
+    padding: 10px 12px;
+    height: auto;
+    color: #444;
+    
+    padding-right: 25px;
+}
 
-.viewsreference-title{
+#webform-submission-enquiries-add-form .webform-element--title-inline .form-control:focus, #webform-submission-enquiries-add-form .webform-element--title-inline .form-control:hover {
+    border: 1px solid #863d75;
+}
+
+#webform-submission-enquiries-add-form .form-item-interested-pd-programme .control-label, 
+#webform-submission-enquiries-add-form .form-item-interested-tp-programme .control-label{
+    width: 100%;
+}
+
+#webform-submission-enquiries-add-form .webform-element--title-inline .select-wrapper,
+#webform-submission-enquiries-add-form .form-item-interested-pd-programme .select-wrapper, 
+#webform-submission-enquiries-add-form .form-item-interested-tp-programme .select-wrapper{
+    width: auto;
+}
+
+#webform-submission-enquiries-add-form .webform-element--title-inline .form-textarea-wrapper{
+    display: inline-block;
+}
+
+#webform-submission-enquiries-add-form .form-item-message > label{
+    vertical-align: top;
+}
+
+#webform-submission-enquiries-add-form .webform-element--title-inline > label{
+    display: inline-block;
+    width: 200px;
+}
+
+#webform-submission-enquiries-add-form .form-item > label{
+    font-weight: unset;
+}
+
+#webform-submission-enquiries-add-form .form-item-interested-pd-programme, 
+#webform-submission-enquiries-add-form .form-item-interested-tp-programme,
+#webform-submission-enquiries-add-form .form-item-have-you-applied-for-admission-this-year- {
+    margin-left: 205px;
+}
+
+#webform-submission-enquiries-add-form .form-actions button.webform-button--submit{
+    margin-right: 10px;
+    color: #fff;
+    background-color: #863d75;
+    border-color: transparent;
+    border-radius: 3px;
     text-align: center;
-    font-size: larger;
-    color: #863d75;
+    font-weight: 100;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 8px 22px;
+    font-size: 16px;
+    
 }
 
-
-
-
-.enquiryhome{
-    color:yellow;
-    font-weight: bold; 
+#webform-submission-enquiries-add-form .form-actions button.webform-button--submit:hover,
+#webform-submission-enquiries-add-form .form-actions button.webform-button--submit:focus{
+    background-color: #bbcc03;
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
 }
 
+/*Contact Us*/
 
 #block-enquirycontact-us h2{
 /*    margin-bottom: 3%;*/
@@ -5215,245 +5291,24 @@ a.research_areas_school_website{
     margin-bottom: 5%;
 }
 
-
-#edit-field-personal-information-wrapper > div > label{
-/*    font-weight: bolder;
-    font-size: 25px;
-    color: #231F20;
-    width: auto;*/
-    
-    font-size: 25px;
-    font-family: Raleway,sans-serif;
-    color: #863275;
-    font-weight: 400;
-    width: 100%;
-
-}
-
-.contact-message-online-enquiry-form-form #edit-field-personal-information-0-value{
-    display: none;
-}
-
-#block-enquiryheader > div > h3{
-    
-    background-color: #863275;
-    height: 40px;
-    padding: 7px;
-    margin-bottom: 0;
-}
-
-.enquiry_header_remark{
-    padding: 0% 5%;
-/*    padding-top: 30px;
-    background-color: #F0E9F1;*/
-    margin: 20px 0!important;
-}
-
-.contact-message-online-enquiry-form-form{
-/*    margin-bottom: 5%;
-    background-color: #F0E9F1;
-    padding: 2% 5%;*/
-    
-    padding: 5%;
-    border: 1px solid #efefef;
-    background: #fff;
-
-}
-
-.enquiryhome_table .form-text required form-control{
-    display: inline-block;
-    
-}
-
-
-
-.contact-message-online-enquiry-form-form .form-control{
-/*    display: inline-block;
-    width: auto;
-    max-width: 100%;
-    */
-    
-    
-    display: inline-block;
-    width: auto;
-    border-radius: 0;
-    background-color: transparent;
-    border-color: #ececec;
-    box-shadow: none;
-    font-size: 1em;
-    padding: 10px 12px;
-    height: auto;
-    color: #444;
-
-}
-
-.contact-message-online-enquiry-form-form .form-control:focus, .contact-message-online-enquiry-form-form .form-control:hover {
-    border: 1px solid #863d75;
-}
-
-
-
-.contact-message-online-enquiry-form-form .select-wrapper{
-    width: auto;
-    
-}
-      
-
-#contact-message-online-enquiry-form-form .select-wrapper:after{
-    color: #afafaf;
-}
-
-
-.contact-message-online-enquiry-form-form .control-label{
-    width: 200px; 
-    font-size: 17px; 
-    font-weight: 300;
-}
-
-.form-required:after{
-    display: none;
-}
-
-.contact-message-online-enquiry-form-form .field--widget-string-textarea .control-label{
-    vertical-align: top;
-}
-
-.contact-message-online-enquiry-form-form .form-textarea-wrapper{
-    display: inline-block;
-}
-
-
-#block-enquiryhome-personalinfo > div > div > div{
-    background-color: #F3EBF3;
-    margin-top: 3%;
-    padding: 1.5%;
-    
-}
-/*
-.contact-message-online-enquiry-form-form #edit-name{
-    max-width: 412px;
-}
-
-.contact-message-online-enquiry-form-form #edit-mail{
-    
-    max-width: 412px;
-}
-
-.contact-message-online-enquiry-form-form #edit-field-sender-tel-0-value{
-    
-    max-width: 232px;
-}
-
-.contact-message-online-enquiry-form-form #edit-field-type-of-study{
-    
-    max-width: 303px;
-}
-
-*/
-
-#edit-field-i-want-to-ask-about-wrapper > div > label{
-    
-/*    font-weight: bolder;
-    font-size: 25px;
-    color: #231F20;
-    width: auto;*/
-
-    font-size: 25px;
-    font-family: Raleway,sans-serif;
-    color: #863275;
-    font-weight: 400;
-    width: 100%;
-
-    
-}
-
-
-.contact-message-online-enquiry-form-form #edit-field-i-want-to-ask-about-0-value{
-    
-    display: none;
-}
-
-.contact-message-online-enquiry-form-form #edit-subject-0-value{
-    /*max-width: 650px;*/
-}
-
-.contact-message-online-enquiry-form-form #edit-message-0-value{
-    /*max-width: 650px;*/
-    max-height: 180px;
-}
-
-
-.contact-message-online-enquiry-form-form #edit-captcha-response{
-    /*max-width: 180px;*/
-}
-
-.contact-message-online-enquiry-form-form .form-actions .btn, .contact-message-online-enquiry-form-form .form-actions .btn-group {
-    margin-right: 10px;
-    color: #fff;
-    background-color: #863d75;
-    border-color: transparent;
-    border-radius: 3px;
-    text-align: center;
-    font-weight: 100;
-    display: inline-block;
-    cursor: pointer;
-    vertical-align: middle;
-    padding: 8px 22px;
-    font-size: 16px;
-}
-
-
-.contact-message-online-enquiry-form-form  .form-actions .btn:focus, .contact-message-online-enquiry-form-form  .form-actions .btn-group:focus, 
-.contact-message-online-enquiry-form-form  .form-actions .btn:hover, .contact-message-online-enquiry-form-form  .form-actions .btn-group:hover {
-    background-color: #bbcc03;
-    outline: none;
-    border-color: transparent;
-    box-shadow: none;
-}
-
-
-
-
-#edit-field-type-of-study-wrapper, #edit-field-interested-prog-wrapper, #edit-field-email-level-study-wrapper, #edit-field-email-question-type-wrapper, #edit-field-recipient-wrapper{
-    display: none;
-}
-
-
-
-
-
-#edit-field-admission-this-year-wrapper .control-label{
-    width: auto;
-    margin-left: 200px;
-}
-
-
-#edit-field-interested-prog-name-wrapper{
-    margin-left: 200px;
-}
-#edit-field-interested-prog-name-wrapper .control-label{
-    display: block;
-    width: 100%;
-    font-weight: 300;
-}
-#edit-field-interested-prog-name-wrapper .select-wrapper{
-    width: 90%;
-    max-width: 280px;
-}
-
-#edit-field-interested-prog-name{
-    width: 100%;
-}
-
-
-
-@media(max-width: 767px){
-    .contact-message-online-enquiry-form-form .form-control, .contact-message-online-enquiry-form-form .select-wrapper, .contact-message-online-enquiry-form-form .form-textarea-wrapper{
-        display: block;
+@media(max-width: 991px){
+    #webform-submission-enquiries-add-form .webform-element--title-inline .form-control{
         width: 100%;
     }
-    #edit-field-admission-this-year-wrapper .control-label, #edit-field-interested-prog-name-wrapper{
+    #webform-submission-enquiries-add-form .webform-element--title-inline .select-wrapper, 
+    #webform-submission-enquiries-add-form .form-item-interested-pd-programme .select-wrapper, 
+    #webform-submission-enquiries-add-form .form-item-interested-tp-programme .select-wrapper{
+        width: 100%;
+    }
+    
+    #webform-submission-enquiries-add-form .form-item-interested-pd-programme, 
+    #webform-submission-enquiries-add-form .form-item-interested-tp-programme, 
+    #webform-submission-enquiries-add-form .form-item-have-you-applied-for-admission-this-year-{
         margin-left: 0;
+    }
+    
+    #webform-submission-enquiries-add-form .webform-element--title-inline .form-textarea-wrapper{
+        display: block;
     }
 }
 
