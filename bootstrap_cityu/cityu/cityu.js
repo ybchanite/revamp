@@ -845,18 +845,17 @@ jQuery(window).load(function() {
  jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header').click(function(){
         if (jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').css('display') === 'none'){
             jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show('slow');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-plus');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
+            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-plus').addClass('glyphicon-minus');
 
         }
         else{
             jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').hide('slow');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus');
-            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').removeClass('glyphicon-minus');
+            jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-plus').removeClass('glyphicon-minus');
         }
             
  });
  
+ /*show corresponding block of college when selected*/
  
  jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content .views-row').click(function(){
         
@@ -910,7 +909,7 @@ jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i>
     var college = jQuery.trim(jQuery(this).find('caption').text());
     jQuery(this).find('.view-group-coll').each(function(){
         var currentCollege = jQuery.trim(jQuery(this).find('.views-field-field-refer-coll-code').text());
-        var currentDept = jQuery(this).find('.views-field-field-dept-long-desc').text();
+        var currentDept = jQuery(this).find('.views-field-name').text();
 
 
         //add the department header before the first program 
@@ -925,7 +924,7 @@ jQuery( '<a id="fullListButton"><i class="fa fa-list-ul" aria-hidden="true"></i>
             var program = jQuery(this);
             var selfCode = jQuery.trim(jQuery(this).find('.views-field-field-admit-prog-code').text());
             
-            var relocateDept = jQuery('#block-views-block-taught-programme-list-body3-block-1 .table-responsive caption:contains("' + currentCollege + '") ').siblings('tbody').find('.view-group-coll .views-field-field-dept-long-desc:contains("' + currentDept + '")').parent('.view-group-coll');
+            var relocateDept = jQuery('#block-views-block-taught-programme-list-body3-block-1 .table-responsive caption:contains("' + currentCollege + '") ').siblings('tbody').find('.view-group-coll .views-field-name:contains("' + currentDept + '")').parent('.view-group-coll');
             var previousCode = "P00";
             var validCheck = 1;
             
