@@ -354,7 +354,7 @@ a:focus, a:hover{
     }
 	
     @page {
-	size: landscape;
+	size: A3 landscape;
     }
 }
 
