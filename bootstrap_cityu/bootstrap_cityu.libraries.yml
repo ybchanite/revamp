@@ -4,6 +4,7 @@ global-css:
             css/overrides.min.css: {}
             cityu/timeline.css: {}
             cityu/cityu.css: {}
+            cityu/print.css: {media: print}
             css/style.css: {}
             cityu/font-awesome/css/font-awesome.css: {}
 global-js:
