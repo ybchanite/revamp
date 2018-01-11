@@ -839,7 +839,7 @@ jQuery(window).load(function() {
     //var temp = localStorage.targetCollegeSchool; 
     //localStorage.targetCollegeSchool = -1;
     var temp = window.location.hash;
-    if (temp > -1){
+    if (temp.length){
         
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show();
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-header strong').addClass('glyphicon-minus');
