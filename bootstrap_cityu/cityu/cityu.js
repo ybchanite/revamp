@@ -735,8 +735,8 @@ jQuery( "#block-taughtdiversearea .field--name-field-image img" ).addClass( "daI
 jQuery('#block-taughtdiversearea .field--name-field-text-demo a').click(function(){
     /*store the index of the college/school*/
     var index = jQuery("#block-taughtdiversearea .daContainer").index(jQuery(this).parents('.daContainer')) + 1;
-    localStorage.targetCollegeSchool = index;
-    
+    //localStorage.targetCollegeSchool = index;
+    jQuery(this).attr('href', jQuery(this).attr('href') + "#" + index);     
 });
 
     
@@ -836,8 +836,9 @@ if (jQuery('.views-field-field-app-deadline-accept-late, .views-field-field-app-
  */
 jQuery(window).load(function() {
     
-    var temp = localStorage.targetCollegeSchool; 
-    localStorage.targetCollegeSchool = -1;
+    //var temp = localStorage.targetCollegeSchool; 
+    //localStorage.targetCollegeSchool = -1;
+    var temp = window.location.hash;
     if (temp > -1){
         
         jQuery('#block-views-block-list-of-colleges-and-schools-block-2 .view-list-of-colleges-and-schools .view-content').show();
