@@ -352,6 +352,10 @@ a:focus, a:hover{
     .region-header-right, .navbar-default, .region-header-right, .region-footer, .region-primary-menu, .region-secondary-menu{
         display: none;
     }
+	
+    @page {
+	size: landscape;
+    }
 }
 
 
