@@ -12,7 +12,7 @@
 		<td><span class="prog_label">{{ node.field_admit_year.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_admit_year.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">{{ node.field_mode_of_fund.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_categorie_avis[0]['#markup'] }}</span></td>
+		<td><span class="prog_label">{{ node.field_mode_of_fund.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_mode_of_fund[0]['#markup'] }}</span></td>
 	</tr>
 	<tr>
 		<td><span class="prog_label">{{ node.field_mode_of_study.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_mode_of_study.value }}</span></td>
@@ -40,4 +40,4 @@
 </div>
 
 
-<div class="prog_outline">{{ node.field_outline.value }}</div>
+<div class="prog_outline">{{ content.field_outline }}</div>
