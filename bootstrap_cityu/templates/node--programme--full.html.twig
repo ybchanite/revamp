@@ -9,28 +9,28 @@
 <table>
 <tbody>
 	<tr>
-		<td><span class="prog_label">Year of Entry {{ node.field_admit_year.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_admit_year.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_admit_year.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_admit_year.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Mode of Funding</span></td><td><span class="prog_content">{{ node.field_mode_of_fund.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_mode_of_fund.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_mode_of_fund.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Mode of Programme</span></td><td><span class="prog_content">{{ node.field_mode_of_study.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_mode_of_study.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_mode_of_study.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Class Schedule</span></td><td><span class="prog_content">{{ node.field_class_schedule.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_class_schedule.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_class_schedule.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Indicative Intake Target</span></td><td><span class="prog_content">{{ node.field_intake_quota.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_intake_quota.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_intake_quota.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Minimum No. of Credits Required</span></td><td><span class="prog_content">{{ node.field_min_credit_req.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_min_credit_req.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_min_credit_req.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Normal Duration of Programme</span></td><td><span class="prog_content">{{ node.field_duration.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_duration.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_duration.value }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">Programme Website</span></td><td><span class="prog_content">{{ node.field_url_website.value }}</span> </td>
+		<td><span class="prog_label">{{ node.field_url_website.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_url_website.value }}</span> </td>
 	</tr>
 </tbody>
 </table>
@@ -40,4 +40,4 @@
 </div>
 
 
-<div class="prog_outline">{{ content.field_outline }}</div>
+<div class="prog_outline">{{ node.field_outline.value }}</div>
