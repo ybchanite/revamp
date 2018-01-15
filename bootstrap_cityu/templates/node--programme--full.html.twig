@@ -15,7 +15,7 @@
 		<td><span class="prog_label">{{ node.field_mode_of_fund.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_mode_of_fund[0]['#markup'] }}</span></td>
 	</tr>
 	<tr>
-		<td><span class="prog_label">{{ node.field_mode_of_study.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_mode_of_study.value }}</span></td>
+		<td><span class="prog_label">{{ node.field_mode_of_study.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_mode_of_study[0]['#markup'] }}</span></td>
 	</tr>
 	<tr>
 		<td><span class="prog_label">{{ node.field_class_schedule.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_class_schedule.value }}</span></td>
@@ -29,9 +29,11 @@
 	<tr>
 		<td><span class="prog_label">{{ node.field_duration.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_duration.value }}</span></td>
 	</tr>
+	{% if node.field_url_website.value %}
 	<tr>
 		<td><span class="prog_label">{{ node.field_url_website.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_url_website.value }}</span> </td>
 	</tr>
+	{% endif %}
 </tbody>
 </table>
  
