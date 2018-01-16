@@ -70,3 +70,4 @@ function hook_preprocess_html(&$variables) {
     $title = str_replace('_', '-', $title);
     $variables['title_en'] = strtolower($title);
   }
+  }
