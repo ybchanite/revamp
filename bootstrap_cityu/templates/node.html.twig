@@ -73,11 +73,10 @@
     not node.isPublished() ? 'is-unpublished',
     view_mode ? view_mode|clean_class,
     'clearfix',
+  ]
 %}
-
-
 <article{{ attributes.addClass(classes) }}>
-<div id="{{ node.translation('en').label }}">
+<div id=" {{ label }} ">
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
