@@ -73,14 +73,11 @@
     not node.isPublished() ? 'is-unpublished',
     view_mode ? view_mode|clean_class,
     'clearfix',
-    title_en ? title_en|clean_class,
-    {{ label }},
-    
-    
-  ]
 %}
-<article{{ attributes.addClass(classes) }}>
 
+
+<article{{ attributes.addClass(classes) }}>
+<div id="{{ node.translation('en').label }}">
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
@@ -102,5 +99,5 @@
   <div{{ content_attributes.addClass('content') }}>
     {{ content }}
   </div>
-
+</div>
 </article>
