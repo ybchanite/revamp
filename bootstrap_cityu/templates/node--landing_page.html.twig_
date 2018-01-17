@@ -73,6 +73,7 @@
     not node.isPublished() ? 'is-unpublished',
     view_mode ? view_mode|clean_class,
     'clearfix',
+    title_en ? title_en|clean_class,
   ]
 %}
 <article{{ attributes.addClass(classes) }}>
