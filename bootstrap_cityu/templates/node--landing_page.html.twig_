@@ -76,7 +76,7 @@
   ]
 %}
 <article{{ attributes.addClass(classes) }}>
-<div id=" {{ node.label }} ">
+<div id=" {{ title_en }} ">
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
