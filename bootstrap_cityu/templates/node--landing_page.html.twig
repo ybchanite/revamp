@@ -76,7 +76,7 @@
     node.id,
   ]
 %}
-<article{{ attributes.addClass(classes) }}>
+<article{{ attributes.addClass(classes) }} id="page-{{ node.id }}">
 <div id="page-{{ node.id }} ">
   {{ title_prefix }}
   {% if not page %}
