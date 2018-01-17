@@ -46,9 +46,15 @@
   ]
 %}
 {% block paragraph %}
-  <div{{ attributes.addClass(classes) }} {{ attributes.setAttribute('id', {{content.field_layout_id}}) }}>
+  <div{{ attributes.addClass(classes) }}>
+  {% if paragraph.field_layout_id.value %}
+    <div id="{{content.field_layout_id.value}}">
+  {% endif %}
     {% block content %}
       {{ content }}
     {% endblock %}
+  {% if paragraph.field_layout_id.value %}
+    </div>
+  {% endif %}
   </div>
 {% endblock paragraph %}
