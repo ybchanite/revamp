@@ -48,7 +48,7 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
   {% if paragraph.field_layout_id.value %}
-    <div id="{{content.field_layout_id.value}}">
+    <div id="{{paragraph.field_layout_id.value}}">
   {% endif %}
   
     {% block content %}
