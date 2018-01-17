@@ -9,7 +9,7 @@ use Drupal\Component\Utility\Html;
 function hook_preprocess_html(&$variables) {
   // Add node title as body class.
   if ($node = \Drupal::routeMatch()->getParameter('node')) {
-    $node = $node->getTranslation('en');
+    //$node = $node->getTranslation('en');
     $title = $node->label();
     $title = str_replace(' ', '-', $title);
     $title = str_replace('_', '-', $title);
