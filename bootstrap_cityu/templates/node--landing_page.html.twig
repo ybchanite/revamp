@@ -73,11 +73,9 @@
     not node.isPublished() ? 'is-unpublished',
     view_mode ? view_mode|clean_class,
     'clearfix',
-    node.id,
   ]
 %}
-<article{{ attributes.addClass(classes) }} id="page-{{ node.id }}">
-<div id="page-{{ node.id }} ">
+<article{{ attributes.addClass(classes) }} id="page_content-{{ node.id }}">
   {{ title_prefix }}
   {% if not page %}
     <h2{{ title_attributes }}>
@@ -99,5 +97,4 @@
   <div{{ content_attributes.addClass('content') }}>
     {{ content }}
   </div>
-</div>
 </article>
