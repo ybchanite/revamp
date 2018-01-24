@@ -804,11 +804,6 @@ jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').not(
 
 /*styling*/
 
-//jQuery('.paragraph--type--contents-with-menu .field--name-field-caption, .paragraph--type--contents-with-menu .field--name-field-body').wrapAll('<div class="content_with_menu col-sm-12"/>')
-
-//jQuery('.paragraph--type--contents-with-menu .field--name-field-caption').wrap('<div class="col-sm-2"/>');
-
-//jQuery('.paragraph--type--contents-with-menu .field--name-field-body').wrap('<div class="col-sm-10"/>');
 
 
 jQuery('#page_content-294').addClass('container').addClass('content_with_menu');
@@ -849,10 +844,10 @@ jQuery('.menu.col-sm-2 p').not(jQuery('#block-researchphdfellowshipscheme201718 
         
         var target = jQuery(".content_with_menu .col-sm-10 > div:nth-child(" + index + ")");
         
-        
-        jQuery('.content_with_menu .col-sm-10 > div').css('display','none');
-        target.css('display','block');
-	
+        if (target.find('.content_body').length){
+            jQuery('.content_with_menu .col-sm-10 > div').css('display','none');
+            target.css('display','block');
+	}
 	if (!(jQuery('.collapse_caret').css('display') === 'none')){
 		jQuery('.content_with_menu .col-sm-2').slideUp('fast');
 	}
