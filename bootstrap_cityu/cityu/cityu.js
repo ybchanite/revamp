@@ -823,12 +823,43 @@ jQuery('.collapse_caret').click(function(){
 });
 */
 
-jQuery('.col-sm-10.menu_index').each(function(){
-    jQueru('.menu.col-sm-2').append(jQuery(this).html());
+jQuery('.col-sm-10 .menu_index').each(function(){
+    jQuery('.menu.col-sm-2').append(jQuery(this).html());
 
 });
 
 
+/*menu*/
+
+if(jQuery('.menu.col-sm-2').length){
+    jQuery('.menu.col-sm-2 p:first-child').addClass('activeTimelineIndex');
+}
+
+jQuery('.menu.col-sm-2 p').click(function(){
+    jQuery('.menu.col-sm-2 p').not(jQuery(this)).removeClass('activeTimelineIndex');
+    jQuery(this).addClass('activeTimelineIndex');
+   
+});
+
+jQuery('.menu.col-sm-2 p').not(jQuery('#block-researchphdfellowshipscheme201718 .paragraph--type--contents-with-menu .field--name-field-caption p')).click(function(){
+
+        
+        
+        var index = jQuery(".menu.col-sm-2 p").index(jQuery(this)) + 1;
+        
+        var target = jQuery(".content_with_menu .col-sm-10 > div:nth-child(" + index + ")");
+        
+        
+        jQuery('.content_with_menu .col-sm-10 > div').css('display','none');
+        target.css('display','block');
+	
+	if (!(jQuery('.collapse_caret').css('display') === 'none')){
+		jQuery('.content_with_menu .col-sm-2').slideUp('fast');
+	}
+        
+       
+        
+});
 
 
     
