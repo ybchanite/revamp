@@ -798,6 +798,38 @@ jQuery('.paragraph--type--contents-with-menu .field--name-field-caption p').not(
     
 
 
+/**********/
+/*visiting:2*/
+/**********/
+
+/*styling*/
+
+//jQuery('.paragraph--type--contents-with-menu .field--name-field-caption, .paragraph--type--contents-with-menu .field--name-field-body').wrapAll('<div class="content_with_menu col-sm-12"/>')
+
+//jQuery('.paragraph--type--contents-with-menu .field--name-field-caption').wrap('<div class="col-sm-2"/>');
+
+//jQuery('.paragraph--type--contents-with-menu .field--name-field-body').wrap('<div class="col-sm-10"/>');
+
+
+jQuery('#page_content-294').addClass('container').addClass('content_with_menu');
+
+
+
+
+jQuery('#page_content-294').prepend('<i class="fa fa-caret-down collapse_caret" aria-hidden="true"></i><div class="menu col-sm-2"></div>');
+/*	
+jQuery('.collapse_caret').click(function(){
+	jQuery('.content_with_menu .col-sm-2').slideToggle('fast');
+});
+*/
+
+jQuery('.col-sm-10 .menu_index').each(function(){
+    jQueru('.menu.col-sm-2').append(jQuery(this).html());
+
+});
+
+
+
 
     
 /**************/  
