@@ -823,7 +823,7 @@ jQuery('.collapse_caret').click(function(){
 });
 */
 
-jQuery('.col-sm-10 .menu_index').each(function(){
+jQuery('.col-sm-10.menu_index').each(function(){
     jQueru('.menu.col-sm-2').append(jQuery(this).html());
 
 });
