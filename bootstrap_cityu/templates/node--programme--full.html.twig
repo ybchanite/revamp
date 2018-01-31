@@ -42,9 +42,12 @@
         {% set count = node.field_url_social_media.getvalue | length %}
   	{% for i in 0..count-1 %}
     	  <tr>
-      	    <td><span class="prog_label">{{ content.field_url_social_media[i]['#title'] }}</span></td><td><span class="prog_content">{{ content.field_url_social_media[i]['#url'] }}</span></td>
+      	    <td><span class="prog_label">{{ content.field_url_social_media[i]['#title'] }}</span></td>
+	    <td><span class="prog_content"><a href="{{ content.field_url_social_media[i]['#url'] }}">{{ content.field_url_social_media[i]['#url'] }}</a></span></td>
     	  </tr>
   	{% endfor %}
+	
+       {{ content.field_staff_contact[i][0] }}
   
 
 	
