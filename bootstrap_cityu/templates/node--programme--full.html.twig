@@ -52,6 +52,9 @@
 	    {{ content.field_staff_contact[key] }}
 	{% endfor %}
        {{ content.field_staff_contact[0][0] }}
+       
+       
+test: {{ content.field_staff_contact[0]['#node'].field_staff_role.value }}
   
 
 	
