@@ -3859,6 +3859,11 @@ a.research_areas_school_website{
     width: 60%;
 }
 
+.prog_general_info table tr td:first-child{
+    width: 35%;
+    padding-bottom: 10px;
+}
+
 .prog_general_info .prog_label{
     display: inline-block;
     padding-right: 8%; 
