@@ -49,9 +49,9 @@
 	
 	
 	{% for key,value in node.field_staff_contact.value %}
-	    {{ content.my_paragraph_field[key] }}
+	    {{ content.field_staff_contact[key] }}
 	{% endfor %}
-       {{ content.field_staff_contact[0] }}
+       {{ content.field_staff_contact[0][0] }}
   
 
 	
