@@ -51,8 +51,11 @@
        
        test:
 {{ content.field_staff_contact[0] }}
-test:
-{{ node.field_staff_contact[0].entity.field_name}}
+
+
+{% for item in node.field_staff_contact %}
+ {{ item.entity.field_name.value }}
+{% endfor %}
 
 	
 </tbody>
