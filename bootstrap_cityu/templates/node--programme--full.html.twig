@@ -40,11 +40,10 @@
 	</tr>
 
 
-    {% for item in content.field_url_social_media %}
-      {% if item['#title'] %}
-        <div class="field-item">{{ item['#title']  }}</div>
-      {% endif %}
-    {% endfor %}
+{% for key,value in node.field_url_social_media.value %}
+    {{ content.field_url_social_media[key] }}
+{% endfor %}
+
 	
 </tbody>
 </table>
