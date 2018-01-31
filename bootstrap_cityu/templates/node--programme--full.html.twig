@@ -49,11 +49,10 @@
 	
 
        
-       
-1: 
-  {{ content.field_staff_contact[0].entity.field_name }}
-2:
-  {{ content.field_staff_contact[0].entity.field_name.value }}
+       test:
+{{ node.field_staff_contact.0 }}
+test:
+{{ node.field_staff_contact.0.entity.field_staff_role.0.value }}
 
 	
 </tbody>
