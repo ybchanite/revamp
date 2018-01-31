@@ -40,12 +40,12 @@
 	</tr>
 
 
-{{ content.field_url_social_media[0]['#url'] }}
-{{ content.field_url_social_media[1]['#title'] }}
+{{ node.field_url_social_media[0]['#url'] }}
+{{ node.field_url_social_media[0]['#title'] }}
 
-  {% for key in content.field_url_social_media %}
-    <span class="prog_label">{{ content.field_url_social_media[key]['#title'] }}</span>
-    <span class="prog_content">{{ content.field_url_social_media[key]['#url'] }}</span>
+  {% for key in node.field_url_social_media %}
+    <span class="prog_label">{{ node.field_url_social_media[key]['#title'] }}</span>
+    <span class="prog_content">{{ node.field_url_social_media[key]['#url'] }}</span>
   {% endfor %}
   
 
