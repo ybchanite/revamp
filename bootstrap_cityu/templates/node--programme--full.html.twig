@@ -39,18 +39,12 @@
 		<td><span class="prog_label">{{ node.field_url_website.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_url_website[0] }}</span> </td>
 	</tr>
 
-{{ content.field_url_social_media[3]['#title'] }}
-{{ content.field_url_social_media[3]['#url'] }}
-
-
-{{ node.field_url_social_media | length }}
-
-
-  {% set count = node.field_url_social_media.getvalue | length %}
-  {% for i in 0..count-1 %}
-    <span class="prog_label">{{ content.field_url_social_media[i]['#title'] }}</span>
-    <span class="prog_content">{{ content.field_url_social_media[i]['#url'] }}</span>
-  {% endfor %}
+        {% set count = node.field_url_social_media.getvalue | length %}
+  	{% for i in 0..count-1 %}
+    	  <tr>
+      	    <td><span class="prog_label">{{ content.field_url_social_media[i]['#title'] }}</span></td><td><span class="prog_content">{{ content.field_url_social_media[i]['#url'] }}</span></td>
+    	  </tr>
+  	{% endfor %}
   
 
 	
