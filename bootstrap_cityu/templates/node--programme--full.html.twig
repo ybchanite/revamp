@@ -40,9 +40,16 @@
 	</tr>
 
 
-{% for key,value in node.field_url_social_media.value %}
-    {{ content.field_url_social_media[key] }}
-{% endfor %}
+
+    {{ content.field_url_social_media[0] }}
+    {{ content.field_url_social_media }}
+
+    {% for i in 0..content.field_accueil_image_slide|length %}
+     {%if content.field_accueil_image_slide[i]['#item'].entity.uri.value != "" and content.field_accueil_image_slide[i]['#item'].entity.uri.value is not empty %}
+        <div class="item {{ (i == 0) ? 'active' : '' }}" style="">{{ content.field_accueil_image_slide[i]}}</div>
+     {%endif%}
+    {%endfor%}
+  
 
 	
 </tbody>
