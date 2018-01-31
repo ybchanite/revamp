@@ -15,6 +15,9 @@
 		<td><span class="prog_label">{{ node.field_mode_of_fund.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_mode_of_fund[0]['#markup'] }}</span></td>
 	</tr>
 	<tr>
+		<td><span class="prog_label">{{ node.field_admit_prog_code.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_admit_prog_code.value }}</span></td>
+	</tr>
+	<tr>
 		<td><span class="prog_label">{{ node.field_mode_of_study.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_mode_of_study[0]['#markup'] }}</span></td>
 	</tr>
 	<tr>
@@ -30,8 +33,19 @@
 		<td><span class="prog_label">{{ node.field_duration.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_duration.value }}</span></td>
 	</tr>
 	<tr>
+		<td><span class="prog_label">{{ node.field_duration_max.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ node.field_duration_max.value }}</span></td>
+	</tr>
+	<tr>
 		<td><span class="prog_label">{{ node.field_url_website.fieldDefinition.label }}</span></td><td><span class="prog_content">{{ content.field_url_website[0] }}</span> </td>
 	</tr>
+
+
+    {% for item in content.field_url_social_media %}
+      {% if item['#title'] %}
+        <div class="field-item">{{ item['#title']  }}</div>
+      {% endif %}
+    {% endfor %}
+	
 </tbody>
 </table>
  
