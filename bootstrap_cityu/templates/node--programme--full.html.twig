@@ -55,7 +55,7 @@
 
 {% for item in node.field_staff_contact %}
  {{ item.entity.field_name.value }}
- {{ item.entity.field_staff_role.value }}
+ {{ item.entity.field_staff_role.entity.value }}
 {% endfor %}
 
 	
