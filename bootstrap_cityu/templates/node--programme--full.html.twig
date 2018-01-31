@@ -43,6 +43,13 @@
 {{ content.field_url_social_media[3]['#url'] }}
 {{ content.field_url_social_media[3]['#title'] }}
 
+{{ node.field_url_social_media | length }}
+{% set count = node.field_url_social_media.getvalue | length %}
+{% for i in 0..count %}
+    * {{ i }}
+{% endfor %}
+
+
   {% for key in node.field_url_social_media %}
     <span class="prog_label">{{ content.field_url_social_media[key]['#title'] }}</span>
     <span class="prog_content">{{ content.field_url_social_media[key]['#url'] }}</span>
