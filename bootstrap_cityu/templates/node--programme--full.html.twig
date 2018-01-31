@@ -47,15 +47,11 @@
     	  </tr>
   	{% endfor %}
 	
-	
-	{% for key in node.field_staff_contact.value %}
-	    test2: {{ content.field_staff_contact[key] }}
-	{% endfor %}
-       {{ content.field_staff_contact[0][0] }}
+
        
        
-test: {{ node.field_staff_contact[0].entity.field_staff_role.value }}
-  {{ content.field_staff_contact[0].entity.field_staff_role.value }}
+test: {{ node.field_staff_contact[0].entity.field_staff_role}}
+  {{ content.field_staff_contact[0].entity.field_staff_role }}
 
 	
 </tbody>
