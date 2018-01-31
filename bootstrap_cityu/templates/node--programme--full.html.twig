@@ -47,7 +47,11 @@
     	  </tr>
   	{% endfor %}
 	
-       {{ content.field_staff_contact[0][0] }}
+	
+	{% for key,value in node.field_staff_contact.value %}
+	    {{ content.my_paragraph_field[key] }}
+	{% endfor %}
+       {{ content.field_staff_contact[0] }}
   
 
 	
