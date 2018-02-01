@@ -50,13 +50,12 @@
 
        
        test:
-{{ content.field_staff_contact[0]["#options"].entity.field_staff_role[0].label }}
-
 
 {% for item in node.field_staff_contact %}
  {{ item.entity.field_name.value }}
- {{ item.entity.field_staff_role.entity }}
 {% endfor %}
+
+ {{ content.field_level_code.label }}
 
 	
 </tbody>
