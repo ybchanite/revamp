@@ -48,14 +48,22 @@
   	{% endfor %}
 	
 
-       
-       test:
+   
 
-{% for item in node.field_staff_contact %}
- {{ item.entity.field_name.value }}
-{% endfor %}
+	{% for item in node.field_staff_contact %}
+	  <tr>
+      	    <td><span class="prog_label">{{ item.entity.field_staff_role.entity.name.value }}</span></td>
+	    <td><span class="prog_content">
+	          <b>{{ item.entity.field_staff_title.entity.name.value }} {{ item.entity.field_name.value }}</b><br>
+		  {{ item.entity.field_quali.value }}
+		  {{ item.entity.field_phone.value }}
+		  {{ item.entity.field_email.value }}
+	    
+	    </span></td>
+    	  </tr>
+ 	
+	{% endfor %}
 
- {{ content.field_level_code.label }}
 
 	
 </tbody>
